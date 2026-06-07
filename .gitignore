@@ -1,0 +1,18 @@
+# Secrets / lokale Umgebung — NIEMALS committen
+.env
+*.env
+.env.*
+!.env.example
+.synclaro/
+
+# OS / Editor
+.DS_Store
+*.log
+*.swp
+
+# tmp
+/tmp/
+tmp/
+
+# Interne Coaching-/Profilnotizen (nicht Teil des Systems)
+ayse-profil.md

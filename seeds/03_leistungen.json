@@ -1,0 +1,1332 @@
+[
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-001",
+    "bezeichnung": "Anfahrtspauschale",
+    "beschreibung": "Pauschale für An- und Abfahrt eines Montagefahrzeugs inkl. Fahrtzeit im regionalen Einzugsgebiet (bis 30 km). Gilt je Einsatztag.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 45.0,
+    "kalkulationsbasis": "Pauschale gemäß Vorgabe",
+    "tags": ["Anfahrt", "Fahrtkosten", "Pauschale"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-002",
+    "bezeichnung": "Anfahrtspauschale erweiterter Umkreis",
+    "beschreibung": "Pauschale für An- und Abfahrt bei Einsatzorten zwischen 30 und 60 km Entfernung inkl. Mehr-Fahrtzeit.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 89.0,
+    "kalkulationsbasis": "Anfahrt-Grundpauschale + ca. 0,5h Monteur-Fahrtzeit",
+    "tags": ["Anfahrt", "Fahrtkosten", "Umkreis"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-003",
+    "bezeichnung": "Stundenlohnarbeit Helfer",
+    "beschreibung": "Stundenlohnarbeit eines Bauhelfers für Hilfs-, Trag- und Aufräumtätigkeiten nach Aufmaß bzw. Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 58.0,
+    "kalkulationsbasis": "Helfer-Stundensatz 58 €/h",
+    "tags": ["Stundenlohn", "Helfer", "Regiearbeit"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-004",
+    "bezeichnung": "Stundenlohnarbeit Monteur/Geselle",
+    "beschreibung": "Stundenlohnarbeit eines Monteurs/Gesellen für Montage- und Installationsarbeiten nach Aufmaß bzw. Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Monteur", "Geselle", "Regiearbeit"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-005",
+    "bezeichnung": "Stundenlohnarbeit Meister/Vorarbeiter",
+    "beschreibung": "Stundenlohnarbeit eines Meisters/Vorarbeiters für Bauleitung, Abnahme und anspruchsvolle Arbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Stundenlohn", "Meister", "Vorarbeiter", "Bauleitung"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-006",
+    "bezeichnung": "Baustelleneinrichtung klein",
+    "beschreibung": "Einrichten und Räumen der Baustelle für kleine Maßnahmen: Materialbereitstellung, Schutzabdeckung, Werkzeugtransport.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 165.0,
+    "kalkulationsbasis": "Helfer ca. 2h + Verbrauchsmaterial",
+    "tags": ["Baustelleneinrichtung", "Schutz", "Pauschale"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-007",
+    "bezeichnung": "Baustelleneinrichtung mittel",
+    "beschreibung": "Einrichten und Räumen der Baustelle für mittlere Maßnahmen inkl. Staubschutzwand, Bodenabdeckung und Geräteanlieferung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 420.0,
+    "kalkulationsbasis": "Monteur ca. 3h + Helfer 3h + Schutzmaterial",
+    "tags": ["Baustelleneinrichtung", "Staubschutz", "Pauschale"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-008",
+    "bezeichnung": "Aufmaß und technische Vor-Ort-Beratung",
+    "beschreibung": "Vor-Ort-Termin zur Bestandsaufnahme, Aufmaß und technischen Beratung inkl. Kurzdokumentation als Kalkulationsgrundlage.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Aufmaß", "Beratung", "Bestandsaufnahme"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-009",
+    "bezeichnung": "Endreinigung nach Montage",
+    "beschreibung": "Besenreine Endreinigung des Arbeitsbereichs nach Abschluss der Montagearbeiten inkl. Entfernen von Schutzfolien.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Helfer ca. 1,5h + Reinigungsmaterial",
+    "tags": ["Reinigung", "Endreinigung", "Pauschale"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-010",
+    "bezeichnung": "Container Bauschutt 7 m³ stellen und abfahren",
+    "beschreibung": "Bereitstellen, Standzeit und Abtransport eines Absetzcontainers (7 m³) für Bauschutt inkl. Deponiegebühr (Mischabfall).",
+    "einheit": "Stk",
+    "einzelpreis_netto": 480.0,
+    "kalkulationsbasis": "Containerdienst Fremdleistung + Aufschlag",
+    "tags": ["Container", "Entsorgung", "Bauschutt"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-011",
+    "bezeichnung": "Gerüststellung Fassade je m² und Monat",
+    "beschreibung": "Auf- und Abbau sowie Vorhaltung eines Arbeitsgerüsts an der Fassade, Standzeit ein Monat, inkl. Verankerung.",
+    "einheit": "m²",
+    "einzelpreis_netto": 12.5,
+    "kalkulationsbasis": "Gerüstbau Fremdleistung + Aufschlag je m²",
+    "tags": ["Gerüst", "Fassade", "Vorhaltung"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-012",
+    "bezeichnung": "Dokumentation und Anlagenbuch erstellen",
+    "beschreibung": "Erstellung der technischen Dokumentation, Bestandsplan und Anlagenbuch nach Fertigstellung der Anlage.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 285.0,
+    "kalkulationsbasis": "Meister ca. 3h Büroarbeit",
+    "tags": ["Dokumentation", "Anlagenbuch", "Übergabe"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-013",
+    "bezeichnung": "Kernbohrung bis Durchmesser 100 mm in Beton",
+    "beschreibung": "Diamant-Kernbohrung in Stahlbeton bis 100 mm Durchmesser, Wandstärke bis 30 cm, inkl. Staubabsaugung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 110.0,
+    "kalkulationsbasis": "Monteur ca. 1h + Bohrkrone-Verschleiß",
+    "tags": ["Kernbohrung", "Beton", "Durchbruch"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-014",
+    "bezeichnung": "Wanddurchbruch Mauerwerk je Stk",
+    "beschreibung": "Herstellen eines Wanddurchbruchs in Mauerwerk für Rohr-/Kabelführung bis 200 x 200 mm inkl. Aussparung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 85.0,
+    "kalkulationsbasis": "Helfer ca. 1h + Werkzeug",
+    "tags": ["Durchbruch", "Mauerwerk", "Stemmen"]
+  },
+  {
+    "gewerk": "allgemein",
+    "leistung_code": "ALG-015",
+    "bezeichnung": "Schlitz schließen und verputzen je m",
+    "beschreibung": "Schließen von Wandschlitzen nach Leitungsverlegung mit Mörtel, gewerksübergreifend, putzfertig verschlossen.",
+    "einheit": "m",
+    "einzelpreis_netto": 14.0,
+    "kalkulationsbasis": "Helfer ca. 0,2h + Mörtel je m",
+    "tags": ["Schlitz", "Verputzen", "Wand"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-001",
+    "bezeichnung": "Stundenlohnarbeit Heizungsmonteur",
+    "beschreibung": "Stundenlohnarbeit eines Heizungsmonteurs für Installations- und Reparaturarbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Heizung", "Monteur"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-002",
+    "bezeichnung": "Stundenlohnarbeit Heizungsbaumeister",
+    "beschreibung": "Stundenlohnarbeit eines Heizungsbaumeisters für hydraulischen Abgleich, Auslegung und Abnahme nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Stundenlohn", "Heizung", "Meister"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-003",
+    "bezeichnung": "Gas-Brennwerttherme bis 25 kW liefern und montieren",
+    "beschreibung": "Liefern und Montieren einer wandhängenden Gas-Brennwerttherme bis 25 kW inkl. Anschluss an Heiz- und Gasleitung, ohne Abgasführung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 3450.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 8h + Anschlussmaterial",
+    "tags": ["Gastherme", "Brennwert", "Wärmeerzeuger"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-004",
+    "bezeichnung": "Luft-Wasser-Wärmepumpe bis 12 kW liefern und montieren",
+    "beschreibung": "Liefern und Montieren einer Luft-Wasser-Wärmepumpe (Monoblock) bis 12 kW inkl. Außenaufstellung, hydraulischem Anschluss und Inbetriebnahme.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 14800.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 24h + Meister 4h + Material",
+    "tags": ["Wärmepumpe", "Luft-Wasser", "Wärmeerzeuger"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-005",
+    "bezeichnung": "Heizkörper Kompakt liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines Stahl-Kompaktheizkörpers inkl. Konsolen, Thermostatventil und Anbindung an die Verteilung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 295.0,
+    "kalkulationsbasis": "Heizkörper + Monteur ca. 1,5h + Befestigung",
+    "tags": ["Heizkörper", "Kompaktheizkörper", "Montage"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-006",
+    "bezeichnung": "Handtuchheizkörper Bad liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines Badheizkörpers (Handtuchradiator) inkl. Ventilgarnitur und Anbindung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 340.0,
+    "kalkulationsbasis": "Heizkörper + Monteur ca. 1,5h + Material",
+    "tags": ["Handtuchheizkörper", "Bad", "Heizkörper"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-007",
+    "bezeichnung": "Heizungsrohr Mehrschichtverbund verlegen je m",
+    "beschreibung": "Verlegen von Mehrschichtverbundrohr für Heizung (bis 20 mm) inkl. Pressfittinge und Befestigungsschellen, ohne Dämmung.",
+    "einheit": "m",
+    "einzelpreis_netto": 16.5,
+    "kalkulationsbasis": "Monteur ca. 0,15h + Rohr und Fittinge je m",
+    "tags": ["Heizungsrohr", "Verbundrohr", "Rohrleitung"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-008",
+    "bezeichnung": "Heizungsrohr Kupfer verlegen je m",
+    "beschreibung": "Verlegen von Kupferrohr für Heizung (bis 22 mm) inkl. Lötverbindungen und Schellen, ohne Dämmung.",
+    "einheit": "m",
+    "einzelpreis_netto": 21.0,
+    "kalkulationsbasis": "Monteur ca. 0,2h + Kupferrohr je m",
+    "tags": ["Heizungsrohr", "Kupfer", "Rohrleitung"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-009",
+    "bezeichnung": "Fußbodenheizung verlegen je m²",
+    "beschreibung": "Verlegen einer Warmwasser-Fußbodenheizung im Tackersystem inkl. Systemrohr, Randdämmstreifen und Anbindung an den Verteiler, ohne Estrich.",
+    "einheit": "m²",
+    "einzelpreis_netto": 42.0,
+    "kalkulationsbasis": "Monteur ca. 0,4h + Systemrohr und Dämmung je m²",
+    "tags": ["Fußbodenheizung", "Flächenheizung", "Tackersystem"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-010",
+    "bezeichnung": "Heizkreisverteiler Fußbodenheizung montieren",
+    "beschreibung": "Liefern und Montieren eines Edelstahl-Heizkreisverteilers im Verteilerschrank inkl. Durchflussmesser und Anschluss der Heizkreise.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 520.0,
+    "kalkulationsbasis": "Verteiler + Monteur ca. 3h + Material",
+    "tags": ["Heizkreisverteiler", "Fußbodenheizung", "Verteiler"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-011",
+    "bezeichnung": "Pufferspeicher 800 Liter liefern und montieren",
+    "beschreibung": "Liefern und Aufstellen eines Heizungs-Pufferspeichers 800 Liter inkl. Dämmung, Anschlussgarnitur und Einbindung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 1650.0,
+    "kalkulationsbasis": "Speicher + Monteur ca. 6h + Anbindematerial",
+    "tags": ["Pufferspeicher", "Speicher", "Heizung"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-012",
+    "bezeichnung": "Warmwasserspeicher 300 Liter liefern und montieren",
+    "beschreibung": "Liefern und Anschließen eines emaillierten Warmwasserspeichers 300 Liter inkl. Sicherheitsgruppe und Anbindung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 1480.0,
+    "kalkulationsbasis": "Speicher + Monteur ca. 5h + Sicherheitsarmaturen",
+    "tags": ["Warmwasserspeicher", "Trinkwasser", "Speicher"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-013",
+    "bezeichnung": "Heizungsumwälzpumpe Hocheffizienz tauschen",
+    "beschreibung": "Demontage der Altpumpe und Einbau einer Hocheffizienz-Umwälzpumpe inkl. Entlüftung und Funktionsprüfung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 420.0,
+    "kalkulationsbasis": "Pumpe + Monteur ca. 2h + Dichtmaterial",
+    "tags": ["Umwälzpumpe", "Hocheffizienzpumpe", "Tausch"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-014",
+    "bezeichnung": "Hydraulischer Abgleich Einfamilienhaus",
+    "beschreibung": "Durchführung des hydraulischen Abgleichs (Verfahren B) inkl. raumweiser Heizlastberechnung, Voreinstellung der Ventile und Protokoll.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 760.0,
+    "kalkulationsbasis": "Meister ca. 5h + Monteur 3h",
+    "tags": ["hydraulischer Abgleich", "Einregulierung", "Förderung"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-015",
+    "bezeichnung": "Inbetriebnahme Wärmeerzeuger inkl. Einregulierung",
+    "beschreibung": "Erstinbetriebnahme des Wärmeerzeugers inkl. Einstellung der Regelung, Heizkurve und Protokoll der Messwerte.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 380.0,
+    "kalkulationsbasis": "Meister ca. 4h",
+    "tags": ["Inbetriebnahme", "Einregulierung", "Wärmeerzeuger"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-016",
+    "bezeichnung": "Heizungsanlage spülen und befüllen",
+    "beschreibung": "Spülen der Heizungsanlage, Befüllen mit aufbereitetem Heizungswasser inkl. Entlüftung und Druckprobe.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 295.0,
+    "kalkulationsbasis": "Monteur ca. 3h + Aufbereitungsmaterial",
+    "tags": ["Spülen", "Befüllen", "Heizungswasser"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-017",
+    "bezeichnung": "Altkessel demontieren und entsorgen",
+    "beschreibung": "Demontage des Altkessels inkl. Abklemmen, Abtransport und fachgerechter Entsorgung des Altgeräts.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 460.0,
+    "kalkulationsbasis": "Monteur 4h + Helfer 2h + Entsorgungsgebühr",
+    "tags": ["Demontage", "Altkessel", "Entsorgung"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-018",
+    "bezeichnung": "Heizungswartung Brennwertgerät jährlich",
+    "beschreibung": "Jährliche Wartung eines Gas-Brennwertgeräts inkl. Reinigung Wärmetauscher, Prüfung Sicherheitseinrichtungen und Abgasmessung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 215.0,
+    "kalkulationsbasis": "Monteur ca. 2h + Verschleiß-Kleinmaterial",
+    "tags": ["Wartung", "Brennwert", "Heizung"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-019",
+    "bezeichnung": "Abgasleitung Kunststoff DN 80 je m",
+    "beschreibung": "Liefern und Montieren konzentrischer Abgasleitung DN 80/125 im Schacht inkl. Verbinder und Abstandhalter.",
+    "einheit": "m",
+    "einzelpreis_netto": 68.0,
+    "kalkulationsbasis": "Monteur ca. 0,5h + Abgasrohr je m",
+    "tags": ["Abgasleitung", "Brennwert", "Schacht"]
+  },
+  {
+    "gewerk": "heizung",
+    "leistung_code": "HZG-020",
+    "bezeichnung": "Heizlastberechnung nach DIN EN 12831",
+    "beschreibung": "Raumweise Heizlastberechnung des Gebäudes nach DIN EN 12831 als Grundlage für Auslegung und Förderung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 590.0,
+    "kalkulationsbasis": "Meister ca. 6h Planung",
+    "tags": ["Heizlast", "Berechnung", "Planung"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-001",
+    "bezeichnung": "Stundenlohnarbeit Kälte-/Klimamonteur",
+    "beschreibung": "Stundenlohnarbeit eines Kälte-/Klimamonteurs für Montage- und Servicearbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Klima", "Monteur"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-002",
+    "bezeichnung": "Split-Klimagerät Single liefern und montieren",
+    "beschreibung": "Liefern und Montieren einer Single-Split-Klimaanlage (Innen- und Außeneinheit) bis 3,5 kW inkl. Kältemittelleitung bis 4 m, Wanddurchbruch und Inbetriebnahme.",
+    "einheit": "Set",
+    "einzelpreis_netto": 2350.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 8h + Leitungsmaterial",
+    "tags": ["Klimaanlage", "Split", "Kühlung"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-003",
+    "bezeichnung": "Multisplit-Außeneinheit liefern und montieren",
+    "beschreibung": "Liefern und Montieren einer Multisplit-Außeneinheit für bis zu vier Innengeräte inkl. Wandkonsole und elektrischem Anschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 2950.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 8h + Konsole",
+    "tags": ["Multisplit", "Außeneinheit", "Klima"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-004",
+    "bezeichnung": "Klima-Innengerät Wandmontage zusätzlich",
+    "beschreibung": "Liefern und Montieren eines zusätzlichen Wand-Innengeräts für Multisplit inkl. Befestigung und Anschluss an vorhandene Leitung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 780.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 4h + Material",
+    "tags": ["Innengerät", "Wandgerät", "Multisplit"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-005",
+    "bezeichnung": "Kältemittelleitung Klima je m",
+    "beschreibung": "Verlegen isolierter Kältemittelleitung (Doppelleitung) für Splitanlagen inkl. Dämmung und Befestigung, je Leitungsmeter.",
+    "einheit": "m",
+    "einzelpreis_netto": 38.0,
+    "kalkulationsbasis": "Monteur ca. 0,3h + Leitung gedämmt je m",
+    "tags": ["Kältemittelleitung", "Klima", "Leitung"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-006",
+    "bezeichnung": "Kondensatleitung verlegen je m",
+    "beschreibung": "Verlegen einer Kondensatablaufleitung mit Gefälle inkl. Befestigung und Anschluss an den Ablauf, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 12.5,
+    "kalkulationsbasis": "Monteur ca. 0,15h + Rohr je m",
+    "tags": ["Kondensat", "Ablauf", "Klima"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-007",
+    "bezeichnung": "Kondensathebepumpe liefern und montieren",
+    "beschreibung": "Liefern und Montieren einer Kondensathebepumpe für Klima-Innengeräte ohne natürliches Gefälle inkl. elektrischem Anschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 245.0,
+    "kalkulationsbasis": "Pumpe + Monteur ca. 1,5h",
+    "tags": ["Kondensathebepumpe", "Kondensat", "Klima"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-008",
+    "bezeichnung": "Vakuumieren und Befüllen Kältekreis",
+    "beschreibung": "Druckprobe, Evakuierung des Kältekreises und Befüllen mit Kältemittel inkl. Dichtheitsprüfung nach F-Gase-Verordnung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 295.0,
+    "kalkulationsbasis": "Monteur ca. 2,5h + Kältemittel",
+    "tags": ["Vakuumieren", "Kältemittel", "Inbetriebnahme"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-009",
+    "bezeichnung": "Klimaanlage Inbetriebnahme und Einregulierung",
+    "beschreibung": "Inbetriebnahme der Klimaanlage inkl. Funktionsprüfung, Einstellung der Regelung und Einweisung des Nutzers.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 185.0,
+    "kalkulationsbasis": "Monteur ca. 2h",
+    "tags": ["Inbetriebnahme", "Einregulierung", "Klima"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-010",
+    "bezeichnung": "Klimawartung Splitgerät jährlich",
+    "beschreibung": "Jährliche Wartung einer Splitklimaanlage inkl. Reinigung der Filter und Wärmetauscher, Hygienespülung und Dichtheitssichtprüfung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 175.0,
+    "kalkulationsbasis": "Monteur ca. 2h + Reinigungsmittel",
+    "tags": ["Wartung", "Klima", "Hygiene"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-011",
+    "bezeichnung": "Dichtheitsprüfung F-Gase Kälteanlage",
+    "beschreibung": "Gesetzlich vorgeschriebene Dichtheitsprüfung der Kälteanlage nach F-Gase-Verordnung inkl. Protokoll und Eintrag.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 165.0,
+    "kalkulationsbasis": "Monteur ca. 1,5h + Lecksuchgerät",
+    "tags": ["Dichtheitsprüfung", "F-Gase", "Kälteanlage"]
+  },
+  {
+    "gewerk": "klima",
+    "leistung_code": "KLI-012",
+    "bezeichnung": "Klimagerät demontieren und entsorgen",
+    "beschreibung": "Fachgerechtes Absaugen des Kältemittels, Demontage von Innen- und Außeneinheit inkl. Entsorgung des Altgeräts.",
+    "einheit": "Set",
+    "einzelpreis_netto": 320.0,
+    "kalkulationsbasis": "Monteur ca. 3h + Entsorgung",
+    "tags": ["Demontage", "Klima", "Entsorgung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-001",
+    "bezeichnung": "Stundenlohnarbeit Lüftungsmonteur",
+    "beschreibung": "Stundenlohnarbeit eines Lüftungsmonteurs für Kanal- und Gerätemontage nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Lüftung", "Monteur"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-002",
+    "bezeichnung": "Zentrales Lüftungsgerät mit WRG liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines zentralen Lüftungsgeräts mit Wärmerückgewinnung bis 300 m³/h inkl. Aufstellung, Kondensatanschluss und Inbetriebnahme.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 3950.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 10h + Anschlussmaterial",
+    "tags": ["Lüftungsgerät", "Wärmerückgewinnung", "KWL"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-003",
+    "bezeichnung": "Dezentrales Lüftungsgerät mit WRG liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines dezentralen Einzelraum-Lüftungsgeräts mit Wärmerückgewinnung inkl. Kernbohrung und Anschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 980.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 4h + Kernbohrung",
+    "tags": ["dezentrale Lüftung", "Wärmerückgewinnung", "Einzelraum"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-004",
+    "bezeichnung": "Wickelfalzrohr DN 160 verlegen je m",
+    "beschreibung": "Liefern und Montieren von verzinktem Wickelfalzrohr DN 160 inkl. Verbinder, Dichtungen und Abhängung, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 34.0,
+    "kalkulationsbasis": "Monteur ca. 0,3h + Rohr und Schellen je m",
+    "tags": ["Wickelfalzrohr", "Luftkanal", "Lüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-005",
+    "bezeichnung": "Flexibles Lüftungsrohr Verteilsystem je m",
+    "beschreibung": "Verlegen von flexiblem Lüftungsrohr (Rund-Verteilsystem DN 75/90) für Wohnraumlüftung inkl. Befestigung, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 18.5,
+    "kalkulationsbasis": "Monteur ca. 0,2h + Rohr je m",
+    "tags": ["Verteilsystem", "Flexrohr", "Wohnraumlüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-006",
+    "bezeichnung": "Tellerventil Zu-/Abluft liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines Zu- oder Abluft-Tellerventils inkl. Wandhülse und Einregulierung des Volumenstroms.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 65.0,
+    "kalkulationsbasis": "Ventil + Monteur ca. 0,6h",
+    "tags": ["Tellerventil", "Luftauslass", "Lüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-007",
+    "bezeichnung": "Luftverteilerkasten montieren",
+    "beschreibung": "Liefern und Montieren eines Luftverteilerkastens für das Rund-Verteilsystem inkl. Anschlussstutzen und Schalldämpfung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 420.0,
+    "kalkulationsbasis": "Verteilerkasten + Monteur ca. 3h",
+    "tags": ["Verteilerkasten", "Lüftung", "Verteilung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-008",
+    "bezeichnung": "Schalldämpfer Lüftungskanal einbauen",
+    "beschreibung": "Liefern und Einbauen eines Telefonie-Schalldämpfers in den Lüftungskanal zur Reduzierung der Geräuschübertragung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 145.0,
+    "kalkulationsbasis": "Schalldämpfer + Monteur ca. 1h",
+    "tags": ["Schalldämpfer", "Schallschutz", "Lüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-009",
+    "bezeichnung": "Lüftungskanal dämmen je m",
+    "beschreibung": "Aufbringen einer Wärme-/Kältedämmung auf Lüftungskanäle (bis DN 200) inkl. Befestigung und Ummantelung, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 16.0,
+    "kalkulationsbasis": "Monteur ca. 0,2h + Dämmmaterial je m",
+    "tags": ["Kanaldämmung", "Dämmung", "Lüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-010",
+    "bezeichnung": "Einregulierung Lüftungsanlage und Volumenstrommessung",
+    "beschreibung": "Einregulieren der Lüftungsanlage auf die Sollvolumenströme inkl. Messung an allen Ventilen und Messprotokoll.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 480.0,
+    "kalkulationsbasis": "Meister ca. 5h + Messgerät",
+    "tags": ["Einregulierung", "Volumenstrom", "Lüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-011",
+    "bezeichnung": "Lüftungswartung Wohnraumlüftung jährlich",
+    "beschreibung": "Jährliche Wartung der Wohnraumlüftung inkl. Filterwechsel, Reinigung des Wärmetauschers und Funktionsprüfung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 165.0,
+    "kalkulationsbasis": "Monteur ca. 1,5h + Filtersatz",
+    "tags": ["Wartung", "Filterwechsel", "Lüftung"]
+  },
+  {
+    "gewerk": "lueftung",
+    "leistung_code": "LUE-012",
+    "bezeichnung": "Dunstabzug-Mauerkasten mit Rückstauklappe montieren",
+    "beschreibung": "Liefern und Montieren eines Mauerkastens mit Rückstauklappe für die Abluft inkl. Kernbohrung und Abdichtung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 240.0,
+    "kalkulationsbasis": "Mauerkasten + Monteur ca. 2h + Kernbohrung",
+    "tags": ["Mauerkasten", "Abluft", "Rückstauklappe"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-001",
+    "bezeichnung": "Stundenlohnarbeit Sanitärhelfer",
+    "beschreibung": "Stundenlohnarbeit eines Sanitärhelfers für Hilfs-, Trag- und Demontagearbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 58.0,
+    "kalkulationsbasis": "Helfer-Stundensatz 58 €/h",
+    "tags": ["Stundenlohn", "Sanitär", "Helfer"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-002",
+    "bezeichnung": "Stundenlohnarbeit Sanitärmonteur",
+    "beschreibung": "Stundenlohnarbeit eines Sanitärmonteurs/Anlagenmechanikers für Installations- und Reparaturarbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Sanitär", "Monteur"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-003",
+    "bezeichnung": "Stundenlohnarbeit Sanitärmeister",
+    "beschreibung": "Stundenlohnarbeit eines Sanitärmeisters für Planung, Druckprüfung und Abnahme nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Stundenlohn", "Sanitär", "Meister"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-004",
+    "bezeichnung": "Trinkwasserleitung verlegen je m",
+    "beschreibung": "Verlegen einer Trinkwasserleitung aus Mehrschichtverbundrohr (16 bis 25 mm) inkl. Pressfittinge, Befestigungsschellen und Befestigungsmaterial, ohne Dämmung. Kalt- oder Warmwasser.",
+    "einheit": "m",
+    "einzelpreis_netto": 19.5,
+    "kalkulationsbasis": "Monteur ca. 0,18h + Rohr und Pressfittinge je m",
+    "tags": ["Trinkwasserleitung", "Wasserleitung", "Rohrmontage", "Verbundrohr"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-005",
+    "bezeichnung": "Trinkwasserleitung Kupfer verlegen je m",
+    "beschreibung": "Verlegen einer Trinkwasserleitung aus Kupferrohr (15 bis 22 mm) inkl. Pressverbindungen, Schellen und Befestigungsmaterial, ohne Dämmung.",
+    "einheit": "m",
+    "einzelpreis_netto": 24.5,
+    "kalkulationsbasis": "Monteur ca. 0,22h + Kupferrohr und Fittinge je m",
+    "tags": ["Trinkwasserleitung", "Kupfer", "Rohrmontage"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-005B",
+    "bezeichnung": "Trinkwasserleitung Edelstahl verlegen je m",
+    "beschreibung": "Verlegen einer Trinkwasserleitung aus Edelstahl-Pressrohr (15 bis 22 mm) inkl. Pressfittinge, Schellen und Befestigungsmaterial, ohne Dämmung.",
+    "einheit": "m",
+    "einzelpreis_netto": 27.5,
+    "kalkulationsbasis": "Monteur ca. 0,22h + Edelstahlrohr und Fittinge je m",
+    "tags": ["Trinkwasserleitung", "Edelstahl", "Rohrmontage"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-006",
+    "bezeichnung": "Rohrdämmung aufbringen je m",
+    "beschreibung": "Aufbringen einer Rohrdämmung (Mineralwolle- oder synthetischer Kautschuk-Schlauch nach GEG) auf Trink- oder Heizwasserleitungen bis 28 mm inkl. Verklebung der Stöße, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 8.5,
+    "kalkulationsbasis": "Monteur ca. 0,1h + Dämmschlauch je m",
+    "tags": ["Rohrdämmung", "Dämmung", "GEG", "Isolierung"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-007",
+    "bezeichnung": "Abwasserleitung HT-Rohr DN 50 verlegen je m",
+    "beschreibung": "Verlegen einer Abwasserleitung aus HT-Rohr DN 50 inkl. Formteile, Gefälle und Befestigung, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 16.0,
+    "kalkulationsbasis": "Monteur ca. 0,18h + HT-Rohr und Formteile je m",
+    "tags": ["Abwasserleitung", "HT-Rohr", "Entwässerung"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-008",
+    "bezeichnung": "Abwasserleitung HT-Rohr DN 110 verlegen je m",
+    "beschreibung": "Verlegen einer Abwasser-/Fallleitung aus HT-Rohr DN 110 inkl. Formteile, Gefälle und Schellen, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 24.0,
+    "kalkulationsbasis": "Monteur ca. 0,25h + HT-Rohr DN 110 je m",
+    "tags": ["Abwasserleitung", "Fallleitung", "DN 110"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-009",
+    "bezeichnung": "Wand-WC mit Vorwand-Element liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines Wand-WCs inkl. Vorwand-Installationselement, Spülkasten, Betätigungsplatte und WC-Sitz, anschlussfertig.",
+    "einheit": "Set",
+    "einzelpreis_netto": 920.0,
+    "kalkulationsbasis": "Keramik und Element + Monteur ca. 6h + Material",
+    "tags": ["Wand-WC", "Vorwandelement", "WC"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-010",
+    "bezeichnung": "Waschtisch mit Unterschrank und Armatur montieren",
+    "beschreibung": "Liefern und Montieren eines Waschtischs mit Unterschrank, Einhebelmischer, Eckventilen und Ablaufgarnitur, anschlussfertig.",
+    "einheit": "Set",
+    "einzelpreis_netto": 680.0,
+    "kalkulationsbasis": "Keramik und Armatur + Monteur ca. 4h + Material",
+    "tags": ["Waschtisch", "Armatur", "Badmöbel"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-011",
+    "bezeichnung": "Duschwanne bodeneben einbauen",
+    "beschreibung": "Liefern und Einbauen einer bodenebenen Duschwanne inkl. Ablaufgarnitur, Abdichtung des Anschlusses und Höhenausgleich.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 760.0,
+    "kalkulationsbasis": "Wanne + Monteur ca. 5h + Abdichtungsmaterial",
+    "tags": ["Duschwanne", "bodeneben", "Dusche"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-012",
+    "bezeichnung": "Badewanne einbauen inkl. Wannenträger",
+    "beschreibung": "Liefern und Einbauen einer Acryl-Badewanne inkl. Wannenträger, Ab- und Überlaufgarnitur und Anschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 720.0,
+    "kalkulationsbasis": "Wanne und Träger + Monteur ca. 5h + Material",
+    "tags": ["Badewanne", "Wannenträger", "Bad"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-013",
+    "bezeichnung": "Dusch-Armatur Unterputz montieren",
+    "beschreibung": "Liefern und Montieren einer Unterputz-Duscharmatur inkl. Unterputzkörper, Thermostat, Kopf- und Handbrause, anschlussfertig.",
+    "einheit": "Set",
+    "einzelpreis_netto": 590.0,
+    "kalkulationsbasis": "Armaturenset + Monteur ca. 4h",
+    "tags": ["Duscharmatur", "Unterputz", "Thermostat"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-014",
+    "bezeichnung": "Küchenspüle mit Armatur anschließen",
+    "beschreibung": "Anschließen einer Küchenspüle inkl. Einhebelmischer, Eckventile, Ablaufgarnitur und Geräteanschluss (Spülmaschine).",
+    "einheit": "Set",
+    "einzelpreis_netto": 320.0,
+    "kalkulationsbasis": "Monteur ca. 2,5h + Anschlussmaterial",
+    "tags": ["Küchenspüle", "Armatur", "Anschluss"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-015",
+    "bezeichnung": "Eckventil oder Absperrventil tauschen",
+    "beschreibung": "Demontage und Tausch eines Eck- oder Absperrventils inkl. Dichtmaterial und Funktionsprüfung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 48.0,
+    "kalkulationsbasis": "Monteur ca. 0,5h + Ventil",
+    "tags": ["Eckventil", "Absperrventil", "Reparatur"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-016",
+    "bezeichnung": "Wasserzähler-/Hauptabsperr-Anlage erneuern",
+    "beschreibung": "Erneuern der Hauptabsperr- und Wasserzähleranlage inkl. Filter, Rückflussverhinderer und Druckminderer am Hausanschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 540.0,
+    "kalkulationsbasis": "Armaturen + Monteur ca. 4h + Material",
+    "tags": ["Wasserzähler", "Hausanschluss", "Absperrarmatur"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-017",
+    "bezeichnung": "Druckprüfung Trinkwasserinstallation",
+    "beschreibung": "Durchführung der Dichtheits- und Belastungsprüfung der Trinkwasserinstallation nach ZVSHK inkl. Prüfprotokoll.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 240.0,
+    "kalkulationsbasis": "Meister ca. 2,5h + Prüfgerät",
+    "tags": ["Druckprüfung", "Trinkwasser", "Dichtheit"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-018",
+    "bezeichnung": "Trinkwasserleitung spülen und Probenahme",
+    "beschreibung": "Spülen der Trinkwasserinstallation nach DIN EN 806 inkl. Probenahme zur Trinkwasseranalyse und Protokoll.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 285.0,
+    "kalkulationsbasis": "Monteur ca. 3h + Probenahme-Set",
+    "tags": ["Spülung", "Trinkwasser", "Hygiene"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-019",
+    "bezeichnung": "Sanitärobjekte demontieren und entsorgen",
+    "beschreibung": "Demontage von Altbad-Objekten (WC, Waschtisch, Wanne) inkl. Abklemmen, Abtransport und Entsorgung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 380.0,
+    "kalkulationsbasis": "Helfer 3h + Monteur 2h + Entsorgung",
+    "tags": ["Demontage", "Sanitär", "Entsorgung"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-020",
+    "bezeichnung": "Komplettbad sanieren Standardausführung",
+    "beschreibung": "Komplettsanierung eines Standardbads bis 8 m² inkl. Demontage, neuer Sanitärinstallation, Vorwand, Objekten und Inbetriebnahme. Fliesen und Nebengewerk separat.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 9800.0,
+    "kalkulationsbasis": "Monteur ca. 70h + Meister 8h + Objekte und Material",
+    "tags": ["Badsanierung", "Komplettbad", "Sanitär"]
+  },
+  {
+    "gewerk": "sanitaer",
+    "leistung_code": "SAN-021",
+    "bezeichnung": "Rohrleitung freilegen Wand je m",
+    "beschreibung": "Vorbereitendes Freilegen bzw. Stemmen von Wandschlitzen für Sanitärleitungen im Mauerwerk, je Meter Schlitz.",
+    "einheit": "m",
+    "einzelpreis_netto": 22.0,
+    "kalkulationsbasis": "Helfer ca. 0,35h + Werkzeug je m",
+    "tags": ["Schlitz", "Stemmen", "Wand", "Sanitär"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-001",
+    "bezeichnung": "Stundenlohnarbeit Kältemonteur",
+    "beschreibung": "Stundenlohnarbeit eines Kälteanlagenmonteurs für Montage und Service gewerblicher Kälteanlagen nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Kälte", "Monteur"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-002",
+    "bezeichnung": "Stundenlohnarbeit Kältemeister",
+    "beschreibung": "Stundenlohnarbeit eines Kältemeisters für Inbetriebnahme, Auslegung und Abnahme nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Stundenlohn", "Kälte", "Meister"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-003",
+    "bezeichnung": "Kühlzellen-Aggregat liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines steckerfertigen Kühlzellen-Aggregats (Wand- oder Deckenausführung) bis 5 kW inkl. Anschluss und Inbetriebnahme.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 2850.0,
+    "kalkulationsbasis": "Aggregat + Monteur ca. 8h + Material",
+    "tags": ["Kühlzelle", "Aggregat", "Gewerbekälte"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-004",
+    "bezeichnung": "Kühlraum-Verflüssigersatz liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines splitfähigen Verflüssigersatzes für Kühlräume inkl. Aufstellung, Schwingungsdämpfung und elektrischem Anschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 3650.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 10h + Material",
+    "tags": ["Verflüssiger", "Kühlraum", "Kälteanlage"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-005",
+    "bezeichnung": "Kälteleitung hartgelötet je m",
+    "beschreibung": "Verlegen von Kälteleitung aus Kupfer hartgelötet unter Schutzgas inkl. Dämmung und Befestigung, je Leitungsmeter.",
+    "einheit": "m",
+    "einzelpreis_netto": 46.0,
+    "kalkulationsbasis": "Monteur ca. 0,4h + Kupferrohr und Dämmung je m",
+    "tags": ["Kälteleitung", "Hartlötung", "Kälte"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-006",
+    "bezeichnung": "Kühlraum-Verdampfer (Deckenluftkühler) montieren",
+    "beschreibung": "Liefern und Montieren eines Deckenluftkühlers im Kühlraum inkl. Aufhängung, Kondensatablauf und Abtauheizung-Anschluss.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 1280.0,
+    "kalkulationsbasis": "Verdampfer + Monteur ca. 6h + Material",
+    "tags": ["Verdampfer", "Luftkühler", "Kühlraum"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-007",
+    "bezeichnung": "Kälteanlage evakuieren und befüllen",
+    "beschreibung": "Druckprobe, Evakuierung und Befüllen der Kälteanlage mit Kältemittel inkl. Dichtheitsprüfung und Protokoll nach F-Gase-Verordnung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 420.0,
+    "kalkulationsbasis": "Monteur ca. 3,5h + Kältemittel",
+    "tags": ["Evakuieren", "Kältemittel", "Inbetriebnahme"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-008",
+    "bezeichnung": "Inbetriebnahme gewerbliche Kälteanlage",
+    "beschreibung": "Inbetriebnahme der Kälteanlage inkl. Einstellung der Regelung, Überhitzung und Abtauung sowie Messprotokoll und Einweisung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 480.0,
+    "kalkulationsbasis": "Meister ca. 5h",
+    "tags": ["Inbetriebnahme", "Einregulierung", "Kälte"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-009",
+    "bezeichnung": "Kältewartung gewerbliche Anlage halbjährlich",
+    "beschreibung": "Halbjährliche Wartung einer gewerblichen Kälteanlage inkl. Funktionsprüfung, Reinigung Verflüssiger, Messung und Dichtheitssichtprüfung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 285.0,
+    "kalkulationsbasis": "Monteur ca. 3,5h + Kleinmaterial",
+    "tags": ["Wartung", "Kälteanlage", "Service"]
+  },
+  {
+    "gewerk": "kaelte",
+    "leistung_code": "KAE-010",
+    "bezeichnung": "Kältemittel-Rückgewinnung und Entsorgung",
+    "beschreibung": "Fachgerechtes Absaugen und Rückgewinnen des Kältemittels aus der Altanlage inkl. Entsorgung gemäß F-Gase-Verordnung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 320.0,
+    "kalkulationsbasis": "Monteur ca. 3h + Entsorgungsgebühr",
+    "tags": ["Kältemittel", "Rückgewinnung", "Entsorgung"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-001",
+    "bezeichnung": "Stundenlohnarbeit Elektrohelfer",
+    "beschreibung": "Stundenlohnarbeit eines Elektrohelfers für Hilfs-, Stemm- und Verlegearbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 58.0,
+    "kalkulationsbasis": "Helfer-Stundensatz 58 €/h",
+    "tags": ["Stundenlohn", "Elektro", "Helfer"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-002",
+    "bezeichnung": "Stundenlohnarbeit Elektromonteur",
+    "beschreibung": "Stundenlohnarbeit eines Elektromonteurs/Elektrikers für Installations- und Anschlussarbeiten nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Elektro", "Monteur"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-003",
+    "bezeichnung": "Stundenlohnarbeit Elektromeister",
+    "beschreibung": "Stundenlohnarbeit eines Elektromeisters für Planung, Messung, Prüfung und Abnahme nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Stundenlohn", "Elektro", "Meister"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-004",
+    "bezeichnung": "Mantelleitung NYM-J 3x1,5 verlegen je m",
+    "beschreibung": "Verlegen von Mantelleitung NYM-J 3x1,5 mm² auf Putz/in Leerrohr inkl. Befestigung, je Meter, ohne Stemmarbeiten.",
+    "einheit": "m",
+    "einzelpreis_netto": 5.5,
+    "kalkulationsbasis": "Monteur ca. 0,06h + Leitung je m",
+    "tags": ["Mantelleitung", "NYM", "Leitungsverlegung"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-005",
+    "bezeichnung": "Mantelleitung NYM-J 5x2,5 verlegen je m",
+    "beschreibung": "Verlegen von Mantelleitung NYM-J 5x2,5 mm² für Kraftstrom/Herd inkl. Befestigung, je Meter, ohne Stemmarbeiten.",
+    "einheit": "m",
+    "einzelpreis_netto": 8.5,
+    "kalkulationsbasis": "Monteur ca. 0,07h + Leitung je m",
+    "tags": ["Mantelleitung", "Kraftstrom", "Leitungsverlegung"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-006",
+    "bezeichnung": "Unterputzdose setzen inkl. Schlitz",
+    "beschreibung": "Stemmen des Schlitzes und Setzen einer Unterputz-Geräte- oder Verteilerdose im Mauerwerk inkl. Eingipsen.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 28.0,
+    "kalkulationsbasis": "Monteur ca. 0,3h + Dose und Gips",
+    "tags": ["Unterputzdose", "Schlitz", "Dose"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-007",
+    "bezeichnung": "Schalter/Steckdose Unterputz montieren",
+    "beschreibung": "Liefern und Montieren eines Schalters oder einer Steckdose (Standardprogramm) inkl. Anschluss und Rahmen.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 42.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 0,45h",
+    "tags": ["Steckdose", "Schalter", "Installationsgerät"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-008",
+    "bezeichnung": "Zählerschrank/Verteiler erneuern",
+    "beschreibung": "Liefern und Montieren eines neuen Zähler- bzw. Unterverteilerschranks inkl. Hauptschalter, Verdrahtung und Beschriftung, ohne Sicherungsabgänge.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 1450.0,
+    "kalkulationsbasis": "Schrank + Monteur ca. 10h + Meister 2h",
+    "tags": ["Verteiler", "Zählerschrank", "Unterverteilung"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-009",
+    "bezeichnung": "Leitungsschutzschalter/FI im Verteiler nachrüsten",
+    "beschreibung": "Liefern und Einbauen eines Leitungsschutzschalters oder FI/RCD in den Verteiler inkl. Anschluss und Beschriftung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Schutzorgan + Monteur ca. 1h",
+    "tags": ["Leitungsschutzschalter", "FI", "RCD", "Verteiler"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-010",
+    "bezeichnung": "Elektroanschluss Wärmeerzeuger herstellen",
+    "beschreibung": "Elektrischer Anschluss eines Wärmeerzeugers (Therme/Wärmepumpe) inkl. Zuleitung, Absicherung und Anschluss an die Regelung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 420.0,
+    "kalkulationsbasis": "Monteur ca. 5h + Material",
+    "tags": ["Elektroanschluss", "Wärmeerzeuger", "Zuleitung"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-011",
+    "bezeichnung": "Kraftstromanschluss Wärmepumpe/Außengerät",
+    "beschreibung": "Herstellen eines 400-V-Kraftstromanschlusses für Wärmepumpe oder Klima-Außengerät inkl. Zuleitung, Absicherung und Allstromsensitiver Schutz.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 580.0,
+    "kalkulationsbasis": "Monteur ca. 6h + Leitung und Schutzorgane",
+    "tags": ["Kraftstrom", "Wärmepumpe", "400V"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-012",
+    "bezeichnung": "Potentialausgleichsschiene installieren",
+    "beschreibung": "Liefern und Installieren einer Haupt-Potentialausgleichsschiene inkl. Anbindung von Wasser, Heizung und Fundamenterder.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 240.0,
+    "kalkulationsbasis": "Monteur ca. 2,5h + Material",
+    "tags": ["Potentialausgleich", "Erdung", "Schutzmaßnahme"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-013",
+    "bezeichnung": "E-Check und Messprotokoll Wohneinheit",
+    "beschreibung": "Prüfung der elektrischen Anlage einer Wohneinheit nach DIN VDE 0100-600 inkl. Messungen und Prüfprotokoll.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 340.0,
+    "kalkulationsbasis": "Meister ca. 3,5h + Messgerät",
+    "tags": ["E-Check", "Messprotokoll", "Prüfung"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-014",
+    "bezeichnung": "Wallbox 11 kW liefern und montieren",
+    "beschreibung": "Liefern und Montieren einer Wallbox 11 kW inkl. Zuleitung bis 10 m, FI Typ A EV, Leitungsschutz und Inbetriebnahme, ohne Erdarbeiten.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 1680.0,
+    "kalkulationsbasis": "Wallbox + Monteur ca. 8h + Leitung und Schutzorgane",
+    "tags": ["Wallbox", "Ladestation", "E-Mobilität"]
+  },
+  {
+    "gewerk": "elektro",
+    "leistung_code": "ELT-015",
+    "bezeichnung": "Leuchte/Deckenauslass anschließen",
+    "beschreibung": "Anschließen und Montieren einer kundenseitig gestellten Leuchte am vorhandenen Deckenauslass inkl. Funktionsprüfung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 58.0,
+    "kalkulationsbasis": "Monteur ca. 0,7h",
+    "tags": ["Leuchte", "Deckenauslass", "Beleuchtung"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-001",
+    "bezeichnung": "Stundenlohnarbeit GA-Techniker",
+    "beschreibung": "Stundenlohnarbeit eines Technikers für Gebäudeautomation/MSR für Montage und Verdrahtung nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 72.0,
+    "kalkulationsbasis": "Monteur-Stundensatz 72 €/h",
+    "tags": ["Stundenlohn", "Gebäudeautomation", "MSR"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-002",
+    "bezeichnung": "Stundenlohnarbeit GA-Programmierer/Meister",
+    "beschreibung": "Stundenlohnarbeit eines GA-Programmierers/Meisters für Parametrierung, Programmierung und Inbetriebnahme nach Nachweis.",
+    "einheit": "h",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Meister-Stundensatz 95 €/h",
+    "tags": ["Stundenlohn", "Gebäudeautomation", "Programmierung"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-003",
+    "bezeichnung": "KNX-Buskabel verlegen je m",
+    "beschreibung": "Verlegen von KNX-Buskabel (J-Y(St)Y 2x2x0,8) inkl. Befestigung und Beschriftung, je Meter, ohne Stemmarbeiten.",
+    "einheit": "m",
+    "einzelpreis_netto": 4.8,
+    "kalkulationsbasis": "Monteur ca. 0,05h + Buskabel je m",
+    "tags": ["KNX", "Buskabel", "Verkabelung"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-004",
+    "bezeichnung": "KNX-Aktor im Verteiler montieren",
+    "beschreibung": "Liefern und Montieren eines KNX-Schalt-/Dimmaktors im Verteiler inkl. Anschluss an Bus und Last, ohne Parametrierung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 295.0,
+    "kalkulationsbasis": "Aktor + Monteur ca. 1,5h",
+    "tags": ["KNX", "Aktor", "Verteiler"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-005",
+    "bezeichnung": "KNX-Raumcontroller/Taster montieren",
+    "beschreibung": "Liefern und Montieren eines KNX-Tasters oder Raumcontrollers mit Temperaturfühler inkl. Busanschluss, ohne Parametrierung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 215.0,
+    "kalkulationsbasis": "Gerät + Monteur ca. 1h",
+    "tags": ["KNX", "Taster", "Raumcontroller"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-006",
+    "bezeichnung": "Raumtemperaturregler smart für FBH montieren",
+    "beschreibung": "Liefern und Montieren eines smarten Raumthermostats für die Fußbodenheizung inkl. Anbindung an den Verteiler-Stellantrieb.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 165.0,
+    "kalkulationsbasis": "Thermostat + Monteur ca. 1h",
+    "tags": ["Raumthermostat", "Einzelraumregelung", "Fußbodenheizung"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-007",
+    "bezeichnung": "Stellantrieb Heizkreisverteiler montieren",
+    "beschreibung": "Liefern und Montieren eines thermischen Stellantriebs am Heizkreisverteiler inkl. Verdrahtung zur Regelleiste.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 58.0,
+    "kalkulationsbasis": "Stellantrieb + Monteur ca. 0,5h",
+    "tags": ["Stellantrieb", "Heizkreisverteiler", "Einzelraumregelung"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-008",
+    "bezeichnung": "DDC-/MSR-Schaltschrank liefern und montieren",
+    "beschreibung": "Liefern und Montieren eines DDC-/MSR-Schaltschranks für die Anlagensteuerung inkl. Verdrahtung der Feldgeräte, ohne Programmierung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 2850.0,
+    "kalkulationsbasis": "Schaltschrank + Monteur ca. 18h + Material",
+    "tags": ["MSR", "Schaltschrank", "DDC"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-009",
+    "bezeichnung": "Feldgerät/Fühler anschließen",
+    "beschreibung": "Anschließen und Verdrahten eines Feldgeräts (Temperatur-, Druck- oder Feuchtefühler) an die MSR-Steuerung inkl. Kennzeichnung.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Fühler + Monteur ca. 1h",
+    "tags": ["Fühler", "Feldgerät", "MSR"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-010",
+    "bezeichnung": "KNX-Anlage parametrieren und in Betrieb nehmen",
+    "beschreibung": "Parametrierung der KNX-Anlage mit ETS, Funktionsprüfung der Gewerke, Visualisierung-Grundeinrichtung und Nutzereinweisung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 950.0,
+    "kalkulationsbasis": "Programmierer ca. 10h",
+    "tags": ["KNX", "Parametrierung", "Inbetriebnahme", "ETS"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-011",
+    "bezeichnung": "GLT-Aufschaltung und Programmierung Anlagenteil",
+    "beschreibung": "Programmierung der Anlagensteuerung und Aufschaltung eines Anlagenteils auf die Gebäudeleittechnik inkl. Funktionsprüfung.",
+    "einheit": "Psch",
+    "einzelpreis_netto": 1140.0,
+    "kalkulationsbasis": "Programmierer ca. 12h",
+    "tags": ["GLT", "Programmierung", "Aufschaltung"]
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "leistung_code": "GA-012",
+    "bezeichnung": "Smart-Home-Gateway einrichten",
+    "beschreibung": "Liefern, Montieren und Einrichten eines Smart-Home-Gateways inkl. Anbindung der Gewerke und App-Konfiguration.",
+    "einheit": "Stk",
+    "einzelpreis_netto": 480.0,
+    "kalkulationsbasis": "Gateway + Monteur ca. 4h",
+    "tags": ["Smart Home", "Gateway", "Einrichtung"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-001",
+    "bezeichnung": "Fliesenboden aufstemmen je m²",
+    "beschreibung": "Aufstemmen und Entfernen von vorhandenem Fliesenbelag inkl. Fliesenkleber bis zum tragfähigen Untergrund, je Quadratmeter. Schutt verbleibt zur separaten Entsorgung.",
+    "einheit": "m²",
+    "einzelpreis_netto": 28.0,
+    "kalkulationsbasis": "Helfer ca. 0,4h + Stemmhammer-Einsatz je m²",
+    "tags": ["Fliesen", "aufstemmen", "Abbruch", "Boden"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-002",
+    "bezeichnung": "Wandfliesen abschlagen je m²",
+    "beschreibung": "Abschlagen und Entfernen von Wandfliesen inkl. Kleberresten bis zum tragfähigen Putzgrund, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 24.0,
+    "kalkulationsbasis": "Helfer ca. 0,35h + Werkzeug je m²",
+    "tags": ["Wandfliesen", "abschlagen", "Abbruch"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-003",
+    "bezeichnung": "Estrich öffnen/aufstemmen je m²",
+    "beschreibung": "Öffnen bzw. Aufstemmen des Estrichs für Leitungsverlegung oder Fußbodenheizung inkl. Abtrag bis zur Dämmebene, je Quadratmeter. Schutt verbleibt zur separaten Entsorgung.",
+    "einheit": "m²",
+    "einzelpreis_netto": 34.0,
+    "kalkulationsbasis": "Helfer ca. 0,5h + Stemmhammer je m²",
+    "tags": ["Estrich", "öffnen", "aufstemmen", "Boden"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-004",
+    "bezeichnung": "Estrich schließen/neu einbringen je m²",
+    "beschreibung": "Neu einbringen von Zementestrich (auch über Fußbodenheizung) inkl. Abziehen und Glätten, je Quadratmeter, ohne Trockenzeit-Aufwand.",
+    "einheit": "m²",
+    "einzelpreis_netto": 42.0,
+    "kalkulationsbasis": "Monteur ca. 0,4h + Estrichmaterial je m²",
+    "tags": ["Estrich", "schließen", "einbringen", "Boden"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-005",
+    "bezeichnung": "Fliesen neu verlegen Boden je m²",
+    "beschreibung": "Verlegen von Bodenfliesen im Dünnbettverfahren inkl. Kleber, Verfugen und Reinigung, je Quadratmeter. Fliesenmaterial bauseits oder nach Aufwand.",
+    "einheit": "m²",
+    "einzelpreis_netto": 68.0,
+    "kalkulationsbasis": "Monteur ca. 0,7h + Kleber und Fugenmasse je m²",
+    "tags": ["Fliesen", "verlegen", "Boden", "Neubelag"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-006",
+    "bezeichnung": "Wandfliesen neu verlegen je m²",
+    "beschreibung": "Verlegen von Wandfliesen im Dünnbettverfahren inkl. Kleber, Verfugen und Silikonfugen an Anschlüssen, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 75.0,
+    "kalkulationsbasis": "Monteur ca. 0,8h + Kleber und Fugenmasse je m²",
+    "tags": ["Wandfliesen", "verlegen", "Neubelag"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-007",
+    "bezeichnung": "Verbundabdichtung im Nassbereich je m²",
+    "beschreibung": "Aufbringen einer Verbundabdichtung (Flüssigfolie) im Nassbereich inkl. Dichtbänder an Ecken und Durchdringungen, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 26.0,
+    "kalkulationsbasis": "Monteur ca. 0,3h + Abdichtungsmaterial je m²",
+    "tags": ["Abdichtung", "Nassbereich", "Verbundabdichtung"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-008",
+    "bezeichnung": "Bauschutt entsorgen je m³",
+    "beschreibung": "Sammeln, Verladen und fachgerechtes Entsorgen von Bauschutt (Fliesen, Estrich, Mörtel) inkl. Containergebühr und Deponiekosten, je Kubikmeter.",
+    "einheit": "m³",
+    "einzelpreis_netto": 95.0,
+    "kalkulationsbasis": "Helfer ca. 0,5h + Container-/Deponieanteil je m³",
+    "tags": ["Bauschutt", "Entsorgung", "Container"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-009",
+    "bezeichnung": "Trockenbau-Vorwand/Schacht erstellen je m²",
+    "beschreibung": "Erstellen einer Trockenbau-Vorwand oder Installationsschachts (Metallständer, doppelt beplankt, imprägniert) inkl. Dämmung, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 78.0,
+    "kalkulationsbasis": "Monteur ca. 0,8h + Profile und Platten je m²",
+    "tags": ["Trockenbau", "Vorwand", "Installationsschacht"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-010",
+    "bezeichnung": "Wand verputzen/ausbessern je m²",
+    "beschreibung": "Ausbessern bzw. Neuverputzen von Wandflächen nach Installationsarbeiten inkl. Glätten, streichfertig, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 32.0,
+    "kalkulationsbasis": "Monteur ca. 0,35h + Putzmaterial je m²",
+    "tags": ["Putz", "ausbessern", "Wand"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-011",
+    "bezeichnung": "Maler-/Streicharbeit Wand und Decke je m²",
+    "beschreibung": "Streichen von Wand- und Deckenflächen nach Installationsarbeiten (zweimaliger Anstrich) inkl. Abdecken und Vorarbeiten, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 14.0,
+    "kalkulationsbasis": "Helfer ca. 0,2h + Farbe je m²",
+    "tags": ["Maler", "Anstrich", "Renovierung"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-012",
+    "bezeichnung": "Silikon-Anschlussfuge erneuern je m",
+    "beschreibung": "Entfernen alter und Einbringen neuer dauerelastischer Silikon-Anschlussfuge an Sanitärobjekten und Fliesenanschlüssen, je Meter.",
+    "einheit": "m",
+    "einzelpreis_netto": 9.5,
+    "kalkulationsbasis": "Monteur ca. 0,1h + Silikon je m",
+    "tags": ["Silikonfuge", "Fuge", "Abdichtung"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-013",
+    "bezeichnung": "Schlitze fräsen im Mauerwerk je m",
+    "beschreibung": "Maschinelles Fräsen von Schlitzen im Mauerwerk für Leitungen inkl. Staubabsaugung, je Meter, ohne Verschließen.",
+    "einheit": "m",
+    "einzelpreis_netto": 18.0,
+    "kalkulationsbasis": "Helfer ca. 0,25h + Mauernutfräse je m",
+    "tags": ["Schlitz", "fräsen", "Mauerwerk"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-014",
+    "bezeichnung": "Bodenausgleichsmasse aufbringen je m²",
+    "beschreibung": "Aufbringen selbstverlaufender Bodenausgleichsmasse zur Nivellierung des Untergrunds vor Belagsarbeiten, je Quadratmeter.",
+    "einheit": "m²",
+    "einzelpreis_netto": 18.5,
+    "kalkulationsbasis": "Monteur ca. 0,2h + Ausgleichsmasse je m²",
+    "tags": ["Ausgleichsmasse", "Nivellierung", "Boden"]
+  },
+  {
+    "gewerk": "nebengewerk",
+    "leistung_code": "NEB-015",
+    "bezeichnung": "Sperrmüll/Altgeräte entsorgen je m³",
+    "beschreibung": "Abtransport und fachgerechte Entsorgung von Sperrmüll und ausgebauten Altmaterialien (nicht Bauschutt), je Kubikmeter.",
+    "einheit": "m³",
+    "einzelpreis_netto": 75.0,
+    "kalkulationsbasis": "Helfer ca. 0,4h + Entsorgungsanteil je m³",
+    "tags": ["Sperrmüll", "Entsorgung", "Abtransport"]
+  }
+]

@@ -1,0 +1,2957 @@
+[
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Trinkwasserleitung verlegen (Neuverlegung oder Erweiterung)",
+    "inhalt": "Diese Regel greift, sobald eine Trinkwasserleitung neu verlegt, verlängert oder erweitert werden soll (Kalt- und/oder Warmwasser). Bevor kalkuliert werden kann, müssen folgende Pflichtfragen beantwortet sein:\n\n1. Welches Rohrmaterial soll verwendet werden bzw. ist im Bestand vorhanden? (Kupfer, Edelstahl/Edelstahl-Pressfitting, Mehrschichtverbundrohr/Verbundrohr, ggf. PE-X). Mischinstallationen Kupfer nach verzinktem Stahl in Fließrichtung sind unzulässig.\n2. Welche Nennweite/Dimension wird benötigt? (z.B. DN 15, DN 20, DN 25 bzw. 16/20/26 mm bei MV-Rohr) — abhängig von Entnahmestellen und Druckverlust.\n3. Wie lang ist die zu verlegende Strecke in Metern (getrennt Kalt-/Warmwasser und ggf. Zirkulation)?\n4. Wo wird verlegt? (Vorwand, Unterputz im Schlitz, Aufputz, im Boden/Estrich, in der Decke, Schacht/Steigstrang).\n5. Ist der Boden bzw. die Wand bereits offen oder muss aufgestemmt werden? (z.B. bestehender Fliesenboden, Estrich, geputzte Wand) — das bestimmt den Nebengewerk-Aufwand massiv.\n6. Liegt im Fußbodenaufbau eine Fußbodenheizung? (Gefahr, Heizrohre beim Stemmen/Schlitzen zu beschädigen — Thermografie/Plan nötig).\n7. Sind Wand-, Decken- oder Geschossdurchbrüche nötig? Wenn ja: handelt es sich um brandschutzrelevante Bauteile (Brandwand, Geschossdecke, Brandabschnitt)?\n8. Wie wird die Trinkwasserhygiene sichergestellt? (Stagnation vermeiden, Durchschleifen/Reihenschaltung, Totleitungen vermeiden, Dämmung Kalt gegen Erwärmung, ggf. Zirkulation Warmwasser).\n9. Wie erfolgt die Anbindung an den Bestand und gibt es eine Absperrmöglichkeit/Hauptabsperrung?\n10. Soll nach Fertigstellung eine Druck-/Dichtheitsprüfung und Spülung dokumentiert werden? (in der Regel Pflicht).\n\nErst wenn diese Punkte geklärt sind, sind Material, Zeitaufwand und Nebengewerke (Stemmen, Schlitzen, Verschließen, Estrich-/Fliesenwiederherstellung) seriös kalkulierbar.",
+    "tags": [
+      "trinkwasser",
+      "wasserleitung",
+      "rohrverlegung",
+      "kupfer",
+      "edelstahl",
+      "mehrschichtverbund",
+      "fußbodenheizung",
+      "brandschutz",
+      "trinkwasserhygiene",
+      "din 1988",
+      "dvgw"
+    ],
+    "metadata": {
+      "trigger": "Trinkwasserleitung (Kalt-/Warmwasser) soll neu verlegt, verlängert oder erweitert werden",
+      "pflichtfragen": [
+        "Rohrmaterial (Kupfer, Edelstahl, Mehrschichtverbundrohr, ggf. PE-X) und vorhandenes Bestandsmaterial?",
+        "Nennweite/Dimension (z.B. DN 15/20/25 bzw. 16/20/26 mm)?",
+        "Länge der Strecke in Metern (Kalt/Warm/Zirkulation getrennt)?",
+        "Verlegeort (Vorwand, Unterputz, Aufputz, Boden/Estrich, Decke, Schacht)?",
+        "Ist Boden/Wand bereits offen oder muss aufgestemmt werden (z.B. Fliesenboden, Estrich)?",
+        "Liegt eine Fußbodenheizung im Aufbau (Beschädigungsgefahr)?",
+        "Sind Wand-/Decken-/Geschossdurchbrüche nötig und betreffen sie brandschutzrelevante Bauteile?",
+        "Wie wird die Trinkwasserhygiene sichergestellt (Stagnation, Totleitungen, Dämmung, Zirkulation)?",
+        "Anbindung an Bestand und Absperrmöglichkeit vorhanden?",
+        "Druck-/Dichtheitsprüfung und Spülung gewünscht/zu dokumentieren?"
+      ],
+      "sonderfaelle": [
+        "Fußbodenheizung im Estrich: vor dem Stemmen orten (Thermografie/Verlegeplan), sonst Beschädigung der Heizkreise",
+        "Brandschutz bei Durchbrüchen durch Brandwände/Geschossdecken: Abschottung mit zugelassenem Brandschutzsystem (z.B. Rohrmanschetten, Brandschutzschaum) nötig",
+        "Estrich und Fliesen nach dem Verlegen wiederherstellen (Nebengewerk separat kalkulieren)",
+        "Mischinstallation: Kupfer nicht in Fließrichtung nach verzinktem Stahl (Korrosionsgefahr)",
+        "Kaltwasserleitung dämmen gegen Erwärmung und Tauwasser (Hygiene)",
+        "Stagnation/Totleitungen vermeiden, nicht genutzte Leitungen zurückbauen",
+        "Asbestverdacht in altem Estrich/Kleber bei Bestandsgebäuden vor 1995 prüfen"
+      ],
+      "normen": [
+        "DIN 1988 (TRWI, Technische Regeln für Trinkwasser-Installationen)",
+        "DIN EN 806 (Technische Regeln für Trinkwasser-Installationen)",
+        "DVGW-Arbeitsblatt W 551 / W 553 (Trinkwassererwärmung, Zirkulation, Legionellenschutz)",
+        "DVGW W 557 (Reinigung und Desinfektion)",
+        "Trinkwasserverordnung (TrinkwV)",
+        "VDI 6023 (Hygiene in Trinkwasser-Installationen)"
+      ],
+      "material_hinweise": [
+        "Edelstahl-Pressfitting hygienisch und korrosionsbeständig, höherwertig, gute Wahl für Steigstränge",
+        "Mehrschichtverbundrohr schnell zu verlegen, korrosionsfrei, ideal für Stockwerksverteilung und Vorwand",
+        "Kupfer bewährt, aber Reihenfolge in Fließrichtung beachten (nie nach verzinktem Stahl)",
+        "Nur DVGW-zertifizierte Rohre/Fittings für Trinkwasser einsetzen",
+        "Pressfittinge desselben Systemherstellers verwenden (Gewährleistung, Pressbacken-Kompatibilität)",
+        "Dämmung nach GEG für Warmwasser, Kaltwasser zusätzlich gegen Erwärmung dämmen"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Abwasser-/Entwässerungsleitung verlegen oder anbinden",
+    "inhalt": "Diese Regel greift, wenn eine Schmutz- oder Mischwasserleitung (Abwasser) neu verlegt, verlängert oder ein neues Objekt (WC, Dusche, Waschbecken, Küche) angebunden werden soll. Pflichtfragen vor der Kalkulation:\n\n1. Welches Material? (HT-Rohr im Gebäude, SML/Gussrohr bei Schallschutzanforderung, KG-Rohr im Erdreich).\n2. Welche Nennweite? (DN 40/50 für Waschbecken/Dusche, DN 100/110 für WC und Sammelleitung, DN 70 für Urinal/Küche).\n3. Wie lang ist die Leitung und welche Anschlusspunkte sind anzubinden?\n4. Kann das nötige Gefälle eingehalten werden? (in der Regel mindestens 1 bis 2 cm pro Meter / ca. 1-2 %).\n5. Wo verläuft die Leitung? (Vorwand, in der Wand, im Boden/Estrich, abgehängte Decke, Erdreich).\n6. Ist der Boden offen oder muss aufgestemmt werden? Liegt eine Fußbodenheizung im Aufbau?\n7. Sind Durchbrüche durch tragende oder brandschutzrelevante Bauteile nötig?\n8. Ist eine Rückstausicherung erforderlich? (Ablaufstellen unterhalb der Rückstauebene/Kanaldeckel).\n9. Sind Schallschutzanforderungen zu beachten? (Bad an Schlaf-/Wohnraum angrenzend, DIN 4109).\n10. Wie wird entlüftet? (Hauptlüftung über Dach, ggf. Belüftungsventil bei Nachrüstung).",
+    "tags": [
+      "abwasser",
+      "entwässerung",
+      "ht-rohr",
+      "kg-rohr",
+      "sml",
+      "gefälle",
+      "rückstau",
+      "schallschutz",
+      "din 1986",
+      "din en 12056"
+    ],
+    "metadata": {
+      "trigger": "Abwasser-/Schmutzwasserleitung soll verlegt oder ein Sanitärobjekt angebunden werden",
+      "pflichtfragen": [
+        "Material (HT-Rohr, SML/Guss für Schallschutz, KG-Rohr im Erdreich)?",
+        "Nennweite (DN 40/50/70/100/110)?",
+        "Länge und anzubindende Anschlusspunkte?",
+        "Kann das erforderliche Gefälle (ca. 1-2 %) eingehalten werden?",
+        "Verlegeort (Vorwand, Wand, Boden, Decke, Erdreich)?",
+        "Boden offen oder aufzustemmen? Fußbodenheizung im Aufbau?",
+        "Durchbrüche durch tragende/brandschutzrelevante Bauteile nötig?",
+        "Rückstausicherung erforderlich (Ablauf unter Rückstauebene)?",
+        "Schallschutzanforderungen (angrenzende Wohn-/Schlafräume)?",
+        "Entlüftung über Dach oder Belüftungsventil?"
+      ],
+      "sonderfaelle": [
+        "Zu geringes Gefälle führt zu Verstopfung und Geruch - bei beengten Verhältnissen Hebeanlage prüfen",
+        "Fußbodenheizung im Estrich vor Stemmen orten",
+        "Rückstauebene meist Straßenoberkante/Kanaldeckel - tieferliegende Abläufe absichern",
+        "SML/Gussrohr oder Schallschutzschellen bei Bad neben Schlafraum",
+        "Brandschotts bei Durchführung durch Geschossdecken",
+        "Anschluss an Bestandsfallrohr: Zustand und Material prüfen"
+      ],
+      "normen": [
+        "DIN 1986-100 (Entwässerungsanlagen für Gebäude und Grundstücke)",
+        "DIN EN 12056 (Schwerkraftentwässerungsanlagen innerhalb von Gebäuden)",
+        "DIN EN 12109 (Unterdruckentwässerungsanlagen)",
+        "DIN 4109 (Schallschutz im Hochbau)"
+      ],
+      "material_hinweise": [
+        "HT-Rohr (PP) Standard im Gebäude, günstig und schnell",
+        "SML-Gussrohr oder schallgedämmtes Rohr bei erhöhten Schallschutzanforderungen",
+        "KG-Rohr (orange) ausschließlich im Erdreich/außerhalb des Gebäudes",
+        "Rückstauverschluss/Hebeanlage nach DIN EN 12056-4 bei Ablaufstellen unter Rückstauebene"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Badsanierung komplett (Komplettbad)",
+    "inhalt": "Diese Regel greift bei einer kompletten Badsanierung mit Demontage und Neuaufbau. Sie bündelt mehrere Gewerke (Sanitär, Nebengewerk, ggf. Elektro/Lüftung). Pflichtfragen:\n\n1. Wie groß ist das Bad (Quadratmeter, Raumhöhe) und liegt ein Aufmaß/Grundriss vor?\n2. Welche Objekte sollen rein? (WC wandhängend/Stand, Waschtisch, Dusche bodengleich/mit Wanne, Badewanne, Bidet, Urinal).\n3. Bleibt die Raumaufteilung/Anschlusslage gleich oder werden Anschlüsse versetzt? (Versetzen = mehr Leitungsarbeit und Stemmen).\n4. Soll eine bodengleiche Dusche eingebaut werden? (Aufbauhöhe, Gefälle, Ablauf-Typ Punkt-/Linienablauf, Abdichtung im Verbund).\n5. Wird der bestehende Fliesenboden/Estrich entfernt? Liegt eine Fußbodenheizung vor oder soll eine rein?\n6. Vorwandinstallation (Trockenbau) gewünscht oder Massivwand schlitzen?\n7. Wie ist der Zustand der vorhandenen Zu- und Abwasserleitungen? (Tausch empfehlenswert?).\n8. Elektro: neue Steckdosen, Beleuchtung, Spiegelschrank, Handtuchheizkörper, Lüfter - Zustand und Erweiterung?\n9. Wird ein Lüfter/Entlüftung benötigt (innenliegendes Bad ohne Fenster)?\n10. Fliesen/Oberflächen: Material, Format, Verlegeart, Mengen, Wunsch an Abdichtung?",
+    "tags": [
+      "badsanierung",
+      "komplettbad",
+      "bodengleiche dusche",
+      "vorwand",
+      "abdichtung",
+      "fliesen",
+      "fußbodenheizung",
+      "barrierefrei"
+    ],
+    "metadata": {
+      "trigger": "Komplette Badsanierung (Rückbau und Neuaufbau eines Bades)",
+      "pflichtfragen": [
+        "Badgröße (m², Raumhöhe) und Aufmaß/Grundriss vorhanden?",
+        "Welche Objekte (WC, Waschtisch, Dusche, Wanne, Bidet, Urinal)?",
+        "Raumaufteilung/Anschlusslage gleich oder Anschlüsse versetzen?",
+        "Bodengleiche Dusche (Aufbauhöhe, Gefälle, Ablauftyp, Verbundabdichtung)?",
+        "Fliesenboden/Estrich entfernen? Fußbodenheizung vorhanden/gewünscht?",
+        "Vorwandinstallation (Trockenbau) oder Massivwand schlitzen?",
+        "Zustand vorhandener Zu-/Abwasserleitungen - Tausch nötig?",
+        "Elektro-Erweiterung (Steckdosen, Licht, Spiegelschrank, Handtuchheizkörper, Lüfter)?",
+        "Entlüftung/Lüfter bei innenliegendem Bad nötig?",
+        "Fliesen/Oberflächen: Material, Format, Verlegeart, Menge?"
+      ],
+      "sonderfaelle": [
+        "Bodengleiche Dusche braucht ausreichende Aufbauhöhe - bei Holzbalkendecke statisch und konstruktiv prüfen",
+        "Verbundabdichtung (AIV) unter Fliesen nach DIN 18534 zwingend in Nassbereichen",
+        "Anschlüsse versetzen erhöht Stemm- und Schlitzaufwand stark",
+        "Asbest-/PCB-Verdacht bei Altbau (alter Fliesenkleber, Boden) prüfen",
+        "Barrierefreiheit nach DIN 18040-2 falls gefordert (Bewegungsflächen, Haltegriffe)",
+        "Fußbodenheizung im Bad als elektrische oder wassergeführte Lösung"
+      ],
+      "normen": [
+        "DIN 18534 (Abdichtung von Innenräumen)",
+        "DIN 1988 und DIN EN 806 (Trinkwasser)",
+        "DIN 1986-100 (Entwässerung)",
+        "DIN 18040-2 (Barrierefreies Bauen, Wohnungen)",
+        "VDE 0100-701 (Elektro in Räumen mit Badewanne/Dusche)"
+      ],
+      "material_hinweise": [
+        "Verbundabdichtung (Flüssigfolie/Dichtbänder) markenkonform als System einbauen",
+        "Bodengleiche Duschrinne mit ausreichender Ablaufleistung wählen",
+        "Vorwandsystem (z.B. Installationswand) statt Schlitzen spart Zeit und Schmutz",
+        "Wandhängendes WC braucht Montageelement mit Spülkasten im Vorwandsystem"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Warmwasserbereitung erneuern (Speicher / Durchlauferhitzer / Frischwasserstation)",
+    "inhalt": "Diese Regel greift, wenn die Warmwasserbereitung neu geplant oder erneuert wird. Pflichtfragen:\n\n1. Wie viele Zapfstellen und welcher Spitzenbedarf (Personen im Haushalt, Komfortanspruch, Wannen-/Regendusche)?\n2. Zentrale oder dezentrale Versorgung? (Speicher zentral vs. Durchlauferhitzer am Zapfpunkt).\n3. Welche Wärmequelle? (Gas-/Öl-Therme, Wärmepumpe, Fernwärme, elektrisch, Solarthermie-Einbindung).\n4. Speichervolumen und -typ? (monovalent/bivalent, Warmwasserspeicher, Kombispeicher, Frischwasserstation/Hygienespeicher).\n5. Ist eine Zirkulationsleitung vorhanden/gewünscht? (Komfort, aber Energie- und Hygienethema).\n6. Wie wird der Legionellenschutz sichergestellt? (Speichertemperatur, thermische Desinfektion, Anlagengröße nach DVGW W 551).\n7. Aufstellort, Platz, Tragfähigkeit (gefüllter Speicher schwer), Zugänglichkeit für Einbringung?\n8. Elektroanschluss/Leistung ausreichend (besonders Durchlauferhitzer 18-27 kW, Starkstrom)?\n9. Anschluss an Bestand, Absperrungen, Sicherheitsgruppe/Membran-Ausdehnungsgefäß vorhanden?",
+    "tags": [
+      "warmwasser",
+      "speicher",
+      "durchlauferhitzer",
+      "frischwasserstation",
+      "zirkulation",
+      "legionellen",
+      "dvgw w551",
+      "trinkwassererwärmung"
+    ],
+    "metadata": {
+      "trigger": "Warmwasserbereitung wird neu geplant oder erneuert (Speicher, Durchlauferhitzer, Frischwasserstation)",
+      "pflichtfragen": [
+        "Anzahl Zapfstellen und Spitzenbedarf (Personen, Komfort, Wanne/Regendusche)?",
+        "Zentral (Speicher) oder dezentral (Durchlauferhitzer)?",
+        "Wärmequelle (Therme, Wärmepumpe, Fernwärme, elektrisch, Solar)?",
+        "Speichervolumen und -typ (mono-/bivalent, Kombi, Frischwasserstation)?",
+        "Zirkulationsleitung vorhanden/gewünscht?",
+        "Legionellenschutz (Speichertemperatur, thermische Desinfektion, Anlagengröße)?",
+        "Aufstellort, Tragfähigkeit, Einbringung?",
+        "Elektroanschluss/Leistung ausreichend (v.a. Durchlauferhitzer)?",
+        "Anbindung Bestand, Sicherheitsgruppe/Ausdehnungsgefäß vorhanden?"
+      ],
+      "sonderfaelle": [
+        "Großanlage (>400 l Speicher oder >3 l Inhalt je Leitung) erfordert verschärften Legionellenschutz nach DVGW W 551",
+        "Frischwasserstation/Hygienespeicher hält kein stehendes Trinkwarmwasser vor - hygienisch vorteilhaft",
+        "Durchlauferhitzer braucht oft Starkstrom und ausreichende Hausanschlussleistung",
+        "Ausdehnungsgefäß und Sicherheitsventil bei geschlossenem Speicher zwingend",
+        "Wärmepumpen-Warmwasser arbeitet mit niedrigeren Temperaturen - Hygienekonzept beachten"
+      ],
+      "normen": [
+        "DVGW-Arbeitsblatt W 551 (Trinkwassererwärmung, Legionellen)",
+        "DVGW W 553 (Bemessung von Zirkulationssystemen)",
+        "DIN 1988-200 und DIN EN 806",
+        "DIN 4753 (Wassererwärmer)",
+        "GEG (Gebäudeenergiegesetz, Dämmung/Effizienz)"
+      ],
+      "material_hinweise": [
+        "Frischwasserstation für hygienekritische Objekte bevorzugen",
+        "Emaillierter Speicher mit Schutzanode (Anodenkontrolle einplanen)",
+        "Membran-Ausdehnungsgefäß für Trinkwasser (DVGW-zugelassen, durchströmt)",
+        "Bei Wärmepumpe größere Wärmetauscherflächen / spezielle WP-Speicher"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "howto",
+    "titel": "Trinkwasserrohr fachgerecht verlegen - Vorgehen und Materialwahl",
+    "inhalt": "Vorgehen beim Verlegen einer Trinkwasserleitung:\n\n1. Planung: Strangschema und Fließwege festlegen, Dimensionierung nach Spitzendurchfluss und zulässigem Druckverlust (Differenzdruckverfahren oder vereinfachtes Verfahren nach DIN 1988-300). Zapfstellen möglichst durchschleifen (Reiheninstallation), um Stagnation zu vermeiden.\n\n2. Materialwahl: Edelstahl-Pressfitting für hygienisch sensible Bereiche und Steigstränge; Mehrschichtverbundrohr für schnelle Stockwerksverteilung und Vorwand; Kupfer bewährt, aber Fließrichtung beachten (nie nach verzinktem Stahl, sonst Lochkorrosion). Immer DVGW-zertifizierte Komponenten, Fittinge und Rohr vom selben System.\n\n3. Verlegung: Befestigungsabstände nach Herstellervorgabe einhalten, Dehnung bei Warmwasser berücksichtigen (Dehnungsschenkel/-bögen). Rohre mit Dämmung verlegen - Warmwasser nach GEG, Kaltwasser gegen Erwärmung und Tauwasser. Abstand Kalt-/Warmleitung wahren.\n\n4. Pressen/Verbinden: Saubere Schnittkanten, kalibrieren/entgraten, Dichtelement prüfen, mit passender Pressbacke vollständig verpressen. Unverpresste Verbindung muss bei der Dichtheitsprüfung auffallen (Leckageanzeige bei vielen Systemen).\n\n5. Durchführungen: Brandschotts bei brandschutzrelevanten Bauteilen, Schalldämmung in Wänden/Decken, kein starres Einmörteln ohne Schutzrohr (Dehnung/Schall).\n\n6. Spülen und Prüfen: Dichtheitsprüfung (Druckprüfung mit Luft/inertem Gas oder Wasser nach ZVSHK-Merkblatt), anschließend bestimmungsgemäßer Betrieb oder fachgerechte Spülung. Inbetriebnahme und Übergabe protokollieren.\n\nHerstellerwahl: Etablierte Systemhersteller (z.B. Geberit, Viega, Uponor, TECE) bevorzugen wegen Verfügbarkeit, Gewährleistung und Werkzeugkompatibilität - nicht Komponenten verschiedener Systeme mischen.",
+    "tags": [
+      "howto",
+      "trinkwasser",
+      "rohrverlegung",
+      "pressfitting",
+      "dimensionierung",
+      "spülung",
+      "dichtheitsprüfung"
+    ],
+    "metadata": {
+      "normen": [
+        "DIN 1988-300 (Dimensionierung)",
+        "DIN EN 806-4 (Installation)",
+        "ZVSHK-Merkblatt Dichtheitsprüfung"
+      ],
+      "tipps": [
+        "Reiheninstallation gegen Stagnation",
+        "Systemreinheit (ein Hersteller)",
+        "Dämmung Kalt gegen Erwärmung"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "norm",
+    "titel": "DIN 1988 / DIN EN 806 - Technische Regeln für Trinkwasser-Installationen",
+    "inhalt": "DIN EN 806 (Teile 1-5) ist die europäische Grundnorm für Planung, Installation, Betrieb und Instandhaltung von Trinkwasser-Installationen innerhalb von Gebäuden. DIN 1988 ergänzt sie national als Technische Regel Trinkwasser-Installation (TRWI), u.a. mit DIN 1988-200 (Installation, Schutz, Betrieb) und DIN 1988-300 (Ermittlung der Rohrdurchmesser/Dimensionierung).\n\nKernforderungen: Schutz des Trinkwassers vor Verunreinigung (Rückfluss-/Rückdrückschutz mit geeigneten Sicherungseinrichtungen nach DIN EN 1717), Vermeidung von Stagnation, hygienegerechte Materialwahl und Werkstoffkombination, korrekte Dimensionierung (Durchfluss, Druckverlust, Fließgeschwindigkeit), Dämmung und Schallschutz, Dichtheits- und Druckprüfung sowie dokumentierte Inbetriebnahme/Spülung.\n\nGreift immer dann, wenn Trinkwasserleitungen geplant, neu verlegt, erweitert oder instand gesetzt werden. Zusammen mit der Trinkwasserverordnung und den DVGW-Arbeitsblättern (W 551, W 553, W 557) bildet sie den verbindlichen Rahmen. Für den Bot relevant: ohne Material, Dimension, Verlegeart und Hygienekonzept ist keine normkonforme Kalkulation möglich.",
+    "tags": [
+      "norm",
+      "din 1988",
+      "din en 806",
+      "trinkwasser",
+      "trwi",
+      "dimensionierung",
+      "din en 1717"
+    ],
+    "metadata": {
+      "geltungsbereich": "Trinkwasser-Installationen in Gebäuden",
+      "wichtige_teile": [
+        "DIN 1988-200",
+        "DIN 1988-300",
+        "DIN EN 806-1 bis -5",
+        "DIN EN 1717 (Rückflussverhinderung)"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "norm",
+    "titel": "DVGW W 551 - Trinkwassererwärmung und Legionellenschutz",
+    "inhalt": "Das DVGW-Arbeitsblatt W 551 regelt technische Maßnahmen zur Verminderung des Legionellenwachstums in Trinkwassererwärmungs- und Leitungsanlagen. Es unterscheidet Kleinanlagen (Ein-/Zweifamilienhäuser) und Großanlagen.\n\nKernpunkte: Warmwasserspeicher sollen am Austritt mindestens 60 °C bereitstellen, Zirkulation soll an keiner Stelle unter 55 °C fallen. Großanlagen (Speicher > 400 Liter oder Wasserinhalt einer Leitung zwischen Erwärmer und Entnahme > 3 Liter) gelten als hygienisch sensibel und unterliegen Untersuchungspflichten (Legionellenprüfung). Totleitungen und Stagnation sind zu vermeiden, Zirkulationssysteme nach DVGW W 553 zu bemessen.\n\nGreift bei Planung, Erneuerung und Betrieb von Warmwasseranlagen. Besonders wichtig bei Mehrfamilienhäusern, öffentlichen/gewerblichen Gebäuden und bei Wärmepumpen-Warmwasser (niedrige Temperaturen erfordern besonderes Hygienekonzept). Für den Bot: Speichervolumen, Leitungsinhalt und Gebäudeart entscheiden über den Pflichtumfang.",
+    "tags": [
+      "norm",
+      "dvgw",
+      "w551",
+      "legionellen",
+      "warmwasser",
+      "zirkulation",
+      "trinkwasserhygiene"
+    ],
+    "metadata": {
+      "geltungsbereich": "Trinkwassererwärmungsanlagen",
+      "schwellen": [
+        "Speicher > 400 l = Großanlage",
+        "Leitungsinhalt > 3 l = Großanlage",
+        "Speicheraustritt >= 60 °C",
+        "Zirkulation >= 55 °C"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Sanitär bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Sanitär folgende Leistungen an:\n\n- Trinkwasser-Installation: Neuverlegung, Erweiterung und Sanierung von Kalt- und Warmwasserleitungen (Kupfer, Edelstahl, Mehrschichtverbundrohr) inkl. Dimensionierung, Dichtheitsprüfung und Spülung.\n- Abwasser-/Entwässerungstechnik: HT-/SML-/KG-Leitungen, Anbindung von Sanitärobjekten, Rückstausicherung, Hebeanlagen.\n- Warmwasserbereitung: Speicher, Durchlauferhitzer, Frischwasserstationen, Zirkulation, Legionellenschutzkonzepte.\n- Sanitärobjekte: Montage von WC, Waschtisch, Dusche (auch bodengleich), Badewanne, Urinal, Armaturen.\n- Vorwandinstallation: Trockenbau-Installationswände mit Spülkasten- und Montageelementen.\n- Komplette Badsanierungen inkl. Koordination der Nebengewerke (Abdichtung, Fliesen, Estrich).\n- Wartung, Reparatur und Hygieneinspektionen (Probenahme, Spülung, Desinfektion).\n- Regenwassernutzung und Grauwasseranlagen auf Anfrage.\n\nAlle Arbeiten normkonform nach DIN 1988, DIN EN 806, DIN 1986-100 und den DVGW-Arbeitsblättern.",
+    "tags": [
+      "leistungsübersicht",
+      "sanitaer",
+      "trinkwasser",
+      "abwasser",
+      "warmwasser",
+      "badsanierung"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Heizkessel/Wärmeerzeuger austauschen (Heizungstausch)",
+    "inhalt": "Diese Regel greift, wenn ein bestehender Wärmeerzeuger (Gas-/Ölkessel) ausgetauscht oder erneuert werden soll. Pflichtfragen vor der Kalkulation:\n\n1. Welcher Wärmeerzeuger ist im Bestand (Brennstoff, Baujahr, Leistung in kW, Brennwert oder Niedertemperatur)?\n2. Welcher neue Wärmeerzeuger ist gewünscht/zulässig? (Gas-Brennwert, Wärmepumpe, Hybrid, Pellet, Fernwärme) - GEG-Vorgaben zu 65 % erneuerbaren Energien beachten.\n3. Wie hoch ist die Heizlast des Gebäudes (kW)? Liegt eine Heizlastberechnung nach DIN EN 12831 vor oder muss sie erstellt werden?\n4. Welche Vorlauftemperatur fahren die vorhandenen Heizflächen? (Wichtig v.a. für Wärmepumpen-Eignung: Heizkörper vs. Fußbodenheizung).\n5. Wie sieht die Abgasführung/der Schornstein aus? (Querschnitt, Tauglichkeit für Brennwert, Sanierung des Schornsteins nötig?).\n6. Aufstellort, Platzbedarf, Tragfähigkeit und Zugänglichkeit für Einbringung/Demontage?\n7. Anschlüsse: Gas, Strom, Kondensatablauf, Sicherheitsgruppe, Ausdehnungsgefäß vorhanden und ausreichend?\n8. Soll ein hydraulischer Abgleich durchgeführt werden? (bei Förderung in der Regel Pflicht).\n9. Werden Speicher/Pufferspeicher und Warmwasserbereitung mitgetauscht?\n10. Werden Fördermittel beantragt (BEG/KfW/BAFA) - dann bestimmte technische Anforderungen einhalten?",
+    "tags": [
+      "heizungstausch",
+      "wärmeerzeuger",
+      "brennwert",
+      "wärmepumpe",
+      "heizlast",
+      "geg",
+      "hydraulischer abgleich",
+      "din en 12831",
+      "förderung"
+    ],
+    "metadata": {
+      "trigger": "Bestehender Wärmeerzeuger (Kessel) wird ausgetauscht oder erneuert",
+      "pflichtfragen": [
+        "Bestand: Brennstoff, Baujahr, Leistung (kW), Brennwert/Niedertemperatur?",
+        "Gewünschter neuer Erzeuger (Gas-Brennwert, Wärmepumpe, Hybrid, Pellet, Fernwärme) und GEG-Konformität (65 % EE)?",
+        "Heizlast des Gebäudes (kW), Heizlastberechnung nach DIN EN 12831 vorhanden?",
+        "Vorlauftemperatur der vorhandenen Heizflächen (Heizkörper vs. Fußbodenheizung)?",
+        "Abgasführung/Schornstein tauglich (Brennwert), Sanierung nötig?",
+        "Aufstellort, Platz, Tragfähigkeit, Einbringung?",
+        "Anschlüsse (Gas, Strom, Kondensat, Sicherheitsgruppe, Ausdehnungsgefäß) ausreichend?",
+        "Hydraulischer Abgleich durchführen?",
+        "Speicher/Puffer und Warmwasser mittauschen?",
+        "Fördermittel (BEG/KfW/BAFA) beantragen?"
+      ],
+      "sonderfaelle": [
+        "GEG-Pflicht 65 % erneuerbare Energien bei neuem Heizungseinbau (Fristen je Kommune/Wärmeplanung beachten)",
+        "Wärmepumpe nur effizient bei niedriger Vorlauftemperatur - ggf. Heizflächen tauschen oder vergrößern",
+        "Brennwert braucht feuchteunempfindlichen, abgedichteten Schornstein und Kondensatablauf/-neutralisation",
+        "Kondensat aus Öl-Brennwert in der Regel neutralisieren",
+        "Hydraulischer Abgleich Verfahren B meist Förderbedingung",
+        "Schornsteinfegerabnahme und Bezirksschornsteinfeger einbeziehen"
+      ],
+      "normen": [
+        "GEG (Gebäudeenergiegesetz)",
+        "DIN EN 12831 (Heizlastberechnung)",
+        "DIN EN 12828 (Heizungsanlagen in Gebäuden)",
+        "1. BImSchV (Feuerungsanlagen, Emissionen)",
+        "VDI 4645 (Planung Wärmepumpen)"
+      ],
+      "material_hinweise": [
+        "Bei Wärmepumpe auf Schallschutz (Außeneinheit) und Kältemittel (GWP, F-Gase) achten",
+        "Brennwert-Therme mit modulierender Leistung passend zur Heizlast (nicht überdimensionieren)",
+        "Pufferspeicher für Wärmepumpe/Festbrennstoff zur Laufzeitoptimierung",
+        "Hocheffizienzpumpe und thermostatische/voreinstellbare Ventile für Abgleich"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Wärmepumpe einbauen (Luft-Wasser / Sole-Wasser)",
+    "inhalt": "Diese Regel greift beim Einbau einer Wärmepumpe als Wärmeerzeuger. Pflichtfragen:\n\n1. Welche Wärmepumpenart? (Luft-Wasser außen/innen aufgestellt, Sole-Wasser mit Erdsonde/Flächenkollektor, Wasser-Wasser).\n2. Wie hoch ist die Heizlast (kW) nach DIN EN 12831 und der Warmwasserbedarf?\n3. Welche maximale Vorlauftemperatur brauchen die Heizflächen im Auslegungsfall? (entscheidend für JAZ/Effizienz).\n4. Wo wird die Außeneinheit aufgestellt und sind die Schallgrenzwerte zur Nachbarbebauung einhaltbar? (TA Lärm, Abstände).\n5. Welches Kältemittel und welche Füllmenge? (F-Gase-Verordnung, GWP, ggf. R290/Propan mit Sicherheitsabständen).\n6. Stromanschluss: ausreichende Leistung, separater Zähler/Wärmepumpentarif, Sperrzeiten des Netzbetreibers (§14a EnWG)?\n7. Hydraulik: Pufferspeicher nötig, hydraulischer Abgleich, Mindestumlaufwassermenge/Abtaubetrieb?\n8. Bei Sole-Wasser: Bohrgenehmigung, Geologie, Wasserschutzgebiet, Platz für Kollektor?\n9. Kondensat-/Tauwasserableitung der Außeneinheit (frostfrei)?\n10. Fördermittel (BEG) und damit verbundene Anforderungen?",
+    "tags": [
+      "wärmepumpe",
+      "luft-wasser",
+      "sole-wasser",
+      "jaz",
+      "schallschutz",
+      "f-gase",
+      "r290",
+      "hydraulischer abgleich",
+      "14a enwg",
+      "förderung"
+    ],
+    "metadata": {
+      "trigger": "Wärmepumpe soll als Wärmeerzeuger eingebaut werden",
+      "pflichtfragen": [
+        "Wärmepumpenart (Luft-Wasser, Sole-Wasser, Wasser-Wasser)?",
+        "Heizlast (kW) und Warmwasserbedarf?",
+        "Maximale Vorlauftemperatur der Heizflächen im Auslegungsfall?",
+        "Aufstellort Außeneinheit und Schallgrenzwerte zur Nachbarschaft einhaltbar?",
+        "Kältemittel und Füllmenge (F-Gase, GWP, R290-Sicherheitsabstände)?",
+        "Stromanschluss ausreichend, WP-Tarif, Sperrzeiten/§14a EnWG?",
+        "Hydraulik: Pufferspeicher, hydraulischer Abgleich, Abtaubetrieb?",
+        "Bei Sole-Wasser: Bohrgenehmigung, Geologie, Wasserschutzgebiet, Platz?",
+        "Kondensat-/Tauwasserableitung frostfrei?",
+        "Fördermittel (BEG) und Anforderungen?"
+      ],
+      "sonderfaelle": [
+        "Hohe Vorlauftemperatur (alte Heizkörper) senkt Effizienz - Heizflächen prüfen/tauschen",
+        "Schallschutz Außeneinheit: Mindestabstände, Aufstellort, ggf. Schallhaube; TA Lärm zur Nachbarbebauung",
+        "R290 (Propan) brennbar - Sicherheitsabstände zu Öffnungen/Lichtschächten einhalten",
+        "Sole-Wasser-Bohrung genehmigungspflichtig, in Wasserschutzgebieten oft eingeschränkt",
+        "Netzbetreiber-Anmeldung und §14a EnWG (steuerbare Verbrauchseinrichtung)",
+        "Mindestumlaufwassermenge für sicheren Abtaubetrieb sicherstellen (Puffer/Überströmer)"
+      ],
+      "normen": [
+        "DIN EN 12831 (Heizlast)",
+        "VDI 4645 (Planung und Dimensionierung Wärmepumpen)",
+        "F-Gase-Verordnung (EU) 517/2014",
+        "TA Lärm (Schallimmissionsschutz)",
+        "§14a EnWG (steuerbare Verbrauchseinrichtungen)",
+        "GEG / BEG-Förderbedingungen"
+      ],
+      "material_hinweise": [
+        "Kältemittel mit niedrigem GWP bevorzugen (z.B. R290), Sicherheitskonzept beachten",
+        "Modulierende Inverter-Wärmepumpe passend zur Heizlast",
+        "Pufferspeicher (Reihen-/Parallelpuffer) für Abtau und Laufzeit",
+        "Schallarme Geräte und schwingungsentkoppelte Aufstellung wählen"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Fußbodenheizung einbauen oder nachrüsten",
+    "inhalt": "Diese Regel greift beim Einbau oder Nachrüsten einer Flächenheizung (Fußboden, ggf. Wand). Pflichtfragen:\n\n1. Neubau/Estrich offen oder Nachrüstung im Bestand? (Bei Bestand: Nass-System mit neuem Estrich, Trockensystem oder dünnschichtiges Fräs-/Aufbausystem).\n2. Welche verfügbare Aufbauhöhe steht zur Verfügung? (begrenzt die Systemwahl im Bestand stark).\n3. Wie groß sind die zu beheizenden Flächen (m² je Raum) und welche Heizlast/Raumtemperatur?\n4. Welcher Bodenbelag kommt drauf? (Fliese, Parkett, Vinyl, Teppich - Wärmedurchlasswiderstand begrenzt Leistung).\n5. Welche Wärmequelle und welche Vorlauftemperatur? (Flächenheizung ideal mit Wärmepumpe/niedriger Vorlauf).\n6. Verlegeabstand, Heizkreislängen und Anzahl Heizkreise/Verteiler - wo sitzt der Heizkreisverteiler?\n7. Randdämmung, Dämmung nach unten (GEG), Trittschall?\n8. Estrichart und Trocknungs-/Aufheizprogramm (Belegreife)?\n9. Einzelraumregelung (ERR) gefordert? (in der Regel Pflicht; Ausnahmen eng begrenzt).\n10. Wird der Bestandsboden entfernt/aufgestemmt (Nebengewerk) und ist Trinkwasser/Abwasser im selben Aufbau betroffen?",
+    "tags": [
+      "fußbodenheizung",
+      "flächenheizung",
+      "estrich",
+      "aufbauhöhe",
+      "vorlauftemperatur",
+      "heizkreisverteiler",
+      "einzelraumregelung",
+      "din en 1264"
+    ],
+    "metadata": {
+      "trigger": "Fußboden-/Flächenheizung wird eingebaut oder nachgerüstet",
+      "pflichtfragen": [
+        "Neubau (Estrich offen) oder Nachrüstung im Bestand (Nass/Trocken/Dünnschicht)?",
+        "Verfügbare Aufbauhöhe?",
+        "Flächen (m² je Raum), Heizlast und Raumtemperatur?",
+        "Bodenbelag (Fliese, Parkett, Vinyl, Teppich)?",
+        "Wärmequelle und Vorlauftemperatur?",
+        "Verlegeabstand, Heizkreislängen, Anzahl Heizkreise, Verteilerstandort?",
+        "Dämmung nach unten (GEG), Randdämmung, Trittschall?",
+        "Estrichart und Aufheizprogramm/Belegreife?",
+        "Einzelraumregelung (ERR) gefordert?",
+        "Bestandsboden aufstemmen (Nebengewerk) und Leitungen im Aufbau betroffen?"
+      ],
+      "sonderfaelle": [
+        "Zu geringe Aufbauhöhe im Bestand erzwingt Dünnschicht-/Trockensystem (geringere Leistung)",
+        "Dichter Bodenbelag (dicker Teppich) begrenzt Wärmeabgabe stark",
+        "Aufheizprotokoll/Belegreife vor Verlegung des Belags zwingend (Rissvermeidung)",
+        "Beim Aufstemmen vorhandene Heizkreise/Leitungen orten und schützen",
+        "Einzelraumregelung nach GEG grundsätzlich erforderlich",
+        "Funktionsheizen und Belegreifheizen unterscheiden und dokumentieren"
+      ],
+      "normen": [
+        "DIN EN 1264 (Raumflächenintegrierte Heiz- und Kühlsysteme)",
+        "DIN EN 12831 (Heizlast)",
+        "GEG (Dämmung, Einzelraumregelung)",
+        "DIN 18560 (Estriche im Bauwesen)"
+      ],
+      "material_hinweise": [
+        "Sauerstoffdichtes Heizrohr (PE-RT/PE-X mit Sauerstoffsperre) verwenden",
+        "Tackersystem, Noppenplatte oder Klett je nach Aufbau",
+        "Trockenestrich-/Klimaboden-System bei geringer Aufbauhöhe",
+        "Heizkreisverteiler mit Durchflussmessern für hydraulischen Abgleich"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Heizkörper austauschen oder ergänzen",
+    "inhalt": "Diese Regel greift, wenn Heizkörper getauscht, ergänzt oder versetzt werden. Pflichtfragen:\n\n1. Wie viele Heizkörper, in welchen Räumen und mit welcher Heizlast je Raum (kW)?\n2. Welcher Heizkörpertyp ist gewünscht? (Kompakt-/Plattenheizkörper, Röhren-/Designheizkörper, Badheizkörper/Handtuchtrockner, Konvektor).\n3. Welche Vorlauftemperatur steht zur Verfügung? (bei Wärmepumpe Niedertemperatur - Heizkörper entsprechend größer auslegen).\n4. Wie ist der Bestandsanschluss? (Seitenanschluss/Mittelanschluss, Nabenabstand, vorhandene Ventile/Verschraubungen).\n5. Müssen Anschlussleitungen versetzt werden (Stemmen/Schlitzen) oder passt der vorhandene Anschluss?\n6. Sind voreinstellbare Thermostatventile/Rücklaufverschraubungen für den hydraulischen Abgleich vorhanden?\n7. Soll der hydraulische Abgleich mit erfolgen?\n8. Tragfähigkeit der Wand (Designheizkörper schwer, Trockenbau/Befestigung)?",
+    "tags": [
+      "heizkörper",
+      "plattenheizkörper",
+      "designheizkörper",
+      "badheizkörper",
+      "vorlauftemperatur",
+      "thermostatventil",
+      "hydraulischer abgleich"
+    ],
+    "metadata": {
+      "trigger": "Heizkörper werden getauscht, ergänzt oder versetzt",
+      "pflichtfragen": [
+        "Anzahl Heizkörper, Räume und Heizlast je Raum (kW)?",
+        "Gewünschter Heizkörpertyp (Kompakt, Design, Bad, Konvektor)?",
+        "Verfügbare Vorlauftemperatur (Wärmepumpe = Niedertemperatur)?",
+        "Bestandsanschluss (Seiten-/Mittelanschluss, Nabenabstand, Ventile)?",
+        "Anschlussleitungen versetzen (Stemmen) oder vorhandener Anschluss passend?",
+        "Voreinstellbare Ventile/Rücklaufverschraubungen vorhanden?",
+        "Hydraulischer Abgleich gewünscht?",
+        "Wandtragfähigkeit/Befestigung (v.a. Designheizkörper)?"
+      ],
+      "sonderfaelle": [
+        "Bei niedriger Vorlauftemperatur Heizkörper deutlich größer auslegen oder Niedertemperatur-/Ventilatorheizkörper wählen",
+        "Mittelanschluss-Heizkörper passend zu vorhandenem Anschlussbild wählen",
+        "Anschluss versetzen erzeugt Stemm-/Schlitz- und Putzaufwand (Nebengewerk)",
+        "Designheizkörper im Bad benötigt tragfähige Befestigung",
+        "Hydraulischer Abgleich nach Tausch sinnvoll/förderrelevant"
+      ],
+      "normen": [
+        "DIN EN 442 (Heizkörper, Leistungsangaben)",
+        "DIN EN 12831 (Heizlast)",
+        "GEG / BEG (hydraulischer Abgleich bei Förderung)"
+      ],
+      "material_hinweise": [
+        "Niedertemperatur-/größer dimensionierte Heizkörper bei Wärmepumpe",
+        "Voreinstellbare Thermostatventile für Abgleich verwenden",
+        "Badheizkörper ggf. mit Elektro-Patrone für Sommerbetrieb"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Hydraulischer Abgleich durchführen",
+    "inhalt": "Diese Regel greift, wenn ein hydraulischer Abgleich der Heizungsanlage durchgeführt werden soll (oft Förderbedingung oder zur Effizienzsteigerung). Pflichtfragen:\n\n1. Welches Verfahren ist gefordert? (Verfahren A = vereinfacht/schätzbasiert, Verfahren B = raumweise Heizlast - für Förderung in der Regel Verfahren B).\n2. Liegt eine raumweise Heizlastberechnung vor oder muss sie erstellt werden (Gebäudedaten, Flächen, Bauteile)?\n3. Welche Heizflächen sind verbaut (Heizkörper mit voreinstellbaren Ventilen? Fußbodenheizung mit regelbarem Verteiler?)?\n4. Sind die vorhandenen Thermostatventile/Rücklaufverschraubungen voreinstellbar oder müssen sie getauscht werden?\n5. Welche Umwälzpumpe ist verbaut (Hocheffizienzpumpe, regelbar)? Soll sie getauscht/angepasst werden?\n6. Sind Anlagendaten bekannt (Vorlauftemperatur, Differenzdruck, Rohrnetz)?\n7. Soll eine Förderung beantragt und der Abgleich entsprechend dokumentiert werden (Bestätigung)?",
+    "tags": [
+      "hydraulischer abgleich",
+      "verfahren b",
+      "heizlast",
+      "thermostatventil",
+      "umwälzpumpe",
+      "förderung",
+      "effizienz"
+    ],
+    "metadata": {
+      "trigger": "Hydraulischer Abgleich der Heizungsanlage gefordert (Förderung/Effizienz)",
+      "pflichtfragen": [
+        "Verfahren A (vereinfacht) oder B (raumweise Heizlast) gefordert?",
+        "Raumweise Heizlastberechnung vorhanden oder zu erstellen?",
+        "Heizflächen (Heizkörper mit voreinstellbaren Ventilen / Fußbodenheizung mit Verteiler)?",
+        "Thermostatventile/Rücklaufverschraubungen voreinstellbar oder Tausch nötig?",
+        "Umwälzpumpe (Hocheffizienz, regelbar) - Tausch/Anpassung nötig?",
+        "Anlagendaten (Vorlauftemperatur, Differenzdruck, Rohrnetz) bekannt?",
+        "Förderantrag und Dokumentation/Bestätigung gewünscht?"
+      ],
+      "sonderfaelle": [
+        "Verfahren B fast immer Förderbedingung (BEG)",
+        "Nicht voreinstellbare Ventile müssen vor Abgleich getauscht werden",
+        "Ungeregelte alte Umwälzpumpe gegen Hocheffizienzpumpe tauschen",
+        "Bei Fußbodenheizung Abgleich über Durchflussmesser am Verteiler",
+        "Optimierung der Vorlauftemperatur/Heizkurve gehört dazu"
+      ],
+      "normen": [
+        "DIN EN 12831 (Heizlast als Grundlage Verfahren B)",
+        "VdZ-Formular Hydraulischer Abgleich (Förderbestätigung)",
+        "GEG / BEG-Förderrichtlinien"
+      ],
+      "material_hinweise": [
+        "Voreinstellbare Thermostatventile und Rücklaufverschraubungen",
+        "Hocheffizienz-Umwälzpumpe (Differenzdruckregelung)",
+        "Durchflussmesser/Topmeter am Heizkreisverteiler der Fußbodenheizung"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "howto",
+    "titel": "Wärmeerzeuger richtig dimensionieren - Heizlast statt Daumenwert",
+    "inhalt": "Vorgehen zur richtigen Auslegung eines Wärmeerzeugers:\n\n1. Heizlast ermitteln: Statt pauschaler Faustwerte (W/m²) die Norm-Heizlast nach DIN EN 12831 berechnen - raumweise, mit Transmissions- und Lüftungswärmeverlusten, U-Werten der Bauteile und Auslegungstemperatur des Standorts. Bei Sanierungen vereinfachtes Verfahren möglich, für Wärmepumpen/Förderung jedoch sorgfältige Berechnung sinnvoll.\n\n2. Warmwasserbedarf berücksichtigen: Gleichzeitigkeit und Spitzenbedarf einbeziehen, ggf. Speicher entsprechend wählen.\n\n3. Nicht überdimensionieren: Ein zu großer Kessel taktet, läuft ineffizient und verschleißt. Modulierende Geräte passend zur Heizlast wählen. Bei Wärmepumpen ist Überdimensionierung besonders schädlich (Takten, Schall, geringere JAZ).\n\n4. Vorlauftemperatur als Schlüsselgröße: Je niedriger die nötige Vorlauftemperatur, desto effizienter (v.a. Brennwert/Wärmepumpe). Heizflächen prüfen und ggf. vergrößern.\n\n5. Systembetrachtung: Erzeuger, Speicher, Hydraulik, Regelung und Heizflächen als Gesamtsystem auslegen; hydraulischen Abgleich einplanen.\n\nFür den Bot: Ohne Heizlast (kW) und Vorlauftemperatur ist keine seriöse Geräteauswahl möglich - das sind Pflichtangaben.",
+    "tags": [
+      "howto",
+      "dimensionierung",
+      "heizlast",
+      "din en 12831",
+      "vorlauftemperatur",
+      "modulation"
+    ],
+    "metadata": {
+      "normen": [
+        "DIN EN 12831",
+        "DIN EN 12828"
+      ],
+      "tipps": [
+        "Nicht überdimensionieren",
+        "Vorlauftemperatur senken",
+        "Systembetrachtung statt Einzelgerät"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "norm",
+    "titel": "GEG - Gebäudeenergiegesetz (Heizung/Effizienz)",
+    "inhalt": "Das Gebäudeenergiegesetz (GEG) bündelt die Anforderungen an die energetische Qualität von Gebäuden und an Heizungsanlagen. Für die Heizung zentral: Neu eingebaute Heizungen müssen grundsätzlich mit einem Anteil von mindestens 65 % erneuerbaren Energien betrieben werden - die Umsetzung ist an die kommunale Wärmeplanung und Übergangsfristen gekoppelt. Erfüllungsoptionen sind u.a. Wärmepumpe, Anschluss an Wärmenetz, Stromdirektheizung (bei gutem Dämmstandard), Hybridheizung, Biomasse oder H2-ready-Gasheizungen unter Bedingungen.\n\nWeitere Punkte: Pflicht zur Dämmung von Rohrleitungen und Armaturen, Einzelraumregelung bei Flächenheizungen, Austauschpflichten für sehr alte Konstanttemperaturkessel (Altersgrenze), hydraulischer Abgleich im Zusammenhang mit Optimierung/Förderung, Effizienzanforderungen an Umwälzpumpen.\n\nGreift bei Neubau, Heizungstausch und größeren Sanierungen. Eng verzahnt mit der BEG-Förderung. Für den Bot relevant: Bei jedem Heizungstausch ist die GEG-Konformität (Erfüllungsoption, Fristen) zu prüfen.",
+    "tags": [
+      "norm",
+      "geg",
+      "65 prozent ee",
+      "wärmeplanung",
+      "rohrdämmung",
+      "einzelraumregelung",
+      "beg"
+    ],
+    "metadata": {
+      "geltungsbereich": "Energetische Anforderungen Gebäude und Heizungsanlagen",
+      "kernpunkte": [
+        "65 % erneuerbare Energien bei neuer Heizung",
+        "Dämmpflicht Leitungen/Armaturen",
+        "Einzelraumregelung",
+        "Austauschpflicht alter Kessel"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Heizung bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Heizung folgende Leistungen an:\n\n- Wärmeerzeuger: Einbau und Austausch von Gas-Brennwertgeräten, Wärmepumpen (Luft-Wasser, Sole-Wasser), Hybrid- und Pelletsystemen, Anbindung an Fernwärme.\n- Heizlastberechnung nach DIN EN 12831 und Anlagenauslegung.\n- Flächenheizung: Einbau und Nachrüstung von Fußboden- und Wandheizungen (Nass-, Trocken-, Dünnschichtsysteme).\n- Heizkörper: Montage, Austausch, Versetzen von Kompakt-, Design- und Badheizkörpern.\n- Speicher und Hydraulik: Puffer- und Kombispeicher, Verteiler, Sicherheitsgruppen, Ausdehnungsgefäße.\n- Hydraulischer Abgleich (Verfahren A und B) inkl. Förderbestätigung.\n- Regelung und Optimierung: Heizkurve, Einzelraumregelung, Hocheffizienzpumpen.\n- Wartung, Störungsbeseitigung und Inbetriebnahme.\n- Beratung und Begleitung bei Fördermitteln (BEG/KfW/BAFA).\n\nAlle Arbeiten GEG-konform und nach DIN EN 12828.",
+    "tags": [
+      "leistungsübersicht",
+      "heizung",
+      "wärmepumpe",
+      "brennwert",
+      "fußbodenheizung",
+      "hydraulischer abgleich"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "klima",
+    "typ": "wenn_dann",
+    "titel": "Split-Klimaanlage einbauen (Single- oder Multisplit)",
+    "inhalt": "Diese Regel greift beim Einbau einer Split-Klimaanlage zur Kühlung (und ggf. Heizung). Pflichtfragen:\n\n1. Wie viele Räume sollen versorgt werden und wie groß sind sie (m², Raumhöhe, Nutzung)? - Single-Split (1 Innengerät) oder Multisplit (mehrere)?\n2. Wie hoch ist die Kühllast je Raum? (Fensterflächen/Ausrichtung, innere Lasten, Personen, Geräte - überschlägige Kühllastermittlung).\n3. Wo sollen Innen- und Außengerät platziert werden und wie lang ist die Kältemittelleitung dazwischen (Meter, Höhenunterschied)?\n4. Wie wird das Kondensat abgeführt? (Gefälle zum Ablauf oder Kondensatpumpe nötig).\n5. Welcher Kältemitteltyp und welche Füllmenge? (F-Gase-Verordnung, GWP, R32 üblich; Dichtheits-/Dokumentationspflichten ab bestimmter Füllmenge).\n6. Ist ein Stromanschluss am Aufstellort vorhanden/ausreichend abgesichert?\n7. Sind Wand-/Deckendurchbrüche nötig und betreffen sie brandschutz-/statikrelevante Bauteile?\n8. Schallschutz: Außengerät zur Nachbarbebauung (Grenzwerte, Abstand, Aufstellort)?\n9. Soll die Anlage auch heizen (Wärmepumpenbetrieb) - Auslegung für Winterbetrieb?\n10. Optik/Genehmigung: Fassade, Denkmalschutz, Eigentümergemeinschaft (WEG-Zustimmung)?",
+    "tags": [
+      "klimaanlage",
+      "split",
+      "multisplit",
+      "kühllast",
+      "kältemittel",
+      "r32",
+      "f-gase",
+      "kondensat",
+      "schallschutz",
+      "vdi 2078"
+    ],
+    "metadata": {
+      "trigger": "Split-/Multisplit-Klimaanlage zur Kühlung (ggf. Heizung) soll eingebaut werden",
+      "pflichtfragen": [
+        "Anzahl/Größe der Räume (m², Höhe, Nutzung) - Single- oder Multisplit?",
+        "Kühllast je Raum (Fenster/Ausrichtung, innere Lasten, Personen)?",
+        "Platzierung Innen-/Außengerät und Länge/Höhenunterschied der Kältemittelleitung?",
+        "Kondensatableitung (Gefälle oder Kondensatpumpe)?",
+        "Kältemitteltyp und Füllmenge (F-Gase, GWP, R32)?",
+        "Stromanschluss vorhanden/ausreichend abgesichert?",
+        "Wand-/Deckendurchbrüche nötig (Brandschutz/Statik)?",
+        "Schallschutz Außengerät zur Nachbarschaft?",
+        "Soll die Anlage auch heizen (Auslegung Winterbetrieb)?",
+        "Genehmigung Fassade/Denkmalschutz/WEG-Zustimmung?"
+      ],
+      "sonderfaelle": [
+        "Arbeiten am Kältekreis nur durch zertifiziertes Personal (Kcategorie nach F-Gase/ChemKlimaschutzV)",
+        "Schallschutz Außengerät zur Nachbarbebauung (TA Lärm, Mindestabstände)",
+        "Kondensatpumpe nötig, wenn kein Gefälle zum Ablauf möglich",
+        "WEG/Vermieter-Zustimmung für Außengerät an der Fassade",
+        "Durchbrüche durch Brandwände abschotten",
+        "Dichtheitsprüfung/Vakuumieren des Kältekreises vor Inbetriebnahme zwingend"
+      ],
+      "normen": [
+        "F-Gase-Verordnung (EU) 517/2014 und ChemKlimaschutzV",
+        "VDI 2078 (Kühllastberechnung)",
+        "DIN EN 378 (Kälteanlagen, Sicherheit und Umwelt)",
+        "TA Lärm (Schallimmissionen)"
+      ],
+      "material_hinweise": [
+        "R32-Geräte mit niedrigerem GWP gegenüber R410A bevorzugen",
+        "Vorgefertigte/isolierte Kältemittelleitungen, fachgerecht vakuumieren",
+        "Inverter-Geräte für Teillasteffizienz und Schall",
+        "Kondensatpumpe mit Sicherheitsabschaltung gegen Wasserschaden"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "wenn_dann",
+    "titel": "VRF-/VRV-Klimasystem für Gewerbe einbauen",
+    "inhalt": "Diese Regel greift bei größeren gewerblichen Klimatisierungen mit VRF-/VRV-System (mehrere Innengeräte an einem oder wenigen Außengeräten, Wärmerückgewinnung möglich). Pflichtfragen:\n\n1. Wie viele Zonen/Räume und welche Nutzung (Büro, Verkauf, Serverraum, Gastronomie)? Gleichzeitig Kühlen und Heizen gefordert (Wärmerückgewinnung)?\n2. Wie hoch ist die Kühl-/Heizlast je Zone (VDI 2078) und der Gleichzeitigkeitsfaktor?\n3. Welche Innengerätetypen (Kassette, Kanalgerät, Wandgerät, Truhe) und wo?\n4. Leitungsführung: Trassenlängen, Höhenunterschiede, Refnet-Verteiler, Platz für Trassen/Abhangdecke?\n5. Kältemittelmenge gesamt und Raumgrößen - Sicherheitsgrenzwerte/Leckageerkennung nach DIN EN 378?\n6. Aufstellort Außengerät(e): Statik (Dach), Schall, Zuluft/Abluft frei?\n7. Stromversorgung, Einbindung in die Gebäudeleittechnik/Regelung (Zentralsteuerung, BACnet/Modbus)?\n8. Kondensatentwässerung aller Innengeräte (Pumpen, Sammelleitung mit Gefälle)?\n9. Brandschutz: Durchführungen, Brandschutzklappen bei Kanalgeräten?",
+    "tags": [
+      "vrf",
+      "vrv",
+      "gewerbe",
+      "wärmerückgewinnung",
+      "kühllast",
+      "din en 378",
+      "gebäudeleittechnik",
+      "kältemittel"
+    ],
+    "metadata": {
+      "trigger": "Gewerbliches VRF-/VRV-Klimasystem mit mehreren Innengeräten soll eingebaut werden",
+      "pflichtfragen": [
+        "Anzahl Zonen/Räume und Nutzung; gleichzeitig Kühlen/Heizen (Wärmerückgewinnung)?",
+        "Kühl-/Heizlast je Zone (VDI 2078) und Gleichzeitigkeitsfaktor?",
+        "Innengerätetypen (Kassette, Kanal, Wand, Truhe) und Positionen?",
+        "Trassenlängen, Höhenunterschiede, Verteiler, Platz in Abhangdecke?",
+        "Gesamte Kältemittelmenge vs. Raumgrößen (Sicherheitsgrenzwerte/Leckageerkennung)?",
+        "Aufstellort Außengerät (Statik Dach, Schall, freie Luftführung)?",
+        "Stromversorgung und Einbindung in GLT/Regelung (BACnet/Modbus)?",
+        "Kondensatentwässerung aller Innengeräte?",
+        "Brandschutz (Durchführungen, Brandschutzklappen)?"
+      ],
+      "sonderfaelle": [
+        "Kältemittel-Konzentrationsgrenze je Raum nach DIN EN 378 - ggf. Leckagewarnanlage",
+        "Serverraum/EDV braucht hohe Verfügbarkeit (Redundanz, Ganzjahreskühlung)",
+        "Statik der Dachaufstellung und Schwingungsentkopplung prüfen",
+        "Brandschutzklappen in Lüftungskanälen von Kanalgeräten",
+        "Arbeiten am Kältekreis nur durch zertifizierten Kältefachbetrieb"
+      ],
+      "normen": [
+        "VDI 2078 (Kühllast)",
+        "DIN EN 378 (Kälteanlagen Sicherheit)",
+        "F-Gase-Verordnung (EU) 517/2014",
+        "VDI 6022 (bei Außenlufteinbindung/Hygiene)"
+      ],
+      "material_hinweise": [
+        "Wärmerückgewinnungssystem (3-Leiter) wenn gleichzeitig Heizen/Kühlen nötig",
+        "Kältemittel mit niedrigem GWP, Leckageerkennung einplanen",
+        "Innengeräte mit Kondensatpumpe wo kein Gefälle möglich",
+        "Schnittstellen für GLT (BACnet/Modbus) berücksichtigen"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "wenn_dann",
+    "titel": "Serverraum-/EDV-Kühlung (Präzisionsklima)",
+    "inhalt": "Diese Regel greift bei der Kühlung von Server-/Technikräumen mit hohen, ganzjährigen Lasten. Pflichtfragen:\n\n1. Wie hoch ist die abzuführende Wärmelast (kW) der IT-Technik (Anschlussleistung der Geräte) und wie wächst sie künftig?\n2. Welche Verfügbarkeit ist gefordert? (Redundanz N+1, 24/7-Betrieb, Notkühlung).\n3. Raumgröße, Rack-Anordnung, Warm-/Kaltgang, vorhandene Lüftung?\n4. Welche Soll-Temperatur und -Feuchte? (ASHRAE-Empfehlung, Taupunkt, Befeuchtung/Entfeuchtung nötig?).\n5. Aufstellort der Außeneinheit/Rückkühler, Trassen, Statik?\n6. Freie Kühlung (Free Cooling) im Winter gewünscht (Energieeinsparung)?\n7. Stromversorgung, USV-Anbindung, Überwachung/Alarmierung (GLT, Temperaturwächter)?\n8. Kondensatableitung, Leckageüberwachung?\n9. Brandschutz und Zutritts-/Sicherheitsanforderungen des Raums?",
+    "tags": [
+      "serverraum",
+      "edv-kühlung",
+      "präzisionsklima",
+      "redundanz",
+      "free cooling",
+      "ashrae",
+      "usv",
+      "din en 378"
+    ],
+    "metadata": {
+      "trigger": "Server-/Technikraum mit hoher ganzjähriger Wärmelast soll gekühlt werden",
+      "pflichtfragen": [
+        "Abzuführende Wärmelast (kW) der IT und künftiges Wachstum?",
+        "Geforderte Verfügbarkeit/Redundanz (N+1, 24/7, Notkühlung)?",
+        "Raumgröße, Rack-Anordnung, Warm-/Kaltgang?",
+        "Soll-Temperatur und -Feuchte (ASHRAE, Taupunkt, Be-/Entfeuchtung)?",
+        "Aufstellort Rückkühler/Außeneinheit, Trassen, Statik?",
+        "Freie Kühlung (Free Cooling) gewünscht?",
+        "Stromversorgung, USV-Anbindung, Überwachung/Alarmierung?",
+        "Kondensatableitung und Leckageüberwachung?",
+        "Brandschutz- und Zutrittsanforderungen?"
+      ],
+      "sonderfaelle": [
+        "Redundanz N+1 bei kritischer IT, automatische Umschaltung",
+        "Free Cooling spart im Winter erhebliche Energie",
+        "Temperatur-/Feuchteüberwachung mit Alarm auf GLT/Leitstelle",
+        "Leckageüberwachung im Doppelboden",
+        "Kältemittel-Konzentrationsgrenzen nach DIN EN 378 beachten"
+      ],
+      "normen": [
+        "DIN EN 378 (Kälteanlagen Sicherheit)",
+        "VDI 2078 / VDI 3804 (Kühllast/RZ-Klima)",
+        "ASHRAE TC 9.9 (RZ-Klimaempfehlungen)",
+        "F-Gase-Verordnung (EU) 517/2014"
+      ],
+      "material_hinweise": [
+        "Präzisionsklimageräte (CRAC/CRAH) mit enger Temperatur-/Feuchteregelung",
+        "Free-Cooling-fähige Rückkühler",
+        "Redundante Auslegung und USV-gestützte Steuerung",
+        "Leckage- und Kondensatüberwachung"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "howto",
+    "titel": "Kühllast überschlägig ermitteln und Klimagerät auswählen",
+    "inhalt": "Vorgehen zur Auswahl eines Klimageräts:\n\n1. Kühllast ermitteln: Korrekt nach VDI 2078 (innere Lasten durch Personen, Beleuchtung, Geräte; äußere Lasten durch Transmission und Sonneneinstrahlung über Fenster/Ausrichtung). Faustwerte (W/m²) nur als grobe Orientierung - bei großen Glasflächen, Südausrichtung oder Serverlast deutlich höher.\n\n2. Gerätetyp wählen: Single-Split für einen Raum, Multisplit für mehrere Räume an einem Außengerät, VRF/VRV für Gewerbe mit vielen Zonen. Innengerätebauform (Wand, Kassette, Kanal, Truhe) nach Raum und Optik.\n\n3. Kältemittel und Effizienz: R32 (niedrigeres GWP) ist heute Standard; auf hohe SEER/SCOP-Werte achten. F-Gase-Verordnung bestimmt Dokumentations- und Dichtheitspflichten je nach CO2-Äquivalent der Füllmenge.\n\n4. Installation: Kältemittelleitung fachgerecht verlegen, vakuumieren und Dichtheit prüfen; Kondensat mit Gefälle oder Pumpe sicher ableiten; Außengerät schallarm und genehmigungskonform aufstellen.\n\n5. Heizfunktion: Wenn auch geheizt werden soll, für den Winterbetrieb (Abtauung, Leistung bei niedrigen Außentemperaturen) auslegen.\n\nFür den Bot: Raumgröße/Nutzung, Lasten, Leitungslänge und Kältemittelmenge sind die kalkulationsrelevanten Pflichtangaben.",
+    "tags": [
+      "howto",
+      "kühllast",
+      "vdi 2078",
+      "split",
+      "vrf",
+      "r32",
+      "seer",
+      "vakuumieren"
+    ],
+    "metadata": {
+      "normen": [
+        "VDI 2078",
+        "DIN EN 378",
+        "F-Gase-Verordnung"
+      ],
+      "tipps": [
+        "Glasflächen/Ausrichtung treiben die Last",
+        "Vakuumieren nicht überspringen",
+        "Kondensat sicher ableiten"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "norm",
+    "titel": "F-Gase-Verordnung und DIN EN 378 - Kältemittel und Sicherheit",
+    "inhalt": "Die F-Gase-Verordnung (EU 517/2014, mit Fortschreibungen) regelt den Umgang mit fluorierten Treibhausgasen (Kältemittel). Kernpunkte: Phase-Down der verfügbaren Mengen mit hohem GWP, Dichtheitsprüfpflichten abhängig vom CO2-Äquivalent der Füllmenge, Pflicht zur Rückgewinnung und sachgerechten Entsorgung, sowie Sachkunde-/Zertifizierungspflicht für Personal und Betriebe, die Arbeiten am Kältekreis ausführen (in Deutschland über die ChemKlimaschutzV geregelt). Es entsteht ein klarer Trend zu Kältemitteln mit niedrigem GWP (z.B. R32, R290).\n\nDIN EN 378 (Teile 1-4) regelt Sicherheit und Umweltschutz von Kälteanlagen: zulässige Kältemittel-Füllmengen je Raumvolumen und Sicherheitsklasse, Aufstellung, Leckageerkennung, Schutzmaßnahmen bei brennbaren (A2L/A3) oder toxischen Kältemitteln, Kennzeichnung und Wartung.\n\nGreift bei jeder Planung, Errichtung und Wartung von Klima-/Kälteanlagen mit Kältemittel. Für den Bot: Kältemitteltyp und Füllmenge bestimmen Pflichten (Dichtheitsprüfung, Leckageschutz, Sachkunde) und sind daher kalkulationsrelevant.",
+    "tags": [
+      "norm",
+      "f-gase",
+      "din en 378",
+      "kältemittel",
+      "gwp",
+      "dichtheitsprüfung",
+      "chemklimaschutzv",
+      "sachkunde"
+    ],
+    "metadata": {
+      "geltungsbereich": "Umgang mit Kältemitteln und Sicherheit von Kälteanlagen",
+      "kernpunkte": [
+        "Phase-Down hoher GWP",
+        "Dichtheitsprüfpflicht nach CO2-Äquivalent",
+        "Sachkunde-/Zertifizierungspflicht",
+        "Füllmengengrenzen je Raum (EN 378)"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Klima bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Klima folgende Leistungen an:\n\n- Wohnraumklimatisierung: Single- und Multisplit-Anlagen zur Kühlung und Heizung (Wärmepumpenbetrieb).\n- Gewerbeklimatisierung: VRF-/VRV-Systeme mit Wärmerückgewinnung für Büro, Handel und Gastronomie.\n- Präzisionsklima: Kühlung von Server- und Technikräumen, Redundanz- und Free-Cooling-Konzepte.\n- Kühllastberechnung nach VDI 2078 und Anlagenauslegung.\n- Kältemittelinstallation durch zertifiziertes Personal inkl. Vakuumieren, Dichtheitsprüfung und Dokumentation nach F-Gase-Verordnung.\n- Kondensatmanagement und Leckageschutz.\n- Einbindung in Regelung und Gebäudeleittechnik.\n- Wartung, Dichtheitsprüfungen und Störungsbeseitigung.\n\nAlle Arbeiten nach DIN EN 378 und F-Gase-Verordnung; Kältemittel mit niedrigem GWP bevorzugt.",
+    "tags": [
+      "leistungsübersicht",
+      "klima",
+      "split",
+      "vrf",
+      "serverraum",
+      "f-gase"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "wenn_dann",
+    "titel": "Kontrollierte Wohnraumlüftung mit Wärmerückgewinnung einbauen (zentral)",
+    "inhalt": "Diese Regel greift beim Einbau einer zentralen Lüftungsanlage mit Wärmerückgewinnung (KWL/WRG) in Wohngebäuden. Pflichtfragen:\n\n1. Neubau oder Bestand? Ist genug Platz für Zentralgerät und Kanalnetz (Abhangdecke, Schacht, Dachboden) vorhanden?\n2. Wie viele Räume/Wohneinheiten und welche Wohnfläche? Welche Zu- und Ablufträume (Wohn-/Schlafräume = Zuluft, Bad/Küche/WC = Abluft)?\n3. Welcher Luftvolumenstrom ist nötig (Nennlüftung nach DIN 1946-6, Lüftung zum Feuchteschutz)?\n4. Wo steht das Lüftungsgerät und wie werden Außen-/Fortluft geführt (Dach/Fassade, Abstand zu Fenstern/Gerüchen)?\n5. Kanalführung: Rund-/Flachkanal, Wickelfalzrohr oder Verteilersystem mit flexiblen Rohren, Platzbedarf, Schalldämpfer?\n6. Wie wird Kondensat des Wärmetauschers abgeführt?\n7. Brandschutz: Durchführungen, Brandschutzklappen bei mehreren Brandabschnitten/Wohneinheiten?\n8. Schallschutz: Telefonie-/Übersprechen zwischen Räumen, Geräteschall?\n9. Hygiene: Filterzugänglichkeit, Reinigbarkeit der Kanäle (VDI 6022)?\n10. Soll eine Feuchterückgewinnung (Enthalpietauscher) oder ein Sommerbypass vorgesehen werden?",
+    "tags": [
+      "kwl",
+      "wohnraumlüftung",
+      "wärmerückgewinnung",
+      "din 1946-6",
+      "luftvolumenstrom",
+      "brandschutzklappe",
+      "vdi 6022",
+      "sommerbypass"
+    ],
+    "metadata": {
+      "trigger": "Zentrale Wohnraumlüftung mit Wärmerückgewinnung soll eingebaut werden",
+      "pflichtfragen": [
+        "Neubau oder Bestand; Platz für Gerät und Kanalnetz vorhanden?",
+        "Anzahl Räume/Wohneinheiten, Wohnfläche, Zu-/Ablufträume?",
+        "Erforderlicher Luftvolumenstrom (Nennlüftung nach DIN 1946-6)?",
+        "Gerätestandort und Führung Außen-/Fortluft?",
+        "Kanalsystem (Rund/Flach, Verteilersystem), Platz, Schalldämpfer?",
+        "Kondensatableitung des Wärmetauschers?",
+        "Brandschutz (Durchführungen, Brandschutzklappen)?",
+        "Schallschutz (Telefonieschall, Geräteschall)?",
+        "Hygiene (Filterzugang, Reinigbarkeit, VDI 6022)?",
+        "Enthalpietauscher (Feuchte) oder Sommerbypass vorsehen?"
+      ],
+      "sonderfaelle": [
+        "Lüftungskonzept nach DIN 1946-6 ist bei luftdichter Sanierung/Neubau in der Regel erforderlich",
+        "Brandschutzklappen bei Durchführung durch Brandabschnitte/zwischen Wohneinheiten",
+        "Telefonieschalldämpfer gegen Schallübertragung zwischen Räumen",
+        "Feuerstätten (Kamin/Therme raumluftabhängig) - Unterdruckproblematik prüfen (Differenzdruckwächter)",
+        "Sommerbypass gegen Überhitzung in der Übergangszeit",
+        "Kondensatablauf mit Siphon, frostfrei bei Außenaufstellung"
+      ],
+      "normen": [
+        "DIN 1946-6 (Lüftung von Wohnungen)",
+        "VDI 6022 (Raumlufthygiene)",
+        "DIN EN 13779 / DIN EN 16798 (Lüftung von Nichtwohngebäuden)",
+        "DIN 18017-3 (Lüftung innenliegender Bäder/WC)"
+      ],
+      "material_hinweise": [
+        "Gegenstrom-Wärmetauscher mit hohem Rückgewinnungsgrad",
+        "Enthalpietauscher bei Bedarf an Feuchterückgewinnung",
+        "Schallgedämmte Kanäle/Telefonieschalldämpfer",
+        "Gut zugängliche Filter (F7/ISO ePM1) und reinigbare Kanäle"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "wenn_dann",
+    "titel": "Entlüftung innenliegendes Bad/WC einbauen oder nachrüsten",
+    "inhalt": "Diese Regel greift bei der Entlüftung fensterloser Bäder, WCs oder Hauswirtschaftsräume. Pflichtfragen:\n\n1. Wie groß ist der Raum (m³) und welche Nutzung (Bad mit Dusche, nur WC, HWR)?\n2. Wie wird die Fortluft nach außen geführt? (Einzelventilator mit Kanal über Dach/Fassade, vorhandener Lüftungsschacht, zentrale Anlage)?\n3. Ist ein Lüftungsschacht vorhanden und nutzbar (Querschnitt, Belegung, Sammelschacht)?\n4. Welcher Volumenstrom ist nötig (Nennlüftung nach DIN 18017-3)?\n5. Soll der Ventilator feuchte-/präsenzgesteuert laufen und mit Nachlauf?\n6. Stromanschluss/Schaltung (an Lichtschalter koppeln, separate Versorgung)?\n7. Sind Brandschutz-/Schallschutzanforderungen am Schacht/an Durchführungen zu beachten?\n8. Bei Nachrüstung im Bestand: Wand-/Deckendurchbruch nötig (Stemmen, Kernbohrung)?",
+    "tags": [
+      "entlüftung",
+      "innenliegendes bad",
+      "din 18017-3",
+      "ventilator",
+      "lüftungsschacht",
+      "feuchtesteuerung",
+      "nachlauf"
+    ],
+    "metadata": {
+      "trigger": "Innenliegendes Bad/WC/HWR ohne Fenster soll entlüftet werden",
+      "pflichtfragen": [
+        "Raumgröße (m³) und Nutzung (Bad/WC/HWR)?",
+        "Fortluftführung (Einzelventilator mit Kanal, vorhandener Schacht, zentrale Anlage)?",
+        "Lüftungsschacht vorhanden und nutzbar (Querschnitt/Belegung)?",
+        "Erforderlicher Volumenstrom (DIN 18017-3)?",
+        "Steuerung (Feuchte/Präsenz, Nachlauf)?",
+        "Stromanschluss/Schaltung (Lichtschalter-Kopplung)?",
+        "Brandschutz-/Schallschutz am Schacht/Durchführungen?",
+        "Bei Bestand: Durchbruch/Kernbohrung nötig?"
+      ],
+      "sonderfaelle": [
+        "Sammelschacht in Mehrfamilienhaus: Brandschutz und Rückströmung beachten (z.B. Nichtrückschlag, Schachtventilator)",
+        "Feuchtegesteuerter Lüfter mit Nachlauf für Komfort/Energie",
+        "Bei dichten Gebäuden Zuluftnachströmung sicherstellen (Türspalt/Überströmer)",
+        "Kernbohrung durch Außenwand frostfrei/wetterfest abschließen (Wetterschutzgitter)"
+      ],
+      "normen": [
+        "DIN 18017-3 (Lüftung innenliegender Bäder und Toiletten mit Ventilatoren)",
+        "DIN 1946-6 (Wohnungslüftung, Gesamtkonzept)"
+      ],
+      "material_hinweise": [
+        "Leiser Rohr-/Wandventilator mit Rückstauklappe",
+        "Feuchte-/Bewegungssensor und Nachlaufrelais",
+        "Wetterschutzgitter und Insektenschutz an der Fortluft"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "wenn_dann",
+    "titel": "Gewerbliche Lüftungs-/RLT-Anlage einbauen",
+    "inhalt": "Diese Regel greift bei raumlufttechnischen Anlagen (RLT) in Nichtwohngebäuden (Büro, Versammlung, Gastronomie, Produktion). Pflichtfragen:\n\n1. Welche Nutzung und Personenbelegung je Bereich (bestimmt den Außenluftbedarf)?\n2. Welche Funktionen sind gefordert (nur Lüftung, Heizen, Kühlen, Befeuchten, Entfeuchten, Wärmerückgewinnung)?\n3. Welcher Volumenstrom gesamt und je Zone (DIN EN 16798/16798-3)?\n4. Aufstellort des RLT-Geräts (Technikzentrale, Dach), Statik, Platz, Zugänglichkeit für Wartung?\n5. Kanalnetz: Trassenführung, Querschnitte, Druckverluste, Platz in Abhangdecke/Schacht?\n6. Brandschutz: Brandschutzklappen an Brandabschnittsgrenzen, Entrauchungsanforderungen?\n7. Schallschutz: Geräteschall, Kanalschall, Telefonieschall, Immissionen nach außen?\n8. Hygiene nach VDI 6022 (Zugänglichkeit, Filter, Befeuchtung)?\n9. Regelung/GLT-Einbindung, bedarfsgeführte Lüftung (CO2/Präsenz)?\n10. Spezielle Anforderungen (Küchenabluft mit Fettfilter, Labor, Reinraum)?",
+    "tags": [
+      "rlt",
+      "lüftungsanlage",
+      "gewerbe",
+      "din en 16798",
+      "brandschutzklappe",
+      "vdi 6022",
+      "co2-steuerung",
+      "wärmerückgewinnung"
+    ],
+    "metadata": {
+      "trigger": "Raumlufttechnische Anlage (RLT) in einem Nichtwohngebäude soll eingebaut werden",
+      "pflichtfragen": [
+        "Nutzung und Personenbelegung je Bereich?",
+        "Geforderte Funktionen (Lüften, Heizen, Kühlen, Be-/Entfeuchten, WRG)?",
+        "Volumenstrom gesamt und je Zone (DIN EN 16798)?",
+        "Aufstellort, Statik, Platz, Wartungszugang?",
+        "Kanalnetz (Trassen, Querschnitte, Druckverluste, Platz)?",
+        "Brandschutz (Brandschutzklappen, Entrauchung)?",
+        "Schallschutz (Gerät, Kanal, Telefonie, Immissionen außen)?",
+        "Hygiene nach VDI 6022?",
+        "Regelung/GLT, bedarfsgeführte Lüftung (CO2/Präsenz)?",
+        "Sonderanforderungen (Küchenabluft, Labor, Reinraum)?"
+      ],
+      "sonderfaelle": [
+        "Brandschutzklappen mit GLT-Aufschaltung an Brandabschnittsgrenzen",
+        "Küchenabluft braucht Fettfilter und reinigbare Kanäle (Brandgefahr)",
+        "Bedarfsgeführte Lüftung (CO2) spart Energie in Büro/Versammlung",
+        "Entrauchung/maschinelle Rauchabführung getrennt betrachten (Sonderbau)",
+        "Hygiene-Erstinspektion und Wartung nach VDI 6022 einplanen"
+      ],
+      "normen": [
+        "DIN EN 16798-3 (Lüftung von Nichtwohngebäuden)",
+        "VDI 6022 (Raumlufthygiene)",
+        "VDI 3803 (RLT-Bauliche und technische Anforderungen)",
+        "DIN EN 12101 (Rauch- und Wärmefreihaltung, bei Entrauchung)"
+      ],
+      "material_hinweise": [
+        "RLT-Gerät mit hocheffizienter Wärmerückgewinnung und EC-Ventilatoren",
+        "Brandschutzklappen mit Stellantrieb und Rückmeldung",
+        "Filterklassen nach ISO 16890 passend zur Nutzung",
+        "Schalldämpfer in Zu- und Abluft"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "howto",
+    "titel": "Lüftungskonzept nach DIN 1946-6 erstellen",
+    "inhalt": "Vorgehen für ein Lüftungskonzept in Wohngebäuden:\n\n1. Notwendigkeit prüfen: Bei Neubau oder wenn im Bestand mehr als ein Drittel der Fenster getauscht bzw. mehr als ein Drittel der Dachfläche abgedichtet wird, ist ein Lüftungskonzept nach DIN 1946-6 erforderlich (Schutz vor Feuchte/Schimmel durch luftdichte Hülle).\n\n2. Lüftungsstufen bestimmen: Die Norm definiert Lüftung zum Feuchteschutz (nutzerunabhängig sicherzustellen), reduzierte Lüftung, Nennlüftung (Normalbetrieb) und Intensivlüftung. Der notwendige Außenluftvolumenstrom richtet sich nach Wohnfläche und Wärmeschutzniveau.\n\n3. System wählen: Freie Lüftung (Fenster/Schacht, oft nicht ausreichend nutzerunabhängig) oder ventilatorgestützt - zentral (ein Gerät, Kanalnetz) oder dezentral (raumweise Geräte mit WRG). Mit Wärmerückgewinnung zur Energieeinsparung.\n\n4. Auslegen: Zu-/Ablufträume festlegen (Zuluft Wohn-/Schlafräume, Abluft Bad/Küche/WC, Überströmung dazwischen), Volumenströme berechnen, Kanalnetz und Schalldämpfer dimensionieren.\n\n5. Hygiene und Wartung: Filterzugänglichkeit, reinigbare Kanäle und Wartungsintervalle nach VDI 6022 von Anfang an mitdenken.\n\nFür den Bot: Wohnfläche, Raumaufteilung und Dichtheit/Sanierungsumfang sind die Pflichtangaben, um Notwendigkeit und Volumenströme zu bestimmen.",
+    "tags": [
+      "howto",
+      "lüftungskonzept",
+      "din 1946-6",
+      "feuchteschutz",
+      "nennlüftung",
+      "wrg",
+      "vdi 6022"
+    ],
+    "metadata": {
+      "normen": [
+        "DIN 1946-6",
+        "VDI 6022"
+      ],
+      "lueftungsstufen": [
+        "Feuchteschutz",
+        "reduzierte Lüftung",
+        "Nennlüftung",
+        "Intensivlüftung"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "norm",
+    "titel": "VDI 6022 - Hygiene in raumlufttechnischen Anlagen",
+    "inhalt": "Die Richtlinie VDI 6022 stellt Hygieneanforderungen an raumlufttechnische Anlagen und Geräte, die der Versorgung von Aufenthaltsräumen dienen. Ziel ist, gesundheitlich zuträgliche Zuluft sicherzustellen und mikrobielles Wachstum (z.B. in Befeuchtern, Filtern, Kanälen) zu verhindern.\n\nKernforderungen: hygienegerechte Planung und Bauausführung (zugängliche, reinigbare Komponenten, Inspektionsöffnungen), geeignete Filterkonzepte und regelmäßiger Filterwechsel, kontrollierte Befeuchtung (keine stehenden Wasserflächen, regelmäßige Wartung), Hygiene-Erstinspektion vor Inbetriebnahme sowie wiederkehrende Hygieneinspektionen in definierten Intervallen. Personal benötigt entsprechende VDI-6022-Schulung (Kategorien A/B).\n\nGreift bei Lüftungs-/Klimaanlagen mit Außenluft/Umluft für Aufenthaltsräume - sowohl Wohnungslüftung als auch RLT in Nichtwohngebäuden. Für den Bot: Hygieneanforderungen (Zugänglichkeit, Filter, Wartung) sind bei jeder Lüftungsplanung mitzudenken und beeinflussen Material und Wartungsleistung.",
+    "tags": [
+      "norm",
+      "vdi 6022",
+      "raumlufthygiene",
+      "filter",
+      "befeuchtung",
+      "hygieneinspektion",
+      "wartung"
+    ],
+    "metadata": {
+      "geltungsbereich": "Hygiene in RLT-Anlagen für Aufenthaltsräume",
+      "kernpunkte": [
+        "Reinigbarkeit/Zugänglichkeit",
+        "Filterkonzept und -wechsel",
+        "Hygiene-Erstinspektion",
+        "wiederkehrende Hygieneinspektionen",
+        "VDI-6022-Schulung des Personals"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Lüftung bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Lüftung folgende Leistungen an:\n\n- Kontrollierte Wohnraumlüftung mit Wärmerückgewinnung (zentral und dezentral).\n- Lüftungskonzepte nach DIN 1946-6 für Neubau und Sanierung.\n- Entlüftung innenliegender Bäder, WCs und Hauswirtschaftsräume nach DIN 18017-3.\n- Gewerbliche RLT-Anlagen für Büro, Handel, Gastronomie und Produktion inkl. Heizen/Kühlen/Wärmerückgewinnung.\n- Küchen- und Gewerbeabluft mit Fettfiltertechnik.\n- Kanalnetzplanung, Schalldämpfung und Brandschutzklappen.\n- Bedarfsgeführte Lüftung (CO2/Präsenz) und GLT-Einbindung.\n- Hygieneinspektionen, Filterwechsel und Wartung nach VDI 6022.\n\nAlle Arbeiten nach DIN 1946-6, DIN EN 16798 und VDI 6022.",
+    "tags": [
+      "leistungsübersicht",
+      "lüftung",
+      "kwl",
+      "rlt",
+      "din 1946-6",
+      "vdi 6022"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "wenn_dann",
+    "titel": "Gewerbekälte einbauen (Kühlraum / Kühl- und Tiefkühlzelle)",
+    "inhalt": "Diese Regel greift beim Einbau gewerblicher Kälte für Kühl-/Tiefkühlräume (Gastronomie, Lebensmittelhandel, Metzgerei, Bäckerei). Pflichtfragen:\n\n1. Welche Solltemperatur ist gefordert (Normalkühlung ca. +2 bis +8 °C, Tiefkühlung ca. -18 bis -22 °C) und welches Lagergut?\n2. Wie groß ist der Kühlraum (m³), wie ist die Dämmung (Paneeldicke), und wie hoch ist die Türfrequenz/Beladung?\n3. Wie hoch ist die Kälteleistung (kW) inkl. Einlagerungs-, Tür-, Personen- und Beleuchtungslasten?\n4. Welcher Verdichter-/Anlagentyp? (steckerfertiges Aggregat, Splitanlage, Verbundanlage) und Aufstellort des Verflüssigers (innen/außen)?\n5. Welches Kältemittel und welche Füllmenge? (F-Gase, GWP, zunehmend natürliche Kältemittel wie CO2/R744 oder Propan/R290; Sicherheits-/Füllmengengrenzen nach DIN EN 378).\n6. Abtauung (elektrisch/Heißgas), Kondensat-/Abtauwasserablauf frostfrei?\n7. Stromanschluss und Leistung ausreichend?\n8. Temperaturüberwachung/Alarmierung und HACCP-Dokumentation gefordert?\n9. Schallschutz des Verflüssigers zur Nachbarschaft?\n10. Brandschutz/Statik bei Durchführungen und Aufstellung?",
+    "tags": [
+      "gewerbekälte",
+      "kühlraum",
+      "tiefkühl",
+      "verbundanlage",
+      "co2",
+      "r744",
+      "r290",
+      "f-gase",
+      "haccp",
+      "din en 378"
+    ],
+    "metadata": {
+      "trigger": "Gewerbliche Kälteanlage für Kühl-/Tiefkühlraum soll eingebaut werden",
+      "pflichtfragen": [
+        "Solltemperatur (Normal-/Tiefkühlung) und Lagergut?",
+        "Kühlraumgröße (m³), Dämmung (Paneeldicke), Türfrequenz/Beladung?",
+        "Kälteleistung (kW) inkl. Einlagerungs-/Tür-/Personenlasten?",
+        "Anlagentyp (steckerfertig, Split, Verbund) und Aufstellort Verflüssiger?",
+        "Kältemittel und Füllmenge (F-Gase, GWP, CO2/R744 oder R290, EN 378)?",
+        "Abtauung (elektrisch/Heißgas) und Abtauwasserablauf frostfrei?",
+        "Stromanschluss/Leistung ausreichend?",
+        "Temperaturüberwachung/Alarm und HACCP-Dokumentation?",
+        "Schallschutz Verflüssiger zur Nachbarschaft?",
+        "Brandschutz/Statik bei Durchführungen/Aufstellung?"
+      ],
+      "sonderfaelle": [
+        "Natürliche Kältemittel (CO2/R744, R290) erfordern spezielle Sicherheits- und Druckkonzepte",
+        "Tiefkühlung braucht beheizten Türrahmen/Boden gegen Vereisung und frostfreien Abtauwasserablauf",
+        "Temperaturüberwachung mit Alarm (HACCP) für Lebensmittel zwingend",
+        "Füllmengengrenzen je Raum nach DIN EN 378 bei brennbaren/erstickenden Kältemitteln",
+        "Arbeiten am Kältekreis nur durch zertifizierten Kältefachbetrieb"
+      ],
+      "normen": [
+        "DIN EN 378 (Kälteanlagen Sicherheit und Umwelt)",
+        "F-Gase-Verordnung (EU) 517/2014",
+        "LMHV/HACCP (Lebensmittelhygiene, Temperaturdokumentation)",
+        "DGUV-Regeln (Sicherheit Kälteanlagen)"
+      ],
+      "material_hinweise": [
+        "Natürliche Kältemittel (CO2/R744 für Verbund, R290 für Steckerfertige) zukunftssicher",
+        "Ausreichend dicke Kühlzellenpaneele für Tiefkühlung",
+        "Heißgasabtauung bei Tiefkühlung effizienter",
+        "Temperaturdatenlogger/Alarm für HACCP"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "wenn_dann",
+    "titel": "Prozess-/Kaltwassersatz (Chiller) für Klimakälte einbauen",
+    "inhalt": "Diese Regel greift beim Einbau eines Kaltwassersatzes (Chiller) zur zentralen Kälteerzeugung für Klima oder Prozesskühlung. Pflichtfragen:\n\n1. Welche Kälteleistung (kW) wird benötigt und wie ist das Lastprofil (ganzjährig, saisonal, Teillast)?\n2. Welche Vor-/Rücklauftemperatur des Kaltwassers ist gefordert (Klima z.B. 6/12 °C, Prozess abweichend)?\n3. Luft- oder wassergekühlte Verflüssigung? Aufstellort (Dach/Außen/innen), Statik, Schall, freie Luftführung?\n4. Wird Freie Kühlung (Free Cooling) gewünscht (Energieeinsparung im Winter)?\n5. Hydraulik: Pufferspeicher, Pumpen, hydraulische Weiche, Frostschutz (Glykol) bei Außenaufstellung?\n6. Welches Kältemittel und welche Füllmenge (F-Gase, GWP, ggf. R290/R513A/R1234ze)?\n7. Stromversorgung, Einbindung in GLT/Regelung, Redundanz gefordert?\n8. Kondensat-/Leckageüberwachung, Brandschutz, Genehmigungen?",
+    "tags": [
+      "chiller",
+      "kaltwassersatz",
+      "prozesskühlung",
+      "klimakälte",
+      "free cooling",
+      "glykol",
+      "f-gase",
+      "din en 378"
+    ],
+    "metadata": {
+      "trigger": "Kaltwassersatz/Chiller zur zentralen Kälteerzeugung soll eingebaut werden",
+      "pflichtfragen": [
+        "Kälteleistung (kW) und Lastprofil (ganzjährig/saisonal/Teillast)?",
+        "Geforderte Vor-/Rücklauftemperatur Kaltwasser?",
+        "Luft- oder wassergekühlt, Aufstellort, Statik, Schall, Luftführung?",
+        "Freie Kühlung (Free Cooling) gewünscht?",
+        "Hydraulik (Puffer, Pumpen, Weiche, Glykol-Frostschutz)?",
+        "Kältemittel und Füllmenge (F-Gase, GWP)?",
+        "Stromversorgung, GLT-Einbindung, Redundanz?",
+        "Kondensat-/Leckageüberwachung, Brandschutz, Genehmigungen?"
+      ],
+      "sonderfaelle": [
+        "Free Cooling spart bei niedrigen Außentemperaturen viel Energie",
+        "Außenaufstellung braucht Frostschutz (Glykol) - Leistungs-/Pumpenkorrektur beachten",
+        "Redundanz (zwei Chiller) bei prozesskritischer Kühlung",
+        "Schall- und Statikgutachten bei Dachaufstellung",
+        "Füllmengen-/Sicherheitskonzept nach DIN EN 378"
+      ],
+      "normen": [
+        "DIN EN 378 (Kälteanlagen Sicherheit)",
+        "F-Gase-Verordnung (EU) 517/2014",
+        "VDI 2078 (Kühllast bei Klimaanwendung)",
+        "VDMA 24247 (Energieeffizienz Kälteanlagen)"
+      ],
+      "material_hinweise": [
+        "Chiller mit Free-Cooling-Funktion und EC-Ventilatoren",
+        "Kältemittel mit niedrigem GWP (z.B. R290, R1234ze, R513A)",
+        "Pufferspeicher gegen Takten, hydraulische Weiche",
+        "Glykol-Wassergemisch bei Frostgefahr"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "howto",
+    "titel": "Kälteanlage in Betrieb nehmen - Vakuumieren, Dichtheit, Befüllung",
+    "inhalt": "Vorgehen bei Inbetriebnahme einer Kälteanlage/eines Kältekreises:\n\n1. Vorbereitung: Nur zertifiziertes Personal (Sachkunde nach ChemKlimaschutzV/F-Gase) darf am Kältekreis arbeiten. Leitungen sauber, hartgelötet unter Schutzgas (Stickstoff), Verbindungen geprüft.\n\n2. Druckprüfung auf Dichtheit: Mit Inertgas (Stickstoff) auf den zulässigen Druck prüfen und Festigkeit/Dichtheit nachweisen (kein Prüfen mit Sauerstoff oder dem Kältemittel selbst).\n\n3. Vakuumieren/Evakuieren: Kreis mit Vakuumpumpe trockenlegen, Restfeuchte und nichtkondensierbare Gase entfernen, ausreichend tiefes Vakuum erreichen und Standzeit prüfen (Vakuumzerfall = Leckage/Feuchte).\n\n4. Befüllung: Kältemittel exakt nach Herstellervorgabe einwiegen (Füllmenge dokumentieren - relevant für F-Gase-Dichtheitsprüfpflichten). Bei zeotropen Gemischen flüssig befüllen.\n\n5. Funktionsprüfung: Drücke, Über-/Unterkühlung, Verdichterlauf, Sicherheitskette, Abtauung und Regelung prüfen; Temperaturüberwachung/Alarm testen.\n\n6. Dokumentation: Anlagenbuch/F-Gase-Dokumentation, Füllmenge, Dichtheitsprüfung und Inbetriebnahmeprotokoll - Pflicht ab bestimmten CO2-Äquivalenten.\n\nFür den Bot: Kältemitteltyp und Füllmenge bestimmen Sachkunde- und Dokumentationspflichten und sind kalkulationsrelevant.",
+    "tags": [
+      "howto",
+      "inbetriebnahme",
+      "vakuumieren",
+      "dichtheitsprüfung",
+      "kältemittel",
+      "f-gase",
+      "anlagenbuch"
+    ],
+    "metadata": {
+      "normen": [
+        "DIN EN 378",
+        "F-Gase-Verordnung",
+        "ChemKlimaschutzV"
+      ],
+      "tipps": [
+        "Hartlöten unter Stickstoff",
+        "Nie mit Sauerstoff druckprüfen",
+        "Füllmenge einwiegen und dokumentieren"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "norm",
+    "titel": "DIN EN 378 - Sicherheit und Umwelt von Kälteanlagen",
+    "inhalt": "DIN EN 378 (Teile 1-4) ist die zentrale Sicherheitsnorm für Kälteanlagen und Wärmepumpen. Sie behandelt grundlegende Anforderungen, Begriffe und Klassifizierung (Teil 1), Konstruktion/Herstellung (Teil 2), Aufstellungsort und Schutz von Personen (Teil 3) sowie Betrieb, Instandhaltung, Reparatur und Rückgewinnung (Teil 4).\n\nKernpunkte: Einteilung der Kältemittel in Sicherheitsgruppen (z.B. A1 nicht brennbar/gering toxisch, A2L schwer entflammbar, A3 brennbar wie Propan, B höher toxisch), Festlegung maximal zulässiger Füllmengen je nach Kältemittel, Sicherheitsgruppe, Aufstellungsart und Raumvolumen (praktischer Grenzwert), Anforderungen an Leckageerkennung, Belüftung von Maschinenräumen, Kennzeichnung, Druckabsicherung und Schutzeinrichtungen.\n\nGreift bei Planung, Errichtung, Betrieb und Wartung jeder Kälteanlage/Wärmepumpe mit Kältemittel. Zusammen mit der F-Gase-Verordnung bildet sie den Sicherheits- und Umweltrahmen. Für den Bot: Kältemitteltyp, Füllmenge und Raumvolumen entscheiden über Sicherheitsmaßnahmen (Leckagewarnung, Belüftung, Aufstellungsgrenzen).",
+    "tags": [
+      "norm",
+      "din en 378",
+      "kältemittel",
+      "sicherheitsgruppe",
+      "füllmenge",
+      "leckageerkennung",
+      "a2l",
+      "a3"
+    ],
+    "metadata": {
+      "geltungsbereich": "Sicherheit und Umwelt von Kälteanlagen und Wärmepumpen",
+      "kernpunkte": [
+        "Sicherheitsgruppen A1/A2L/A3/B",
+        "max. Füllmenge je Raum/Sicherheitsgruppe",
+        "Leckageerkennung",
+        "Maschinenraumbelüftung",
+        "Druckabsicherung"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Kälte bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Kälte folgende Leistungen an:\n\n- Gewerbekälte: Kühl- und Tiefkühlräume/-zellen, steckerfertige Aggregate, Split- und Verbundanlagen für Gastronomie und Lebensmittelhandel.\n- Klima-/Prozesskälte: Kaltwassersätze (Chiller) mit und ohne Freie Kühlung.\n- Planung und Auslegung der Kälteleistung inkl. Lastermittlung.\n- Kältemittelmanagement: Installation mit natürlichen Kältemitteln (CO2/R744, R290) und niedrig-GWP-Lösungen, Dichtheitsprüfung und F-Gase-Dokumentation durch zertifiziertes Personal.\n- Temperaturüberwachung und HACCP-konforme Dokumentation.\n- Hydraulik, Pufferspeicher, Frostschutzkonzepte und GLT-Einbindung.\n- Wartung, wiederkehrende Dichtheitsprüfungen und Störungsbeseitigung.\n\nAlle Arbeiten nach DIN EN 378 und F-Gase-Verordnung.",
+    "tags": [
+      "leistungsübersicht",
+      "kälte",
+      "gewerbekälte",
+      "chiller",
+      "co2",
+      "f-gase"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "Zählerschrank/Unterverteilung erneuern oder erweitern",
+    "inhalt": "Diese Regel greift, wenn der Zählerschrank, die Hauptverteilung oder eine Unterverteilung erneuert oder erweitert werden soll. Pflichtfragen:\n\n1. Was ist Anlass und Umfang? (Zählertausch auf moderne Messeinrichtung/Smart Meter, neue Stromkreise, Sanierung, Erweiterung für Wärmepumpe/Wallbox/PV)?\n2. Welche Anschlussleistung ist vorhanden und wird künftig benötigt (zusätzliche Lasten wie Wärmepumpe, Durchlauferhitzer, Wallbox)?\n3. Wie ist der Zustand der Bestandsanlage (Alter, Zustand, vorhandene Schutzmaßnahmen, FI/RCD vorhanden)?\n4. Entspricht der Schrank der aktuellen TAB des Netzbetreibers (Bauform, Zählerfeld, Platz für Smart-Meter-Gateway)?\n5. Wie viele Stromkreise und welche Absicherung werden benötigt (Selektivität, RCD-Aufteilung)?\n6. Ist Überspannungsschutz (SPD Typ 1/2/3) gefordert/vorhanden? (in Neubau/Sanierung in der Regel Pflicht).\n7. Müssen Wände/Putz für Leitungen geöffnet werden (Nebengewerk)?\n8. Ist eine Anmeldung beim Netzbetreiber und eine Abnahme durch eine Elektrofachkraft/Eintragung im Installateurverzeichnis nötig?\n9. Müssen Bestandsstromkreise dokumentiert/geprüft und der Bestand bei Eingriff normgerecht nachgerüstet werden?",
+    "tags": [
+      "zählerschrank",
+      "unterverteilung",
+      "smart meter",
+      "anschlussleistung",
+      "rcd",
+      "überspannungsschutz",
+      "tab",
+      "vde 0100"
+    ],
+    "metadata": {
+      "trigger": "Zählerschrank/Haupt-/Unterverteilung wird erneuert oder erweitert",
+      "pflichtfragen": [
+        "Anlass und Umfang (Zählertausch/Smart Meter, neue Kreise, WP/Wallbox/PV)?",
+        "Vorhandene und künftige Anschlussleistung (zusätzliche Großverbraucher)?",
+        "Zustand der Bestandsanlage (Alter, Schutzmaßnahmen, FI/RCD)?",
+        "Entspricht der Schrank der aktuellen TAB des Netzbetreibers (Platz Smart-Meter-Gateway)?",
+        "Anzahl Stromkreise und Absicherung (Selektivität, RCD-Aufteilung)?",
+        "Überspannungsschutz (SPD Typ 1/2/3) gefordert/vorhanden?",
+        "Wände/Putz öffnen für Leitungen (Nebengewerk)?",
+        "Netzbetreiber-Anmeldung und Abnahme durch eingetragene Elektrofachkraft?",
+        "Bestand dokumentieren/prüfen und bei Eingriff nachrüsten?"
+      ],
+      "sonderfaelle": [
+        "Arbeiten an der Zähleranlage nur durch im Installateurverzeichnis des Netzbetreibers eingetragenen Betrieb",
+        "Überspannungsschutz (SPD) bei Neuanlage/Sanierung in der Regel Pflicht (VDE 0100-443/-534)",
+        "Platz und Vorbereitung für Smart-Meter-Gateway/moderne Messeinrichtung vorsehen",
+        "RCD/FI-Schutz für relevante Stromkreise nachrüsten (z.B. Steckdosenkreise, Bad)",
+        "Bei Erweiterung um Wärmepumpe/Wallbox Anschlussleistung und §14a-Steuerbarkeit prüfen"
+      ],
+      "normen": [
+        "DIN VDE 0100 (Errichten von Niederspannungsanlagen, u.a. -410, -443, -530, -534)",
+        "DIN VDE 0603 / Zählerplatz-Vorgaben (TAB des Netzbetreibers)",
+        "VDE-AR-N 4100 (TAR Niederspannung, Anschlussnutzung)",
+        "DIN VDE 0100-600 (Prüfungen)"
+      ],
+      "material_hinweise": [
+        "Zählerschrank normkonform nach TAB mit Reserveplatz",
+        "Kombi-RCD/LS (RCBO) für flexible Absicherung",
+        "Überspannungsschutz Typ 1+2 (Kombiableiter) bei Bedarf",
+        "Reserve für künftige Stromkreise (WP, Wallbox, PV) einplanen"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "Wallbox / Ladeeinrichtung für E-Auto installieren",
+    "inhalt": "Diese Regel greift bei der Installation einer Wallbox/Ladeeinrichtung. Pflichtfragen:\n\n1. Welche Ladeleistung ist gewünscht (z.B. 11 kW oder 22 kW)? - 11 kW ist anmeldepflichtig, 22 kW genehmigungspflichtig beim Netzbetreiber.\n2. Wo soll die Wallbox montiert werden und wie lang ist der Leitungsweg zur Verteilung (Querschnitt, Spannungsfall)?\n3. Ist die Anschlussleistung/Hausanschluss ausreichend, ggf. Lastmanagement nötig (mehrere Ladepunkte)?\n4. Welcher Fehlerstromschutz? (RCD Typ A plus DC-Fehlerstromerkennung 6 mA, oft im Gerät integriert, sonst RCD Typ B).\n5. Eigener abgesicherter Stromkreis mit Leitungsschutzschalter vorhanden/zu setzen?\n6. Soll PV-Überschussladen/Steuerung integriert werden (Energiemanagement)?\n7. §14a EnWG: Steuerbarkeit durch den Netzbetreiber (Dimmung) umsetzen?\n8. Innen- oder Außenmontage (Schutzart, Witterung, Diebstahl)?\n9. Müssen Wände/Boden für die Leitung geöffnet werden (Nebengewerk), Durchbrüche nötig?",
+    "tags": [
+      "wallbox",
+      "ladeeinrichtung",
+      "e-auto",
+      "11 kw",
+      "22 kw",
+      "rcd typ b",
+      "lastmanagement",
+      "14a enwg",
+      "pv-ueberschuss"
+    ],
+    "metadata": {
+      "trigger": "Wallbox/Ladeeinrichtung für ein Elektrofahrzeug soll installiert werden",
+      "pflichtfragen": [
+        "Ladeleistung (11 kW anmeldepflichtig, 22 kW genehmigungspflichtig)?",
+        "Montageort und Leitungsweg zur Verteilung (Querschnitt, Spannungsfall)?",
+        "Anschlussleistung ausreichend, Lastmanagement nötig?",
+        "Fehlerstromschutz (RCD Typ A + 6 mA DC-Erkennung oder Typ B)?",
+        "Eigener abgesicherter Stromkreis vorhanden/zu setzen?",
+        "PV-Überschussladen/Energiemanagement gewünscht?",
+        "§14a EnWG Steuerbarkeit umsetzen?",
+        "Innen- oder Außenmontage (Schutzart, Witterung)?",
+        "Wände/Boden öffnen für Leitung, Durchbrüche (Nebengewerk)?"
+      ],
+      "sonderfaelle": [
+        "22 kW genehmigungspflichtig, 11 kW nur anmeldepflichtig beim Netzbetreiber",
+        "DC-Fehlerstromschutz 6 mA zwingend - entweder integriert oder RCD Typ B",
+        "Lastmanagement bei mehreren Ladepunkten oder begrenztem Hausanschluss",
+        "§14a EnWG: steuerbare Verbrauchseinrichtung (reduzierte Leistung zu Spitzenzeiten möglich, vergünstigtes Netzentgelt)",
+        "Außenmontage mind. IP44/IP54 und mechanischer Schutz",
+        "Spannungsfall bei langen Leitungswegen über Querschnitt kompensieren"
+      ],
+      "normen": [
+        "DIN VDE 0100-722 (Stromversorgung von Elektrofahrzeugen)",
+        "DIN VDE 0100-410 (Schutz gegen elektrischen Schlag)",
+        "VDE-AR-N 4100 (TAR Niederspannung)",
+        "§14a EnWG (steuerbare Verbrauchseinrichtungen)"
+      ],
+      "material_hinweise": [
+        "Wallbox mit integriertem DC-Fehlerstromschutz (spart RCD Typ B)",
+        "Eigener LS-Schalter und passender Leitungsquerschnitt",
+        "Lastmanagement-/Energiemanagement-fähige Geräte bei PV/mehreren Ladepunkten",
+        "Außengeräte mit ausreichender Schutzart und Eichrecht falls Abrechnung"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "PV-Anlage mit Speicher anschließen (Elektroseite)",
+    "inhalt": "Diese Regel greift beim elektrischen Anschluss einer Photovoltaikanlage mit/ohne Batteriespeicher. Pflichtfragen:\n\n1. Wie groß ist die geplante PV-Leistung (kWp) und welcher Wechselrichtertyp (einphasig/dreiphasig, Hybrid mit Speicher)?\n2. Wird ein Batteriespeicher installiert (Kapazität kWh, AC- oder DC-gekoppelt, Aufstellort/Brandschutz)?\n3. Wie ist die Einspeisung geplant (Überschusseinspeisung, Volleinspeisung, Nulleinspeisung) und ist ein Zählertausch/Zweirichtungszähler nötig?\n4. Ist der Zählerschrank für PV-Anschluss und Smart-Meter-Gateway vorbereitet (Platz, TAB)?\n5. Wie wird der DC-/AC-seitige Leitungsweg geführt (Dach zu Wechselrichter zu Verteilung), Querschnitte, Brandschutz?\n6. Überspannungsschutz DC und AC, Potenzialausgleich/Erdung der Modulflächen?\n7. Wird ein Energiemanagement (Eigenverbrauch, Wallbox, Wärmepumpe) integriert?\n8. Netzbetreiber-Anmeldung und Inbetriebsetzung sowie Marktstammdatenregister-Eintrag berücksichtigt?\n9. Notstrom-/Ersatzstromfunktion gewünscht (Inselbetrieb bei Netzausfall)?",
+    "tags": [
+      "photovoltaik",
+      "pv",
+      "speicher",
+      "wechselrichter",
+      "einspeisung",
+      "zweirichtungszähler",
+      "überspannungsschutz",
+      "potenzialausgleich",
+      "vde-ar-n 4105"
+    ],
+    "metadata": {
+      "trigger": "Photovoltaikanlage mit/ohne Batteriespeicher soll elektrisch angeschlossen werden",
+      "pflichtfragen": [
+        "PV-Leistung (kWp) und Wechselrichtertyp (ein-/dreiphasig, Hybrid)?",
+        "Batteriespeicher (kWh, AC/DC-gekoppelt, Aufstellort, Brandschutz)?",
+        "Einspeisekonzept (Überschuss/Voll/Null) und Zweirichtungszähler nötig?",
+        "Zählerschrank für PV und Smart-Meter-Gateway vorbereitet (TAB)?",
+        "Leitungsführung DC/AC, Querschnitte, Brandschutz?",
+        "Überspannungsschutz DC/AC und Potenzialausgleich/Erdung?",
+        "Energiemanagement (Eigenverbrauch, Wallbox, WP) integrieren?",
+        "Netzbetreiber-Anmeldung, Inbetriebsetzung, Marktstammdatenregister?",
+        "Notstrom-/Ersatzstromfunktion gewünscht?"
+      ],
+      "sonderfaelle": [
+        "Anmeldung beim Netzbetreiber und Eintrag im Marktstammdatenregister Pflicht",
+        "DC-Überspannungsschutz und Modul-Potenzialausgleich gegen Blitz/Überspannung",
+        "Batteriespeicher: Aufstellort, Temperatur und Brandschutz beachten",
+        "Ersatzstrom/Inselbetrieb erfordert geeigneten Hybrid-Wechselrichter und Umschaltung",
+        "Dreiphasige Wechselrichter wegen Schieflastgrenze bei größeren Anlagen"
+      ],
+      "normen": [
+        "VDE-AR-N 4105 (Erzeugungsanlagen am Niederspannungsnetz)",
+        "DIN VDE 0100-712 (Photovoltaik-Stromversorgungssysteme)",
+        "DIN VDE 0100-443/-534 (Überspannungsschutz)",
+        "VDE-AR-E 2510-50 (Batteriespeichersysteme)"
+      ],
+      "material_hinweise": [
+        "Hybrid-Wechselrichter wenn Speicher/Ersatzstrom gewünscht",
+        "DC- und AC-seitiger Überspannungsschutz",
+        "Geeigneter Leitungsquerschnitt und UV-/witterungsbeständige DC-Leitungen",
+        "Speicher mit zertifiziertem Sicherheitskonzept (BMS)"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "Elektroinstallation Neubau/Sanierung Wohneinheit",
+    "inhalt": "Diese Regel greift bei der Elektroinstallation einer Wohnung/eines Hauses (Neubau oder Kernsanierung). Pflichtfragen:\n\n1. Welcher Ausstattungswert ist gewünscht (Mindest-, Standard- oder Komfortausstattung nach RAL-RG 678 / DIN 18015-2)?\n2. Wie viele Räume und welche Nutzung - daraus Anzahl Steckdosen, Lichtauslässe, Schalter, Datenanschlüsse je Raum?\n3. Aufputz, Unterputz oder in Leerrohren/Installationszonen? Massivwand schlitzen oder Trockenbau?\n4. Welche Großverbraucher sind anzuschließen (Herd/Backofen, Durchlauferhitzer, Wärmepumpe, Wallbox)?\n5. Welche Schutzmaßnahmen (RCD-Aufteilung, Überspannungsschutz, Selektivität)?\n6. Sind Netzwerk/Smart-Home/KNX, Multimedia oder PV/Speicher vorzusehen (Leerrohre/Reserve)?\n7. Wie ist der Zustand/Umfang der vorhandenen Verteilung (Erweiterung nötig)?\n8. Boden-/Wandöffnungen und Durchbrüche (Nebengewerk), Brandschutz bei Geschossdurchführungen?\n9. Abnahme, Mess- und Prüfprotokoll nach VDE 0100-600 und Dokumentation?",
+    "tags": [
+      "elektroinstallation",
+      "neubau",
+      "sanierung",
+      "din 18015",
+      "installationszonen",
+      "rcd",
+      "knx",
+      "vde 0100-600"
+    ],
+    "metadata": {
+      "trigger": "Elektroinstallation einer Wohneinheit wird neu erstellt oder kernsaniert",
+      "pflichtfragen": [
+        "Ausstattungswert (Mindest/Standard/Komfort nach DIN 18015-2 / RAL-RG 678)?",
+        "Anzahl Räume und Nutzung (Steckdosen, Licht, Schalter, Daten je Raum)?",
+        "Verlegeart (AP/UP/Leerrohr), Massivwand schlitzen oder Trockenbau?",
+        "Großverbraucher (Herd, Durchlauferhitzer, WP, Wallbox)?",
+        "Schutzmaßnahmen (RCD-Aufteilung, Überspannungsschutz, Selektivität)?",
+        "Netzwerk/Smart-Home/KNX, Multimedia, PV/Speicher vorsehen?",
+        "Zustand/Umfang vorhandener Verteilung (Erweiterung nötig)?",
+        "Boden-/Wandöffnungen und Durchbrüche, Brandschutz (Nebengewerk)?",
+        "Abnahme und Prüfprotokoll nach VDE 0100-600?"
+      ],
+      "sonderfaelle": [
+        "Installationszonen nach DIN 18015-3 einhalten (Schutz vor Beschädigung beim Bohren)",
+        "Bad/Dusche: Schutzbereiche nach VDE 0100-701",
+        "Überspannungsschutz bei Neubau/Sanierung Pflicht",
+        "Reserve-Leerrohre für künftige Erweiterungen (Daten, PV, Wallbox)",
+        "Brandschotts bei Durchführungen durch Geschossdecken/Brandwände"
+      ],
+      "normen": [
+        "DIN 18015-1/-2/-3 (Planung Elektroanlagen in Wohngebäuden)",
+        "DIN VDE 0100 (diverse Teile, u.a. -410, -443, -520, -701)",
+        "DIN VDE 0100-600 (Erstprüfung)",
+        "RAL-RG 678 (Ausstattungswerte)"
+      ],
+      "material_hinweise": [
+        "Ausreichend RCD/RCBO und Überspannungsschutz",
+        "Leerrohre und Reserveadern für Zukunftssicherheit",
+        "KNX/Bussystem bei Smart-Home-Wunsch von Anfang einplanen",
+        "Markenschalterprogramm nach Kundenwunsch"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "howto",
+    "titel": "Elektroanlage prüfen und übergeben - Erstprüfung nach VDE 0100-600",
+    "inhalt": "Vorgehen bei Prüfung und Übergabe einer Elektroanlage:\n\n1. Besichtigen: Vor dem Einschalten die Anlage besichtigen - richtige Betriebsmittelauswahl, Schutzmaßnahmen, Kennzeichnung, Leiterquerschnitte, Schutzart, Zugänglichkeit.\n\n2. Erproben und Messen nach DIN VDE 0100-600: Durchgängigkeit der Schutzleiter, Isolationswiderstand, Schutz durch automatische Abschaltung (Schleifenimpedanz/Netzinnenwiderstand), Wirksamkeit der RCD (Auslösestrom und -zeit), Drehfeld, Spannungsfall.\n\n3. Schutzmaßnahmen prüfen: RCD-Funktion mit Prüftaste und Messgerät, Überspannungsschutz vorhanden/funktionsfähig, Potenzialausgleich.\n\n4. Dokumentation: Mess- und Prüfprotokoll erstellen, Stromlaufplan/Verteilerbeschriftung, Übergabe an den Kunden mit Bedienungshinweisen.\n\n5. Anmeldung/Abnahme: Bei Eingriffen an der Zähleranlage Netzbetreiber einbeziehen; Arbeiten nur durch eingetragene Elektrofachkraft.\n\n6. Wiederkehrende Prüfung: Für gewerbliche Anlagen/Betriebsmittel DGUV V3-Prüfung in Intervallen organisieren.\n\nFür den Bot: Eine normgerechte Übergabe inkl. Messprotokoll gehört zur Leistung und sollte eingeplant/kalkuliert werden.",
+    "tags": [
+      "howto",
+      "erstprüfung",
+      "vde 0100-600",
+      "isolationswiderstand",
+      "rcd-prüfung",
+      "messprotokoll",
+      "dguv v3"
+    ],
+    "metadata": {
+      "normen": [
+        "DIN VDE 0100-600",
+        "DIN VDE 0105-100 (Betrieb)",
+        "DGUV Vorschrift 3"
+      ],
+      "tipps": [
+        "Erst besichtigen, dann messen",
+        "RCD-Auslösung messtechnisch prüfen",
+        "Protokoll und Beschriftung übergeben"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "norm",
+    "titel": "DIN VDE 0100 - Errichten von Niederspannungsanlagen",
+    "inhalt": "Die Normenreihe DIN VDE 0100 regelt das Errichten elektrischer Anlagen bis 1000 V Wechselspannung. Sie ist in Gruppen gegliedert: Schutzmaßnahmen (z.B. -410 Schutz gegen elektrischen Schlag, -443/-534 Überspannungsschutz), Auswahl und Errichtung von Betriebsmitteln (z.B. -520 Kabel/Leitungen) und Anforderungen für Räume besonderer Art (z.B. -701 Räume mit Badewanne/Dusche, -712 Photovoltaik, -722 Ladeeinrichtungen für E-Fahrzeuge) sowie Prüfungen (-600).\n\nKernpunkte: sichere Schutzmaßnahmen gegen elektrischen Schlag (automatische Abschaltung, RCD/Fehlerstromschutz für Steckdosenstromkreise und Feuchträume), Überspannungsschutz, korrekte Leiterquerschnitte und Absicherung, Selektivität, Schutzart je Umgebung und Erstprüfung mit Protokoll.\n\nGreift bei jeder Errichtung, Erweiterung und Änderung von Niederspannungsanlagen. Ergänzt durch die TAR/VDE-AR-N 4100 (Anschlussbedingungen) und die TAB des Netzbetreibers. Für den Bot: Verlegeart, Schutzmaßnahmen, Raumart (z.B. Bad) und anzuschließende Verbraucher bestimmen die konkreten Anforderungen.",
+    "tags": [
+      "norm",
+      "vde 0100",
+      "niederspannung",
+      "rcd",
+      "überspannungsschutz",
+      "schutzmaßnahmen",
+      "erstprüfung"
+    ],
+    "metadata": {
+      "geltungsbereich": "Errichten elektrischer Niederspannungsanlagen bis 1000 V AC",
+      "wichtige_teile": [
+        "-410 Schutz gegen elektrischen Schlag",
+        "-443/-534 Überspannungsschutz",
+        "-701 Bad/Dusche",
+        "-712 PV",
+        "-722 E-Mobilität",
+        "-600 Prüfungen"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Elektro bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Elektro folgende Leistungen an:\n\n- Elektroinstallation für Neubau und Sanierung (Wohnen und Gewerbe) nach DIN 18015.\n- Zählerschränke, Haupt- und Unterverteilungen inkl. Anpassung an die TAB des Netzbetreibers.\n- Schutztechnik: RCD/FI-Konzepte, Überspannungsschutz, Selektivität, Potenzialausgleich.\n- E-Mobilität: Wallboxen und Ladeeinrichtungen inkl. Lastmanagement und §14a-Umsetzung.\n- Photovoltaik und Batteriespeicher (Elektroseite, Anmeldung, Inbetriebsetzung).\n- Anschluss haustechnischer Großverbraucher (Wärmepumpe, Durchlauferhitzer, Lüftung, Klima).\n- Smart Home und KNX, Netzwerk-/Datentechnik.\n- Beleuchtung und Außenanlagen.\n- Prüfung, Messung und Dokumentation nach VDE 0100-600 sowie DGUV-V3-Prüfungen.\n\nAlle Arbeiten durch eingetragene Elektrofachkräfte nach DIN VDE 0100.",
+    "tags": [
+      "leistungsübersicht",
+      "elektro",
+      "verteilung",
+      "wallbox",
+      "photovoltaik",
+      "knx"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "wenn_dann",
+    "titel": "KNX-Gebäudeautomation für Wohngebäude einrichten",
+    "inhalt": "Diese Regel greift bei Planung und Einrichtung einer KNX-Anlage (Smart Home) in einem Wohngebäude. Pflichtfragen:\n\n1. Welche Gewerke/Funktionen sollen automatisiert werden? (Licht/Dimmen, Beschattung/Jalousien, Heizung/Einzelraumregelung, Lüftung, Sicherheit, Verbrauchsmessung, Szenen)?\n2. Neubau oder Bestand? Ist eine sternförmige Verkabelung mit KNX-Buskabel möglich oder ist Funk-KNX/Retrofit nötig?\n3. Wie viele Räume und Datenpunkte (Schaltstellen, Sensoren, Aktoren) - daraus Umfang der Aktorik/Verteilung?\n4. Wo sitzt die Verteilung und ist genügend Platz für REG-Aktoren und Netzteil vorhanden?\n5. Welche Bedienung ist gewünscht (Taster, Touch-Panel, App/Visualisierung, Sprachsteuerung)?\n6. Sollen Fremdsysteme eingebunden werden (Wärmepumpe, PV/Speicher, Wallbox, Wetterdaten, IP-Kameras) - Schnittstellen/Gateways?\n7. Wer übernimmt die ETS-Programmierung und die Dokumentation/Projektdatei (Übergabe an Kunden)?\n8. Müssen Leitungswege geöffnet werden (Nebengewerk) oder sind Leerrohre/Reserve vorhanden?\n9. Wartung/Erweiterbarkeit und Fernzugriff (sichere Anbindung) gewünscht?",
+    "tags": [
+      "knx",
+      "smart home",
+      "gebäudeautomation",
+      "ets",
+      "beschattung",
+      "einzelraumregelung",
+      "visualisierung",
+      "iso 16484"
+    ],
+    "metadata": {
+      "trigger": "KNX-/Smart-Home-Anlage in einem Wohngebäude soll geplant/eingerichtet werden",
+      "pflichtfragen": [
+        "Welche Funktionen automatisieren (Licht, Beschattung, Heizung/ERR, Lüftung, Sicherheit, Szenen)?",
+        "Neubau oder Bestand; KNX-Buskabel sternförmig möglich oder Funk-/Retrofit?",
+        "Anzahl Räume und Datenpunkte (Sensoren/Aktoren)?",
+        "Verteilungsstandort und Platz für REG-Aktoren/Netzteil?",
+        "Bedienung (Taster, Touch-Panel, App, Sprache)?",
+        "Fremdsysteme einbinden (WP, PV, Wallbox, Wetter, Kameras) und Gateways?",
+        "ETS-Programmierung und Dokumentation/Projektdatei-Übergabe?",
+        "Leitungswege öffnen (Nebengewerk) oder Leerrohre/Reserve vorhanden?",
+        "Wartung, Erweiterbarkeit und sicherer Fernzugriff?"
+      ],
+      "sonderfaelle": [
+        "Bestand ohne Buskabel: Funk-KNX (RF) oder Powerline als Retrofit, Reichweite/Stabilität prüfen",
+        "ETS-Projektdatei dem Kunden übergeben (Herstellerunabhängigkeit, spätere Erweiterung)",
+        "Sicherer Fernzugriff (VPN statt offener Portfreigabe)",
+        "Schnittstellen zu KWL/WP/PV über zertifizierte Gateways",
+        "Ausreichend Reserve in Verteilung und Buslinien einplanen"
+      ],
+      "normen": [
+        "DIN EN ISO 16484 (Gebäudeautomation)",
+        "KNX-Standard (EN 50090 / ISO/IEC 14543)",
+        "DIN VDE 0100 (Elektroinstallation als Basis)",
+        "DIN 18015 (Planung Elektroanlagen Wohngebäude)"
+      ],
+      "material_hinweise": [
+        "Zertifizierte KNX-Komponenten (Interoperabilität herstellerübergreifend)",
+        "REG-Aktoren in der Verteilung, ausreichend Reserveplatz",
+        "Buskabel (KNX TP) sternförmig/linienförmig nach Topologie-Regeln",
+        "Funk-KNX nur wo Kabel nicht möglich"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "wenn_dann",
+    "titel": "DDC-/GLT-Anlage (Gebäudeleittechnik) für Zweckbau einrichten",
+    "inhalt": "Diese Regel greift bei Planung einer Gebäudeleittechnik (GLT) mit DDC-Unterstationen für Nichtwohngebäude (Büro, Schule, Klinik, Industrie). Pflichtfragen:\n\n1. Welche Anlagen sollen aufgeschaltet werden (Heizung, Lüftung/RLT, Kälte, Sanitär, Beleuchtung, Zähler, Brandfall-Steuerung)?\n2. Wie viele Datenpunkte (physikalisch/virtuell) und welche Funktionsumfänge (Regeln, Steuern, Überwachen, Alarmieren, Trending)?\n3. Welches Bussystem/Protokoll? (BACnet, Modbus, M-Bus, KNX, OPC UA) und welche Schnittstellen zu Fremdgewerken?\n4. Wo sitzen die DDC-Unterstationen und Schaltschränke, wie ist die Netzanbindung (IP-Netz, Segmentierung)?\n5. Welche Regelstrategien (witterungsgeführte Heizkurve, bedarfsgeführte Lüftung CO2, Nacht-/Wochenendabsenkung, Spitzenlastmanagement)?\n6. Visualisierung/Management-Ebene (GLT-Server, Webvisualisierung, Fernzugriff) und Benutzerrollen?\n7. IT-Sicherheit (Netzsegmentierung, Zugriffsschutz, Updates)?\n8. Brandfallsteuerung/Sicherheitsfunktionen und deren Vorrang vor Komfortfunktionen?\n9. Energiemonitoring und Berichtspflichten (z.B. Energiemanagement)?\n10. Inbetriebnahme, Funktionsprüfung und Schulung/Übergabe?",
+    "tags": [
+      "glt",
+      "ddc",
+      "bacnet",
+      "modbus",
+      "gebäudeleittechnik",
+      "datenpunkte",
+      "energiemonitoring",
+      "it-sicherheit",
+      "iso 16484"
+    ],
+    "metadata": {
+      "trigger": "Gebäudeleittechnik (GLT) mit DDC für einen Zweckbau soll geplant werden",
+      "pflichtfragen": [
+        "Welche Anlagen aufschalten (Heizung, RLT, Kälte, Sanitär, Licht, Zähler, Brandfall)?",
+        "Anzahl Datenpunkte und Funktionsumfang (Regeln/Steuern/Überwachen/Alarm/Trend)?",
+        "Bussystem/Protokoll (BACnet, Modbus, M-Bus, KNX, OPC UA) und Schnittstellen?",
+        "Standorte DDC-Unterstationen/Schaltschränke und Netzanbindung?",
+        "Regelstrategien (Heizkurve, CO2-Lüftung, Absenkung, Spitzenlast)?",
+        "Visualisierung/Management-Ebene und Benutzerrollen?",
+        "IT-Sicherheit (Segmentierung, Zugriff, Updates)?",
+        "Brandfallsteuerung/Sicherheitsfunktionen mit Vorrang?",
+        "Energiemonitoring und Berichtspflichten?",
+        "Inbetriebnahme, Funktionsprüfung, Schulung/Übergabe?"
+      ],
+      "sonderfaelle": [
+        "BACnet als herstellerneutrales Protokoll für Interoperabilität bevorzugen",
+        "Brandfall-/Sicherheitsfunktionen müssen Vorrang vor Komfort haben (sichere Logik)",
+        "IT-Sicherheit: GA-Netz vom Office-Netz trennen (Segmentierung)",
+        "Energiemonitoring für ISO 50001/Berichtspflichten vorsehen",
+        "Datenpunktliste und Funktionsbeschreibung als Planungsgrundlage zwingend"
+      ],
+      "normen": [
+        "DIN EN ISO 16484 (Gebäudeautomation, u.a. -3 Funktionen, -5 BACnet)",
+        "VDI 3814 (Gebäudeautomation, Planung und Betrieb)",
+        "ISO 50001 (Energiemanagement, bei Monitoring)",
+        "BSI-Grundschutz (IT-Sicherheit, soweit anwendbar)"
+      ],
+      "material_hinweise": [
+        "BACnet/IP-fähige DDC-Unterstationen",
+        "Herstellerneutrale Schnittstellen/Gateways zu Fremdgewerken",
+        "Zähler mit M-Bus/Modbus für Energiemonitoring",
+        "Managed Switches und gesicherte Fernzugriffslösung"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "wenn_dann",
+    "titel": "Einzelraumregelung (ERR) nachrüsten",
+    "inhalt": "Diese Regel greift, wenn eine Einzelraumregelung für Heizung (und ggf. Kühlung) nachgerüstet wird - oft im Zuge von GEG-Anforderungen oder Komfort/Effizienz. Pflichtfragen:\n\n1. Welche Heizflächen sind vorhanden (Heizkörper mit Thermostatventilen, Fußbodenheizung mit Verteiler)?\n2. Wie viele Räume/Zonen sollen geregelt werden?\n3. Verkabelt (Bus/24V) oder funkbasiert? Ist Verkabelung möglich oder ist Funk im Bestand sinnvoll?\n4. Wo sitzt der Heizkreisverteiler (bei Fußbodenheizung) und ist Platz für Stellantriebe und Regelmodul?\n5. Soll die Regelung mit dem Wärmeerzeuger/der Heizkurve kommunizieren (Bedarfsanforderung, Absenkung)?\n6. Bedienung (Raumthermostate, App, Zeitprogramme, Präsenz/Fenstersensoren)?\n7. Stromversorgung für Stellantriebe/Regelmodul vorhanden?\n8. Soll die ERR in ein bestehendes Smart-Home/KNX/GLT integriert werden?",
+    "tags": [
+      "einzelraumregelung",
+      "err",
+      "heizung",
+      "fußbodenheizung",
+      "stellantrieb",
+      "raumthermostat",
+      "geg",
+      "funk"
+    ],
+    "metadata": {
+      "trigger": "Einzelraumregelung für Heizung/Kühlung soll nachgerüstet werden",
+      "pflichtfragen": [
+        "Vorhandene Heizflächen (Heizkörper mit Ventilen / Fußbodenheizung mit Verteiler)?",
+        "Anzahl Räume/Zonen?",
+        "Verkabelt (Bus/24V) oder funkbasiert?",
+        "Standort Heizkreisverteiler und Platz für Stellantriebe/Regelmodul?",
+        "Kommunikation mit Wärmeerzeuger/Heizkurve (Bedarfsanforderung)?",
+        "Bedienung (Thermostate, App, Zeitprogramme, Präsenz/Fenster)?",
+        "Stromversorgung für Stellantriebe/Regelmodul?",
+        "Integration in Smart-Home/KNX/GLT?"
+      ],
+      "sonderfaelle": [
+        "GEG fordert Einzelraumregelung bei Flächenheizungen grundsätzlich",
+        "Funklösung sinnvoll, wenn Verkabelung im Bestand zu aufwendig",
+        "Bedarfsgeführte Anforderung an den Erzeuger spart Energie",
+        "Fensterkontakte gegen Heizen bei offenem Fenster",
+        "Stellantriebe (NC/NO) passend zum Verteiler/Ventil wählen"
+      ],
+      "normen": [
+        "GEG (Pflicht zur Einzelraumregelung)",
+        "DIN EN 15500 (Regelgeräte für die Einzelraumregelung)",
+        "DIN EN ISO 16484 (Gebäudeautomation)"
+      ],
+      "material_hinweise": [
+        "Thermische Stellantriebe passend (24 V/230 V, NC)",
+        "Regelmodul mit Schnittstelle zum Erzeuger/Smart-Home",
+        "Funk-Raumthermostate bei Retrofit",
+        "Fenster-/Präsenzsensoren für Effizienz"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "howto",
+    "titel": "Gebäudeautomation planen - Datenpunktliste und Funktionsbeschreibung",
+    "inhalt": "Vorgehen bei der Planung einer Gebäudeautomation:\n\n1. Ziele klären: Komfort, Energieeffizienz, Betriebssicherheit, Fernüberwachung. Daraus ergibt sich der Funktionsumfang (Regeln, Steuern, Überwachen, Alarmieren, Trending, Energiemonitoring).\n\n2. Datenpunktliste (DPL) erstellen: Pro Anlage alle physikalischen (Sensoren, Aktoren, Zähler) und virtuellen Datenpunkte erfassen. Die DPL ist die Kalkulationsgrundlage - Umfang der I/O-Hardware, DDC-Stationen und Programmierung.\n\n3. Funktionsbeschreibung schreiben: Eindeutig festlegen, wie jede Anlage geregelt wird (Sollwerte, Heizkurve, Verriegelungen, Zeitprogramme, Brandfall-Vorrang, Störmeldungen). Das verhindert Missverständnisse zwischen Planung und Ausführung.\n\n4. Systemarchitektur und Protokolle: Management-, Automations- und Feldebene festlegen; herstellerneutrale Protokolle (BACnet) für Interoperabilität; Netzsegmentierung und IT-Sicherheit von Anfang an.\n\n5. Integration der Gewerke: Schnittstellen zu Heizung, Lüftung, Kälte, Elektro, PV, Zählern definieren (Gateways, Protokolle).\n\n6. Inbetriebnahme und Übergabe: Funktionsprüfung gegen die Funktionsbeschreibung, Trending zur Optimierung, Schulung des Betreibers und Dokumentation (DPL, Schaltpläne, Projektdatei).\n\nFür den Bot: Anlagenumfang und Datenpunktanzahl sind die zentralen Pflichtangaben für eine GA-Kalkulation.",
+    "tags": [
+      "howto",
+      "gebäudeautomation",
+      "datenpunktliste",
+      "funktionsbeschreibung",
+      "bacnet",
+      "it-sicherheit",
+      "vdi 3814"
+    ],
+    "metadata": {
+      "normen": [
+        "VDI 3814",
+        "DIN EN ISO 16484"
+      ],
+      "tipps": [
+        "Datenpunktliste ist die Kalkulationsbasis",
+        "Funktionsbeschreibung schützt vor Missverständnissen",
+        "BACnet für Interoperabilität"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "norm",
+    "titel": "DIN EN ISO 16484 und VDI 3814 - Gebäudeautomation",
+    "inhalt": "DIN EN ISO 16484 ist die internationale Normenreihe für Gebäudeautomation und -management (GA). Wichtige Teile: Teil 1 (Projektierung/Ausführung), Teil 2 (Hardware), Teil 3 (Funktionen, u.a. Funktionslisten/Datenpunkte), Teil 5 (Datenkommunikationsprotokoll BACnet) und Teil 6 (Konformitätsprüfung). Sie schafft eine herstellerneutrale Grundlage für Planung, Schnittstellen und Funktionen.\n\nDie Richtlinie VDI 3814 ergänzt national mit praxisnahen Vorgaben zu Planung, Aufbau (Feld-, Automations-, Managementebene), Datenpunktlisten, Funktionsbeschreibungen, Inbetriebnahme und Betrieb der Gebäudeautomation.\n\nKernpunkte: klare Strukturierung in Ebenen, einheitliche Datenpunkt- und Funktionsbeschreibung, herstellerneutrale Kommunikation (BACnet), definierte Schnittstellen zu den Gewerken sowie Anforderungen an Inbetriebnahme und Dokumentation.\n\nGreift bei Planung, Errichtung und Betrieb von GA/GLT-Anlagen, v.a. in Zweckbauten. Für den Bot: Datenpunktliste, Funktionsbeschreibung und Protokollwahl sind die maßgeblichen Planungs- und Kalkulationsgrundlagen.",
+    "tags": [
+      "norm",
+      "iso 16484",
+      "vdi 3814",
+      "gebäudeautomation",
+      "bacnet",
+      "datenpunkte",
+      "funktionsbeschreibung"
+    ],
+    "metadata": {
+      "geltungsbereich": "Planung, Ausführung und Betrieb der Gebäudeautomation",
+      "kernpunkte": [
+        "Ebenenmodell Feld/Automation/Management",
+        "Datenpunktliste und Funktionsbeschreibung",
+        "BACnet als Protokoll",
+        "definierte Gewerkeschnittstellen"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Gebäudeautomation bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik bietet im Gewerk Gebäudeautomation folgende Leistungen an:\n\n- Smart Home im Wohnbereich: KNX-Anlagen für Licht, Beschattung, Heizung/Einzelraumregelung, Lüftung und Szenen inkl. ETS-Programmierung.\n- Gebäudeleittechnik (GLT) für Zweckbauten: DDC-Unterstationen, BACnet/Modbus-Integration, Visualisierung und Fernüberwachung.\n- Einzelraumregelung (verkabelt und funkbasiert), auch als GEG-Nachrüstung.\n- Regelstrategien: witterungsgeführte Heizung, bedarfsgeführte Lüftung (CO2), Absenkprogramme, Spitzenlastmanagement.\n- Integration der Gewerke (Heizung, Lüftung, Kälte, Elektro, PV, Wallbox, Zähler) über herstellerneutrale Schnittstellen.\n- Energiemonitoring und Reporting.\n- IT-Sicherheit, Netzsegmentierung und sicherer Fernzugriff.\n- Inbetriebnahme, Funktionsprüfung, Schulung und Dokumentation (Datenpunktliste, Projektdatei).\n\nAlle Arbeiten nach DIN EN ISO 16484 und VDI 3814.",
+    "tags": [
+      "leistungsübersicht",
+      "gebäudeautomation",
+      "knx",
+      "glt",
+      "bacnet",
+      "energiemonitoring"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "wenn_dann",
+    "titel": "Fliesenboden/Estrich aufstemmen und wiederherstellen",
+    "inhalt": "Diese Regel greift, wenn für Leitungsarbeiten (Sanitär, Heizung, Elektro) ein bestehender Boden geöffnet werden muss - typischerweise Fliesen entfernen, Estrich aufstemmen, Schlitz für die Leitung herstellen und anschließend alles wiederherstellen. Pflichtfragen vor der Kalkulation:\n\n1. Welcher Bodenaufbau liegt vor? (Fliese auf Estrich, Estrichart - Zement/Anhydrit, Dämmschicht, Rohdecke; Aufbauhöhe).\n2. Wie groß ist die zu öffnende Fläche bzw. wie lang/breit der Schlitz (laufende Meter, Quadratmeter)?\n3. Liegt im Estrich eine Fußbodenheizung? (vor dem Stemmen orten - Verlegeplan/Thermografie - sonst Beschädigung der Heizkreise).\n4. Liegen weitere Leitungen im Aufbau (Wasser, Abwasser, Elektro)?\n5. Verdacht auf Schadstoffe? (alter Fliesenkleber, Bitumen/teerhaltige Kleber, Asbest in Altbauten vor ca. 1995 - dann Probenahme/Fachentsorgung).\n6. Wie wird wiederhergestellt? (gleiche Fliese verfügbar oder Sichtbarkeit/Anpassung, Estrich verschließen, Höhenausgleich, Abdichtung im Nassbereich erneuern).\n7. Trocknungs-/Aushärtezeiten einplanbar? (Zementestrich braucht Zeit bis zur Belegreife; Schnellestrich als Option).\n8. Staub-/Schmutzschutz und Schuttentsorgung (Bauschutt-Container, betroffene Räume abschotten)?\n9. Schallschutz/Randdämmung bei Wiederherstellung beachten?\n10. Werden angrenzende Bauteile (Türzargen, Sockel) berührt?",
+    "tags": [
+      "nebengewerk",
+      "fliesen",
+      "estrich",
+      "aufstemmen",
+      "fußbodenheizung",
+      "wiederherstellung",
+      "schadstoffe",
+      "asbest",
+      "belegreife",
+      "din 18560"
+    ],
+    "metadata": {
+      "trigger": "Bestehender Fliesenboden/Estrich muss für Leitungsarbeiten geöffnet und wiederhergestellt werden",
+      "pflichtfragen": [
+        "Bodenaufbau (Fliese, Estrichart Zement/Anhydrit, Dämmung, Rohdecke, Aufbauhöhe)?",
+        "Größe der Öffnung / Länge und Breite des Schlitzes (lfm, m²)?",
+        "Fußbodenheizung im Estrich (orten vor dem Stemmen)?",
+        "Weitere Leitungen im Aufbau (Wasser, Abwasser, Elektro)?",
+        "Schadstoffverdacht (alter Kleber, Bitumen, Asbest vor ca. 1995)?",
+        "Wiederherstellung (gleiche Fliese verfügbar, Estrich, Höhenausgleich, Abdichtung)?",
+        "Trocknungs-/Aushärtezeiten einplanbar (ggf. Schnellestrich)?",
+        "Staub-/Schmutzschutz und Schuttentsorgung?",
+        "Schallschutz/Randdämmung bei Wiederherstellung?",
+        "Angrenzende Bauteile (Türzargen, Sockel) betroffen?"
+      ],
+      "sonderfaelle": [
+        "Fußbodenheizung vor dem Stemmen orten - Beschädigung verursacht Folgekosten und Wassereintritt",
+        "Asbest-/PAK-Verdacht bei altem Kleber/Estrich: Probenahme und Fachentsorgung nach TRGS 519/521",
+        "Anhydritestrich (Calciumsulfat) ist feuchteempfindlich - geeignete Reparatur/Abdichtung",
+        "Zementestrich braucht lange Belegreife - Schnellestrich oder Trocknungszeit einplanen",
+        "Im Nassbereich Verbundabdichtung (DIN 18534) nach Öffnung wieder fachgerecht herstellen",
+        "Originalfliese oft nicht mehr lieferbar - mit Kunden Anpassung/Sichtbarkeit klären",
+        "Staubschutzwände und Abdeckung empfindlicher Bereiche"
+      ],
+      "normen": [
+        "DIN 18560 (Estriche im Bauwesen)",
+        "DIN 18534 (Abdichtung von Innenräumen, Nassbereich)",
+        "DIN 18157/18352 (Fliesen- und Plattenarbeiten)",
+        "TRGS 519 (Asbest) / TRGS 521 (faserhaltige Stäube)"
+      ],
+      "material_hinweise": [
+        "Schnellzement-/Reparaturmörtel für kurze Belegreife bei Termindruck",
+        "Estrichart passend zum Bestand (Zement/Anhydrit nicht beliebig mischen)",
+        "Verbundabdichtung markenkonform im Nassbereich",
+        "Reservefliesen/ähnliches Format bei nicht mehr lieferbarer Originalfliese"
+      ]
+    }
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "wenn_dann",
+    "titel": "Wand-/Decken-/Geschossdurchbruch herstellen (mit Brandschutz)",
+    "inhalt": "Diese Regel greift, wenn für Leitungen/Kanäle Durchbrüche oder Kernbohrungen durch Wände, Decken oder Geschosse hergestellt werden müssen. Pflichtfragen:\n\n1. Welche Art Durchbruch (Kernbohrung rund mit Durchmesser, rechteckiger Durchbruch, Schlitz) und wie viele?\n2. Welches Bauteil wird durchdrungen? (nichttragende Wand, tragende Wand, Geschossdecke, Brandwand, Außenwand) - tragend/brandschutzrelevant?\n3. Ist das Bauteil tragend - liegt eine statische Freigabe/Nachweis vor (Sturz/Auswechslung nötig)?\n4. Handelt es sich um ein brandschutzrelevantes Bauteil (Brandabschnitt, Geschossdecke)? Dann ist eine zugelassene Abschottung (R30-R90) erforderlich.\n5. Welche Leitung führt durch (brennbar/nichtbrennbar, Rohr/Kabel/Kanal, Durchmesser) - bestimmt das Abschottungssystem (Manschette, Schaum, Mörtel, Kombischott)?\n6. Lage von Bewehrung/Bestandsleitungen (Ortung vor Bohren - Strom, Wasser, Heizung)?\n7. Wasser-/Bohrschlammmanagement bei Kernbohrung (nasses Verfahren) und Schutz der Räume?\n8. Wiederherstellung/Verschluss (verputzen, vergießen, brandschutzkonform dokumentieren)?\n9. Außenwanddurchbruch: Abdichtung gegen Schlagregen/Feuchte, Wärmebrücke?",
+    "tags": [
+      "nebengewerk",
+      "durchbruch",
+      "kernbohrung",
+      "brandschutz",
+      "abschottung",
+      "statik",
+      "geschossdecke",
+      "brandwand",
+      "mlar"
+    ],
+    "metadata": {
+      "trigger": "Durchbruch/Kernbohrung durch Wand, Decke oder Geschoss für Leitungen ist nötig",
+      "pflichtfragen": [
+        "Art und Anzahl der Durchbrüche (Kernbohrung Durchmesser, rechteckig, Schlitz)?",
+        "Welches Bauteil (nichttragend, tragend, Geschossdecke, Brandwand, Außenwand)?",
+        "Tragendes Bauteil - statische Freigabe/Auswechslung vorhanden?",
+        "Brandschutzrelevantes Bauteil - zugelassene Abschottung (R30-R90) nötig?",
+        "Durchgeführte Leitung (brennbar/nichtbrennbar, Rohr/Kabel/Kanal, Durchmesser)?",
+        "Bewehrung/Bestandsleitungen orten vor dem Bohren?",
+        "Wasser-/Bohrschlammmanagement und Raumschutz?",
+        "Wiederherstellung/Verschluss und Brandschutzdokumentation?",
+        "Außenwand: Abdichtung gegen Feuchte, Wärmebrücke?"
+      ],
+      "sonderfaelle": [
+        "Tragende Bauteile nur mit statischem Nachweis/Freigabe öffnen (ggf. Sturz/Auswechslung)",
+        "Brandschutzabschottung mit bauaufsichtlich zugelassenem System und Dokumentation/Schottplan (MLAR)",
+        "Vor dem Bohren Strom-/Wasser-/Heizleitungen orten (Leitungssucher/Thermografie)",
+        "Kombischott bei gemischter Belegung (Rohre und Kabel)",
+        "Außenwanddurchbruch luft-/schlagregendicht und wärmebrückenarm verschließen"
+      ],
+      "normen": [
+        "MLAR (Muster-Leitungsanlagen-Richtlinie, Landesrecht LAR)",
+        "MBO/LBO (Bauordnungen, Brandschutzanforderungen an Bauteile)",
+        "DIN 4102 / DIN EN 13501 (Brandverhalten/Feuerwiderstand)",
+        "Verwendbarkeitsnachweise (abZ/abP) der Abschottungssysteme"
+      ],
+      "material_hinweise": [
+        "Zugelassene Brandschutzmanschetten für brennbare Rohre",
+        "Brandschutzmörtel/-schaum/-kissen je nach Belegung",
+        "Kombischottsysteme bei gemischten Durchführungen",
+        "Diamantkernbohrgerät mit Wasserfang für saubere Bohrungen"
+      ]
+    }
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "wenn_dann",
+    "titel": "Wandschlitze für Leitungen herstellen und schließen",
+    "inhalt": "Diese Regel greift, wenn in Wänden Schlitze für Sanitär-, Heizungs- oder Elektroleitungen gefräst/gestemmt und wieder verschlossen werden. Pflichtfragen:\n\n1. Welche Wandart (Mauerwerk, Beton, Kalksandstein, Porenbeton, Trockenbau) und ist die Wand tragend?\n2. Wie viele/welche Schlitze (Länge, Tiefe, Breite, vertikal/horizontal)?\n3. Sind die zulässigen Schlitzmaße nach DIN EN 1996 (Eurocode 6) einhaltbar? (besonders horizontale Schlitze in tragenden Wänden sind stark begrenzt).\n4. Welche Leitung kommt rein (Rohrdurchmesser, Elektroleerrohr) - daraus Schlitztiefe?\n5. Liegen Bestandsleitungen in der Wand (Ortung vor dem Fräsen)?\n6. Installationszonen nach DIN 18015-3 (Elektro) eingehalten?\n7. Wie wird verschlossen (Mörtel/Gips, Putz, Armierungsgewebe gegen Risse)?\n8. Staubschutz (staubarmes Fräsen mit Absaugung) und Schuttentsorgung?",
+    "tags": [
+      "nebengewerk",
+      "wandschlitz",
+      "schlitzen",
+      "fräsen",
+      "tragende wand",
+      "eurocode 6",
+      "din en 1996",
+      "installationszonen"
+    ],
+    "metadata": {
+      "trigger": "Wandschlitze für Leitungen sollen hergestellt und verschlossen werden",
+      "pflichtfragen": [
+        "Wandart (Mauerwerk, Beton, KS, Porenbeton, Trockenbau) und tragend?",
+        "Anzahl/Art der Schlitze (Länge, Tiefe, Breite, vertikal/horizontal)?",
+        "Zulässige Schlitzmaße nach DIN EN 1996 einhaltbar?",
+        "Durchzuführende Leitung (Rohr/Elektroleerrohr) und nötige Tiefe?",
+        "Bestandsleitungen in der Wand (Ortung)?",
+        "Installationszonen nach DIN 18015-3 (Elektro) eingehalten?",
+        "Verschluss (Mörtel/Gips, Putz, Armierung gegen Risse)?",
+        "Staubschutz (Absaugung) und Schuttentsorgung?"
+      ],
+      "sonderfaelle": [
+        "Horizontale/schräge Schlitze in tragenden Wänden nur sehr begrenzt zulässig (DIN EN 1996/NA)",
+        "Vor dem Fräsen Strom-/Wasserleitungen orten",
+        "Installationszonen nach DIN 18015-3 einhalten (spätere Bohrsicherheit)",
+        "Risse vermeiden durch Armierungsgewebe im Putz über dem Schlitz",
+        "Staubarmes Arbeiten mit Mauernutfräse und Absaugung"
+      ],
+      "normen": [
+        "DIN EN 1996 / Eurocode 6 (Mauerwerksbau, zulässige Schlitze und Aussparungen)",
+        "DIN 18015-3 (Installationszonen in Wohngebäuden)",
+        "DIN 18550 (Putz, Verschluss)"
+      ],
+      "material_hinweise": [
+        "Mauernutfräse mit Staubabsaugung",
+        "Schnell abbindender Reparaturmörtel/Gips zum Verschließen",
+        "Armierungsgewebe/Putzbewehrung gegen Rissbildung",
+        "Schlitztiefe knapp über Rohr-/Leerrohrdurchmesser"
+      ]
+    }
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "howto",
+    "titel": "Schadstoffe im Bestand erkennen - Asbest, KMF, PAK vor Stemmarbeiten",
+    "inhalt": "Vorgehen vor Stemm-/Abbrucharbeiten im Bestand:\n\n1. Baualter prüfen: Bei Gebäuden bzw. Bauteilen aus der Zeit vor ca. 1993-1995 besteht erhöhtes Risiko für asbesthaltige Materialien (z.B. Fliesenkleber, Spachtelmassen, Bodenbeläge/Cushion-Vinyl, Putze, Rohrisolierungen, Brandschutzplatten).\n\n2. Verdachtsmaterialien identifizieren: Alte Fliesenkleber und Flexkleber, Bitumen-/teerhaltige Kleber (PAK), künstliche Mineralfasern (KMF/alte Dämmwolle), Nachtspeicheröfen (Asbest), Wellplatten.\n\n3. Nicht blind aufstemmen: Bei Verdacht vor dem Eingriff eine Materialprobe durch ein Fachlabor analysieren lassen. Erst nach Ergebnis über das Verfahren entscheiden.\n\n4. Schutz und Verfahren: Bei bestätigten Schadstoffen gelten die TRGS 519 (Asbest) bzw. TRGS 521 (faserhaltige Stäube) - Sachkunde, Schutzausrüstung, staubdichte Abschottung, Unterdruckhaltung und Fachentsorgung in deklarierten Gebinden. Arbeiten meist durch Fachfirma mit Zulassung.\n\n5. Entsorgung dokumentieren: Schadstoffe getrennt sammeln und mit Entsorgungsnachweis fachgerecht entsorgen.\n\nFür den Bot: Bei Bestandsgebäuden ist der Schadstoffverdacht eine Pflichtprüfung - er kann Verfahren, Schutzaufwand und Kosten erheblich verändern und ist vor der Kalkulation abzufragen.",
+    "tags": [
+      "howto",
+      "schadstoffe",
+      "asbest",
+      "kmf",
+      "pak",
+      "trgs 519",
+      "trgs 521",
+      "bestandsgebäude",
+      "fachentsorgung"
+    ],
+    "metadata": {
+      "normen": [
+        "TRGS 519 (Asbest)",
+        "TRGS 521 (faserhaltige Stäube)",
+        "GefStoffV (Gefahrstoffverordnung)"
+      ],
+      "tipps": [
+        "Baujahr vor ca. 1995 = Verdacht",
+        "Materialprobe vor dem Stemmen",
+        "Fachentsorgung mit Nachweis"
+      ]
+    }
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "leistungsuebersicht",
+    "titel": "Leistungsübersicht Nebengewerke bei Aurora Haustechnik",
+    "inhalt": "Aurora Haustechnik übernimmt die zur Haustechnik gehörenden Nebengewerke - entweder selbst oder über koordinierte Partner:\n\n- Stemm- und Fräsarbeiten: Wandschlitze, Bodenöffnungen, Durchbrüche und Kernbohrungen für Leitungen und Kanäle.\n- Brandschutzabschottung von Durchführungen mit zugelassenen Systemen inkl. Dokumentation.\n- Estricharbeiten: Öffnen, Schließen und Höhenausgleich (Zement-/Anhydrit-/Schnellestrich).\n- Fliesen- und Plattenarbeiten: Rückbau, Verlegung und Wiederherstellung inkl. Verbundabdichtung im Nassbereich.\n- Trockenbau: Vorwandinstallationen, Schächte, Revisionsöffnungen, abgehängte Decken.\n- Maler-/Putzarbeiten zur Wiederherstellung nach Installationsarbeiten.\n- Schadstoffprüfung und Koordination der Fachentsorgung (Asbest/KMF/PAK).\n- Baustellenreinigung und Schuttentsorgung.\n\nDie Nebengewerke werden bei der Angebotskalkulation berücksichtigt, damit kein Aufwand übersehen wird.",
+    "tags": [
+      "leistungsübersicht",
+      "nebengewerk",
+      "stemmen",
+      "estrich",
+      "fliesen",
+      "trockenbau",
+      "brandschutz"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "allgemein",
+    "typ": "wenn_dann",
+    "titel": "Anfahrt, Baustelleneinrichtung und Zugänglichkeit kalkulieren",
+    "inhalt": "Diese Regel greift bei jedem Auftrag, um die gewerkübergreifenden Begleitkosten korrekt zu erfassen. Pflichtfragen:\n\n1. Wo liegt die Baustelle (Adresse, Entfernung vom Betrieb) und wie ist die Anfahrt/Fahrzeit?\n2. Wie ist die Zugänglichkeit? (Etage, Aufzug vorhanden, Treppenhausbreite, Tragewege für Geräte/Material wie Speicher, Außengeräte).\n3. Parkmöglichkeit/Halteverbotszone nötig? Sind Be-/Entladewege weit?\n4. Welche Baustelleneinrichtung ist nötig? (Materiallager, Gerüst, Hebehilfe/Kran für schwere Geräte, Stromanschluss/Wasser auf der Baustelle).\n5. Bewohnter Bestand oder leerer Rohbau? (Staubschutz, Schutz von Möbeln/Böden, Arbeitszeiten/Lärm).\n6. Gibt es Zugangsbeschränkungen (Schlüssel, Hausverwaltung, Sicherheitsbereich, feste Zeitfenster)?\n7. Entsorgung: Container-Stellplatz vorhanden, Bauschutt/Altgeräte-Entsorgung nötig?\n8. Mehrere Anfahrten absehbar (Etappen, Materialnachschub, Wartezeiten durch andere Gewerke)?",
+    "tags": [
+      "allgemein",
+      "anfahrt",
+      "baustelleneinrichtung",
+      "zugänglichkeit",
+      "gerüst",
+      "entsorgung",
+      "staubschutz"
+    ],
+    "metadata": {
+      "trigger": "Begleit-/Nebenkosten eines Auftrags (Anfahrt, Einrichtung, Zugänglichkeit) sind zu erfassen",
+      "pflichtfragen": [
+        "Baustellenadresse, Entfernung und Fahrzeit?",
+        "Zugänglichkeit (Etage, Aufzug, Tragewege für schwere Geräte)?",
+        "Parkmöglichkeit/Halteverbotszone, Be-/Entladewege?",
+        "Baustelleneinrichtung (Lager, Gerüst, Hebehilfe/Kran, Strom/Wasser)?",
+        "Bewohnter Bestand oder leerer Rohbau (Staub-/Möbelschutz, Lärmzeiten)?",
+        "Zugangsbeschränkungen (Schlüssel, Hausverwaltung, Zeitfenster)?",
+        "Entsorgung (Container-Stellplatz, Bauschutt/Altgeräte)?",
+        "Mehrere Anfahrten/Etappen oder Wartezeiten durch andere Gewerke?"
+      ],
+      "sonderfaelle": [
+        "Schwere Geräte (Speicher, Außeneinheit) ohne Aufzug: Tragehilfe/Kran einplanen",
+        "Bewohnter Bestand: Staubschutzwände, Bodenschutz, abgestimmte Arbeitszeiten",
+        "Halteverbotszone für Be-/Entladung in der Stadt beantragen",
+        "Wartezeiten durch Vorgewerke (Estrichtrocknung, Putz) im Ablauf berücksichtigen",
+        "Entsorgungskosten je nach Material (Bauschutt, Altgeräte, Schadstoffe) getrennt"
+      ],
+      "normen": [
+        "Baustellenverordnung (BaustellV)",
+        "DGUV-Vorschriften (Arbeitssicherheit auf Baustellen)",
+        "VOB/B (soweit vertraglich vereinbart)"
+      ],
+      "material_hinweise": [
+        "Hebehilfe/Treppensteiger für schwere Geräte",
+        "Staubschutz- und Bodenschutzmaterial im bewohnten Bestand",
+        "Bauschutt-Container passender Größe"
+      ]
+    }
+  },
+  {
+    "gewerk": "allgemein",
+    "typ": "wenn_dann",
+    "titel": "Aufmaß und Bestandsaufnahme vor Angebotserstellung",
+    "inhalt": "Diese Regel greift, wenn vor der Kalkulation eine Bestandsaufnahme/ein Aufmaß nötig ist - besonders bei knapper mündlicher Beschreibung durch den Monteur. Sie hilft dem Bot zu prüfen, ob alle Basisinformationen vorhanden sind. Pflichtfragen:\n\n1. Liegt ein Grundriss/Plan oder ein Aufmaß vor, oder muss vor Ort gemessen werden?\n2. Um welches Gebäude/welche Nutzung geht es (Baujahr, Wohn-/Gewerbe, Anzahl Einheiten)?\n3. Welche Gewerke sind betroffen und in welchem Umfang (nur eine Leitung vs. Komplettsanierung)?\n4. Zustand des Bestands (Material, Alter, sichtbare Mängel, vorhandene Anschlüsse)?\n5. Welche Räume/Bereiche sind betroffen und sind sie zugänglich/freigeräumt?\n6. Gibt es Fotos/Maße der relevanten Stellen (Verteiler, Anschlüsse, Durchbrüche, Aufstellorte)?\n7. Wer ist Ansprechpartner und gibt es Vorgaben/Wünsche (Termine, Budget, Fabrikate)?\n8. Sind Sonderbedingungen bekannt (Denkmalschutz, WEG, Mietobjekt, Schadstoffverdacht)?",
+    "tags": [
+      "allgemein",
+      "aufmaß",
+      "bestandsaufnahme",
+      "vor-ort-termin",
+      "grundlagen",
+      "fotos",
+      "ansprechpartner"
+    ],
+    "metadata": {
+      "trigger": "Vor der Angebotserstellung fehlen Basisinformationen / Aufmaß ist nötig",
+      "pflichtfragen": [
+        "Grundriss/Plan/Aufmaß vorhanden oder vor Ort messen?",
+        "Gebäude/Nutzung (Baujahr, Wohn-/Gewerbe, Einheiten)?",
+        "Betroffene Gewerke und Umfang (Einzelleistung vs. Komplettsanierung)?",
+        "Zustand des Bestands (Material, Alter, Mängel, Anschlüsse)?",
+        "Betroffene, zugängliche/freigeräumte Räume?",
+        "Fotos/Maße relevanter Stellen (Verteiler, Anschlüsse, Aufstellorte)?",
+        "Ansprechpartner und Vorgaben (Termine, Budget, Fabrikate)?",
+        "Sonderbedingungen (Denkmalschutz, WEG, Mietobjekt, Schadstoffe)?"
+      ],
+      "sonderfaelle": [
+        "Knappe mündliche Beschreibung: gezielt fehlende Maße/Materialien nacherfragen",
+        "Fotos der Anschluss-/Verteilersituation sparen einen zweiten Vor-Ort-Termin",
+        "Bei Mietobjekt/WEG Zustimmung und Ansprechpartner klären",
+        "Denkmalschutz kann Material- und Verfahrenswahl einschränken"
+      ],
+      "normen": [
+        "VOB/C (Allgemeine Technische Vertragsbedingungen, Aufmaßregeln)",
+        "HOAI (bei Planungsleistungen, soweit relevant)"
+      ],
+      "material_hinweise": [
+        "Strukturierte Foto-/Maßaufnahme der Schlüsselstellen",
+        "Checkliste je Gewerk für vollständige Bestandsdaten"
+      ]
+    }
+  },
+  {
+    "gewerk": "allgemein",
+    "typ": "howto",
+    "titel": "Gewerkekoordination bei haustechnischen Projekten",
+    "inhalt": "Vorgehen zur Koordination mehrerer Gewerke in einem TGA-Projekt:\n\n1. Reihenfolge planen: Haustechnik folgt einem typischen Ablauf - erst Rohinstallation (Leitungen Sanitär/Heizung/Lüftung/Elektro im Rohbau bzw. nach dem Stemmen), dann Schließen (Estrich, Putz), dann Endmontage (Objekte, Geräte, Schalter), zuletzt Inbetriebnahme.\n\n2. Schnittstellen klären: Wo greift ein Gewerk ins andere? Beispiel: Elektroanschluss für Wärmepumpe/Lüftung, Kondensatablauf für Klima/Lüftung an die Sanitärentwässerung, Durchbrüche/Brandschotts als Nebengewerk für alle leitungsführenden Gewerke.\n\n3. Trocknungs-/Wartezeiten berücksichtigen: Estrich braucht Belegreife vor Fliesen/Bodenbelag; Putz muss trocknen vor Endmontage. Diese Zeiten in den Terminplan einbauen.\n\n4. Brandschutz und Abdichtung nicht vergessen: Durchführungen abschotten und dokumentieren, Nassbereiche abdichten - diese Leistungen früh einplanen, weil sie später schwer nachholbar sind.\n\n5. Dokumentation und Abnahme: Pro Gewerk Prüfungen/Protokolle (Dichtheit, Spülung, Messprotokoll Elektro, F-Gase-Dokumentation, hydraulischer Abgleich) und gemeinsame Übergabe.\n\nFür den Bot: Bei Mehrgewerke-Aufträgen prüfen, ob Schnittstellen (Strom, Entwässerung, Durchbrüche) und Nebengewerke vollständig erfasst sind.",
+    "tags": [
+      "howto",
+      "koordination",
+      "gewerke",
+      "ablauf",
+      "schnittstellen",
+      "terminplan",
+      "abnahme"
+    ],
+    "metadata": {
+      "ablauf": [
+        "Rohinstallation",
+        "Schließen (Estrich/Putz)",
+        "Endmontage",
+        "Inbetriebnahme/Abnahme"
+      ],
+      "tipps": [
+        "Schnittstellen früh klären",
+        "Trocknungszeiten einplanen",
+        "Brandschutz/Abdichtung nicht vergessen"
+      ]
+    }
+  },
+  {
+    "gewerk": "allgemein",
+    "typ": "norm",
+    "titel": "VOB - Vergabe- und Vertragsordnung für Bauleistungen",
+    "inhalt": "Die VOB regelt in Deutschland die Vergabe und Abwicklung von Bauleistungen und gliedert sich in drei Teile: VOB/A (Vergabe), VOB/B (Allgemeine Vertragsbedingungen für die Ausführung) und VOB/C (Allgemeine Technische Vertragsbedingungen, ATV - mit gewerkespezifischen DIN-Normen).\n\nFür die Ausführung relevant: VOB/B regelt u.a. Leistungsänderungen, Nachträge, Behinderung, Abnahme, Gewährleistung und Zahlung. VOB/C enthält die ATV-DIN-Normen je Gewerk (z.B. DIN 18299 Allgemeine Regelungen, DIN 18380 Heizanlagen und zentrale Wassererwärmungsanlagen, DIN 18381 Gas-, Wasser- und Entwässerungsanlagen, DIN 18382 Elektroanlagen, DIN 18421 Dämmarbeiten) inklusive verbindlicher Aufmaß- und Abrechnungsregeln.\n\nDie VOB gilt nicht automatisch, sondern muss vertraglich vereinbart werden (sonst BGB-Werkvertragsrecht). Für den Bot relevant: Aufmaß- und Abrechnungsregeln der VOB/C bestimmen, wie Mengen ermittelt werden, und die ATV definieren, welche Nebenleistungen im Preis enthalten sind und welche besonders zu vergüten sind.",
+    "tags": [
+      "norm",
+      "vob",
+      "vob/b",
+      "vob/c",
+      "atv",
+      "aufmaß",
+      "nachtrag",
+      "abnahme",
+      "werkvertrag"
+    ],
+    "metadata": {
+      "geltungsbereich": "Vergabe und Abwicklung von Bauleistungen (wenn vereinbart)",
+      "teile": [
+        "VOB/A Vergabe",
+        "VOB/B Vertragsbedingungen",
+        "VOB/C ATV mit gewerkespezifischen DIN"
+      ]
+    }
+  },
+  {
+    "gewerk": "allgemein",
+    "typ": "leistungsuebersicht",
+    "titel": "Über Aurora Haustechnik - Gewerke und Arbeitsweise",
+    "inhalt": "Aurora Haustechnik ist ein ausführender TGA-Betrieb (Technische Gebäudeausrüstung) mit Fokus auf effiziente, digital unterstützte Abwicklung. Aurora deckt folgende Gewerke ab:\n\n- Heizung: Wärmeerzeuger (Wärmepumpe, Brennwert, Hybrid), Flächen- und Heizkörperheizung, hydraulischer Abgleich.\n- Sanitär: Trinkwasser, Abwasser, Warmwasser, Bäder.\n- Klima: Split-, Multisplit- und VRF-Systeme, Präzisionsklima.\n- Lüftung: Wohnraumlüftung mit Wärmerückgewinnung und gewerbliche RLT-Anlagen.\n- Kälte: Gewerbekälte und Kaltwassersätze.\n- Elektro: Installation, Verteilungen, Wallbox, PV, Schutztechnik.\n- Gebäudeautomation: KNX-Smart-Home und GLT/DDC für Zweckbauten.\n- Nebengewerke: Stemmarbeiten, Durchbrüche, Brandschutz, Estrich, Fliesen, Trockenbau.\n\nArbeitsweise: normkonforme Ausführung, saubere Dokumentation (Prüfprotokolle, Inbetriebnahme), klare Angebote auf Basis vollständiger Bestandsdaten. Bei knappen Angaben werden gezielt die fehlenden Pflichtinformationen erfragt, bevor kalkuliert wird.",
+    "tags": [
+      "leistungsübersicht",
+      "allgemein",
+      "aurora",
+      "tga",
+      "gewerke",
+      "überblick"
+    ],
+    "metadata": {}
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Wasserschaden / Rohrbruch beheben",
+    "inhalt": "Diese Regel greift bei einem akuten oder festgestellten Wasserschaden/Rohrbruch. Pflichtfragen:\n\n1. Ist das Wasser abgestellt und der Schaden eingegrenzt (Hauptabsperrung, betroffener Strang)?\n2. Wo tritt das Wasser aus und welche Leitung ist betroffen (Trinkwasser kalt/warm, Heizung, Abwasser)?\n3. Ist die Leckstelle zugänglich oder liegt sie verdeckt (Wand, Boden/Estrich, Decke) - Leckortung nötig?\n4. Welches Rohrmaterial und welche Dimension ist betroffen?\n5. Wie groß ist der Folgeschaden (durchnässte Bauteile, Estrich, Nachbarwohnung) - Trocknung/Sanierung nötig?\n6. Liegt eine Fußbodenheizung im betroffenen Aufbau?\n7. Muss aufgestemmt werden (Fliesen/Estrich) und wie wird wiederhergestellt?\n8. Ist die Versicherung involviert (Schadensdokumentation, Fotos, Ursachenbericht)?\n9. Provisorische Wiederherstellung der Versorgung möglich/nötig?",
+    "tags": [
+      "wasserschaden",
+      "rohrbruch",
+      "leckortung",
+      "notdienst",
+      "trocknung",
+      "versicherung",
+      "fußbodenheizung"
+    ],
+    "metadata": {
+      "trigger": "Wasserschaden oder Rohrbruch ist zu beheben",
+      "pflichtfragen": [
+        "Wasser abgestellt und Schaden eingegrenzt (Hauptabsperrung)?",
+        "Austrittsstelle und betroffene Leitung (Trinkwasser/Heizung/Abwasser)?",
+        "Leckstelle zugänglich oder verdeckt (Leckortung nötig)?",
+        "Rohrmaterial und Dimension?",
+        "Umfang Folgeschaden (durchnässte Bauteile, Estrich, Nachbarn) - Trocknung?",
+        "Fußbodenheizung im betroffenen Aufbau?",
+        "Aufstemmen nötig und Wiederherstellung (Fliesen/Estrich)?",
+        "Versicherung involviert (Dokumentation, Fotos, Ursache)?",
+        "Provisorische Wiederherstellung der Versorgung nötig?"
+      ],
+      "sonderfaelle": [
+        "Verdeckte Leckage: zerstörungsarme Leckortung (Thermografie, Feuchtemessung, Tracergas) vor dem Stemmen",
+        "Fußbodenheizung kann Leckursache sein - getrennt prüfen",
+        "Bautrocknung und Schimmelvermeidung bei durchnässten Bauteilen",
+        "Schadensdokumentation für die Versicherung (Fotos, Ursachenbericht)",
+        "Trinkwasserhygiene nach Reparatur (Spülung) sicherstellen"
+      ],
+      "normen": [
+        "DIN 1988 / DIN EN 806 (Trinkwasser, Reparatur und Spülung)",
+        "DIN 1986-100 (bei Abwasser)",
+        "VDI 6044 (Leckage/Instandhaltung, soweit anwendbar)"
+      ],
+      "material_hinweise": [
+        "Systemgleiche Reparaturfittinge zum Bestand",
+        "Leckortungstechnik (Thermografie, Tracergas)",
+        "Bautrockner und Feuchtemessgeräte"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Enthärtungsanlage / Wasseraufbereitung einbauen",
+    "inhalt": "Diese Regel greift beim Einbau einer Enthärtungs-/Wasseraufbereitungsanlage. Pflichtfragen:\n\n1. Wie hart ist das Wasser (Härtegrad, Wasseranalyse des Versorgers) und welche Zielhärte ist gewünscht?\n2. Wie hoch ist der Spitzendurchfluss/Verbrauch (Personen, Objekte) für die Dimensionierung?\n3. Wo ist der Einbauort (nach Wasserzähler/Hauptabsperrung, frostfrei) und ist Platz vorhanden?\n4. Ist ein Abwasseranschluss für die Regeneration (Spülwasser) und ein Stromanschluss vorhanden?\n5. Soll ein Verschneideventil eingestellt werden (Mindesthärte für Korrosionsschutz nicht unterschreiten)?\n6. Wird zusätzlich ein Filter/Rückspülfilter und ggf. Dosierung (Korrosionsschutz) gewünscht?\n7. Sind hygienische Anforderungen zu beachten (DVGW, Salzbehälter, regelmäßige Wartung)?\n8. Trinkwasserzulassung der Anlage (DVGW-Zertifizierung) vorhanden?",
+    "tags": [
+      "enthärtung",
+      "wasseraufbereitung",
+      "wasserhärte",
+      "regeneration",
+      "rückspülfilter",
+      "dvgw",
+      "korrosionsschutz"
+    ],
+    "metadata": {
+      "trigger": "Enthärtungs-/Wasseraufbereitungsanlage soll eingebaut werden",
+      "pflichtfragen": [
+        "Wasserhärte (Analyse) und gewünschte Zielhärte?",
+        "Spitzendurchfluss/Verbrauch zur Dimensionierung?",
+        "Einbauort (nach Zähler/Hauptabsperrung, frostfrei) und Platz?",
+        "Abwasseranschluss für Regeneration und Stromanschluss vorhanden?",
+        "Verschneideventil/Mindesthärte (Korrosionsschutz) beachten?",
+        "Zusätzlich Filter/Rückspülfilter oder Dosierung gewünscht?",
+        "Hygiene und Wartung (Salzbehälter, DVGW)?",
+        "DVGW-Trinkwasserzulassung der Anlage vorhanden?"
+      ],
+      "sonderfaelle": [
+        "Mindesthärte nicht unterschreiten (zu weiches Wasser kann Korrosion fördern) - Verschneidung einstellen",
+        "Regeneration braucht Abwasseranschluss mit freiem Auslauf (Rückflussschutz)",
+        "Rückspülfilter nach DIN 1988-200 ohnehin empfohlen/teils gefordert",
+        "Nur DVGW-zertifizierte Anlagen im Trinkwasser",
+        "Regelmäßige Wartung/Hygiene des Salzbehälters einplanen"
+      ],
+      "normen": [
+        "DIN 1988-200 (Schutz des Trinkwassers, Filter)",
+        "DIN EN 806",
+        "DVGW W 512 (Prüfung von Aufbereitungsanlagen)",
+        "DIN EN 1717 (Rückflussverhinderung)"
+      ],
+      "material_hinweise": [
+        "DVGW-zertifizierte Enthärtungsanlage passender Kapazität",
+        "Vorgeschalteter Rückspülfilter",
+        "Verschneideeinrichtung für Zielhärte",
+        "Freier Auslauf am Regenerationsabwasser"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Pufferspeicher / Warmwasserspeicher einbinden",
+    "inhalt": "Diese Regel greift, wenn ein Puffer- oder Kombispeicher neu eingebunden oder getauscht wird (z.B. für Wärmepumpe, Festbrennstoff, Solar). Pflichtfragen:\n\n1. Welche Funktion soll der Speicher erfüllen (Heizungspuffer, Trinkwarmwasser, Kombi, Solareinbindung)?\n2. Welches Volumen ist nötig (abhängig von Erzeuger, Laufzeit, Sperrzeiten, Solarertrag)?\n3. Welcher Erzeuger lädt den Speicher und mit welcher Temperatur (Wärmepumpe niedrig, Festbrennstoff hoch)?\n4. Wie viele Anschlüsse/Schichtung und Wärmetauscher werden benötigt (mono-/bivalent)?\n5. Aufstellort: Tragfähigkeit (gefüllt sehr schwer), Platz, Einbringung durch Türen/Treppen?\n6. Hydraulische Einbindung (Reihen-/Parallelpuffer, hydraulische Weiche, Pumpen)?\n7. Bei Trinkwarmwasser: Legionellenschutz/Frischwasserstation und Speichertemperatur?\n8. Dämmung des Speichers und der Anschlüsse nach GEG?",
+    "tags": [
+      "pufferspeicher",
+      "kombispeicher",
+      "warmwasserspeicher",
+      "schichtung",
+      "hydraulische weiche",
+      "wärmepumpe",
+      "solar",
+      "geg"
+    ],
+    "metadata": {
+      "trigger": "Puffer-/Warmwasser-/Kombispeicher wird eingebunden oder getauscht",
+      "pflichtfragen": [
+        "Funktion (Heizungspuffer, Trinkwarmwasser, Kombi, Solar)?",
+        "Erforderliches Volumen (Erzeuger, Laufzeit, Sperrzeiten, Solar)?",
+        "Ladender Erzeuger und Ladetemperatur?",
+        "Anzahl Anschlüsse/Schichtung und Wärmetauscher (mono-/bivalent)?",
+        "Aufstellort: Tragfähigkeit (gefüllt), Platz, Einbringung?",
+        "Hydraulische Einbindung (Reihe/Parallel, Weiche, Pumpen)?",
+        "Bei Trinkwarmwasser: Legionellenschutz/Frischwasserstation, Temperatur?",
+        "Dämmung Speicher/Anschlüsse nach GEG?"
+      ],
+      "sonderfaelle": [
+        "Gefüllter Speicher sehr schwer - Statik der Aufstellfläche und Einbringung prüfen",
+        "Wärmepumpe braucht oft Puffer für Abtau/Mindestlaufzeit",
+        "Frischwasserstation statt großem Trinkwasserspeicher für Hygiene",
+        "Schichtung erhalten (Schichtladespeicher, ruhige Einströmung)",
+        "Solareinbindung braucht zusätzlichen Wärmetauscher/Anschluss"
+      ],
+      "normen": [
+        "DIN EN 12828 (Heizungsanlagen)",
+        "DVGW W 551 (bei Trinkwarmwasser)",
+        "GEG (Dämmung)",
+        "DIN 4753 (Wassererwärmer)"
+      ],
+      "material_hinweise": [
+        "Schichtladespeicher für gute Temperaturschichtung",
+        "Ausreichend gedämmter Speicher (Effizienz, GEG)",
+        "Frischwasserstation für hygienisches Warmwasser",
+        "Passende Wärmetauscherzahl für bivalenten Betrieb"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "wenn_dann",
+    "titel": "Heizungsrohrnetz im Bestand erweitern/anpassen",
+    "inhalt": "Diese Regel greift, wenn das Heizungsverteilnetz erweitert, umgebaut oder ein neuer Heizkreis/Verbraucher angebunden wird. Pflichtfragen:\n\n1. Was wird angebunden (zusätzlicher Heizkörper, Fußbodenheizkreis, Anbau, neuer Raum)?\n2. Welches Rohrmaterial ist im Bestand (Stahl, Kupfer, Mehrschichtverbund) und wie wird verbunden (Press, Löt, Schweiß)?\n3. Reicht die vorhandene Erzeugerleistung und Pumpenleistung für die Erweiterung?\n4. Welche Dimension/welcher Volumenstrom ist nötig (Druckverlust, hydraulischer Abgleich danach)?\n5. Verlegeort und ist der Boden/die Wand zu öffnen (Nebengewerk, Fußbodenheizung im Aufbau)?\n6. Sind Durchbrüche nötig (Brandschutz)?\n7. Wie wird entlüftet und befüllt (Entlüfter, Füll-/Entleerhahn, Nachspeisung)?\n8. Muss nach der Erweiterung neu abgeglichen werden?",
+    "tags": [
+      "heizungsrohr",
+      "rohrnetz",
+      "erweiterung",
+      "heizkreis",
+      "press",
+      "hydraulischer abgleich",
+      "nebengewerk"
+    ],
+    "metadata": {
+      "trigger": "Heizungsverteilnetz wird erweitert oder ein neuer Verbraucher angebunden",
+      "pflichtfragen": [
+        "Was wird angebunden (Heizkörper, FBH-Kreis, Anbau, neuer Raum)?",
+        "Bestandsrohrmaterial und Verbindungstechnik (Press/Löt/Schweiß)?",
+        "Reicht Erzeuger- und Pumpenleistung für die Erweiterung?",
+        "Dimension/Volumenstrom (Druckverlust, anschließender Abgleich)?",
+        "Verlegeort, Boden/Wand öffnen (Nebengewerk), FBH im Aufbau?",
+        "Durchbrüche nötig (Brandschutz)?",
+        "Entlüftung/Befüllung (Entlüfter, Füllhahn, Nachspeisung)?",
+        "Neuer hydraulischer Abgleich nötig?"
+      ],
+      "sonderfaelle": [
+        "Erweiterung kann Erzeuger/Pumpe überfordern - Leistung prüfen",
+        "Materialübergänge fachgerecht (Trennstellen, keine unzulässige Mischinstallation)",
+        "Nach Erweiterung hydraulischen Abgleich erneuern",
+        "Sauerstoffdichtes Rohr bei Fußbodenheizungserweiterung",
+        "Korrosionsschutz/Wasserqualität (VDI 2035) bei Anlagenwasser beachten"
+      ],
+      "normen": [
+        "DIN EN 12828 (Heizungsanlagen)",
+        "VDI 2035 (Vermeidung von Schäden, Wasserqualität)",
+        "DIN EN 12831 (Heizlast für neuen Verbraucher)"
+      ],
+      "material_hinweise": [
+        "Systemgleiche Press-/Verbindungstechnik zum Bestand",
+        "Sauerstoffdichte Rohre bei Flächenheizung",
+        "Entlüfter und Füll-/Entleereinrichtung vorsehen",
+        "Wasseraufbereitung/Enthärtung des Heizwassers nach VDI 2035"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "wenn_dann",
+    "titel": "Klima-Altanlage tauschen / Kältemittel-Umstellung",
+    "inhalt": "Diese Regel greift, wenn eine bestehende Klimaanlage getauscht wird, oft wegen veralteter Kältemittel (z.B. R410A, R22) oder defektem Gerät. Pflichtfragen:\n\n1. Welches Bestandsgerät und welches Kältemittel ist verbaut (R22 verboten, R410A im Phase-Down)?\n2. Können vorhandene Kältemittelleitungen weiterverwendet werden (Material, Dimension, Zustand, Spülung/Eignung für neues Kältemittel)?\n3. Wie groß ist die nötige Kälteleistung heute (Nutzung geändert?) - neue Kühllast prüfen?\n4. Bleiben Innen-/Außengerätepositionen gleich oder ändern sie sich?\n5. Wie wird das Altkältemittel fachgerecht abgesaugt und entsorgt (F-Gase, Rückgewinnungspflicht)?\n6. Ist der Stromanschluss für das neue Gerät passend?\n7. Kondensatführung weiterhin nutzbar?\n8. Dokumentation/Anlagenbuch für das neue Gerät?",
+    "tags": [
+      "klimatausch",
+      "kältemittel",
+      "r22",
+      "r410a",
+      "r32",
+      "rückgewinnung",
+      "f-gase",
+      "leitungsweiterverwendung"
+    ],
+    "metadata": {
+      "trigger": "Bestehende Klimaanlage wird getauscht / Kältemittelumstellung",
+      "pflichtfragen": [
+        "Bestandsgerät und vorhandenes Kältemittel (R22, R410A)?",
+        "Bestandsleitungen weiterverwendbar (Material, Dimension, Zustand, Eignung)?",
+        "Aktuelle nötige Kälteleistung (neue Kühllast)?",
+        "Gerätepositionen gleich oder geändert?",
+        "Fachgerechte Absaugung/Entsorgung des Altkältemittels?",
+        "Stromanschluss für neues Gerät passend?",
+        "Kondensatführung weiter nutzbar?",
+        "Dokumentation/Anlagenbuch neu?"
+      ],
+      "sonderfaelle": [
+        "R22 ist verboten - Rückgewinnung und Entsorgung zwingend",
+        "Alte Leitungen nur weiterverwenden, wenn Material/Dimension passen und Reinigung möglich (Restöl-Kompatibilität)",
+        "Höherer Betriebsdruck bei manchen Kältemitteln - Leitungseignung prüfen",
+        "Kältemittel-Rückgewinnung nur durch zertifiziertes Personal",
+        "Bei Nutzungsänderung Kühllast neu bestimmen"
+      ],
+      "normen": [
+        "F-Gase-Verordnung (EU) 517/2014 (Phase-Down, Rückgewinnung)",
+        "DIN EN 378 (Sicherheit)",
+        "ChemKlimaschutzV (Sachkunde)"
+      ],
+      "material_hinweise": [
+        "Neues Gerät mit niedrig-GWP-Kältemittel (z.B. R32)",
+        "Leitungen bei Eignungszweifel neu verlegen",
+        "Rückgewinnungsgerät und zertifizierte Entsorgung",
+        "Trockner/Filter bei Weiterverwendung von Leitungen erneuern"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "wenn_dann",
+    "titel": "Dezentrale Lüftungsgeräte mit Wärmerückgewinnung nachrüsten",
+    "inhalt": "Diese Regel greift, wenn im Bestand dezentrale Lüftungsgeräte (raumweise, Wanddurchführung) mit Wärmerückgewinnung nachgerüstet werden - typisch bei Sanierung ohne Platz für Kanalnetz. Pflichtfragen:\n\n1. Welche Räume sollen versorgt werden und wie groß sind sie (Volumenstrombedarf)?\n2. Ist eine Außenwand je Raum für die Kernbohrung vorhanden (Lage, Dicke, Material)?\n3. Wie viele Geräte (Pärchen für Push-Pull-Betrieb) und welche Anordnung?\n4. Stromanschluss je Gerät vorhanden/zu legen?\n5. Schallschutz nach außen (Fortluft) und innen (Geräteschall) sowie Außenlärm in den Raum?\n6. Steuerung (Feuchte/CO2, zentral koppeln) gewünscht?\n7. Brandschutz/Schlagregenschutz an der Außenwanddurchführung?\n8. Optik/Genehmigung an der Fassade (WEG/Denkmal)?",
+    "tags": [
+      "dezentrale lüftung",
+      "wrg",
+      "nachrüsten",
+      "kernbohrung",
+      "push-pull",
+      "feuchtesteuerung",
+      "din 1946-6"
+    ],
+    "metadata": {
+      "trigger": "Dezentrale Lüftungsgeräte mit Wärmerückgewinnung sollen nachgerüstet werden",
+      "pflichtfragen": [
+        "Zu versorgende Räume und Größe (Volumenstrombedarf)?",
+        "Außenwand je Raum für Kernbohrung (Lage, Dicke, Material)?",
+        "Anzahl Geräte (Push-Pull-Paare) und Anordnung?",
+        "Stromanschluss je Gerät vorhanden/zu legen?",
+        "Schallschutz außen/innen und Außenlärm in den Raum?",
+        "Steuerung (Feuchte/CO2, zentrale Kopplung)?",
+        "Brandschutz/Schlagregenschutz an der Durchführung?",
+        "Fassaden-Optik/Genehmigung (WEG/Denkmal)?"
+      ],
+      "sonderfaelle": [
+        "Push-Pull-Geräte paarweise betreiben (abwechselnd Zu-/Abluft) für WRG",
+        "Außenlärm kann über Wanddurchlass in den Raum dringen - schallgedämmte Geräte",
+        "Schlagregendichte und insektensichere Außenhauben",
+        "WEG-/Denkmalgenehmigung bei sichtbaren Fassadenelementen",
+        "Lüftungskonzept nach DIN 1946-6 weiterhin maßgeblich"
+      ],
+      "normen": [
+        "DIN 1946-6 (Wohnungslüftung)",
+        "VDI 6022 (Hygiene)",
+        "DIN 4109 (Schallschutz)"
+      ],
+      "material_hinweise": [
+        "Dezentrale Geräte mit keramischem Wärmespeicher (hoher WRG-Grad)",
+        "Feuchte-/CO2-Sensorik",
+        "Schallgedämmte, schlagregendichte Außenhauben"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "wenn_dann",
+    "titel": "Rückkühlwerk / Verflüssiger aufstellen und einbinden",
+    "inhalt": "Diese Regel greift bei Aufstellung und Einbindung eines Rückkühlwerks/Verflüssigers (z.B. für Chiller, Prozesskälte, Wärmepumpe). Pflichtfragen:\n\n1. Welche Rückkühlleistung (kW) und welche Medientemperaturen sind gefordert?\n2. Trockenkühler, hybrider Rückkühler oder Verdunstungskühler (Wasserverbrauch/Hygiene)?\n3. Aufstellort (Dach, Boden, Außen), Statik, Platz und freie Luftansaugung/-ausblasung?\n4. Schallschutz zur Nachbarbebauung (Nachtwerte, Abstand, schallarme Ventilatoren)?\n5. Frostschutz (Glykol) und Entleerung im Winter?\n6. Bei Verdunstungskühlung: Legionellenrisiko - Hygieneanforderungen nach 42. BImSchV?\n7. Stromversorgung, Drehzahlregelung (EC), GLT-Einbindung?\n8. Leitungsführung/Trassen und Brandschutz bei Durchführungen?",
+    "tags": [
+      "rückkühlwerk",
+      "verflüssiger",
+      "trockenkühler",
+      "verdunstungskühler",
+      "legionellen",
+      "42 bimschv",
+      "schallschutz",
+      "glykol"
+    ],
+    "metadata": {
+      "trigger": "Rückkühlwerk/Verflüssiger soll aufgestellt und eingebunden werden",
+      "pflichtfragen": [
+        "Rückkühlleistung (kW) und Medientemperaturen?",
+        "Typ (Trockenkühler, Hybrid, Verdunstungskühler)?",
+        "Aufstellort, Statik, Platz, freie Luftführung?",
+        "Schallschutz zur Nachbarschaft (Nachtwerte)?",
+        "Frostschutz (Glykol) und Winterentleerung?",
+        "Bei Verdunstung: Legionellen/Hygiene nach 42. BImSchV?",
+        "Stromversorgung, Drehzahlregelung, GLT-Einbindung?",
+        "Trassen und Brandschutz bei Durchführungen?"
+      ],
+      "sonderfaelle": [
+        "Verdunstungskühler unterliegen der 42. BImSchV (Legionellenschutz, Prüf-/Anzeigepflichten)",
+        "Schallschutz nachts oft maßgeblich (TA Lärm)",
+        "Glykol senkt Leistung und erhöht Pumpenaufwand",
+        "Statik der Dachaufstellung und Schwingungsentkopplung",
+        "Hybridkühler spart Wasser gegenüber reiner Verdunstung"
+      ],
+      "normen": [
+        "42. BImSchV (Verdunstungskühlanlagen, Legionellen)",
+        "VDI 2047-2 (Hygiene Rückkühlwerke)",
+        "TA Lärm",
+        "DIN EN 378 (soweit Kältekreis betroffen)"
+      ],
+      "material_hinweise": [
+        "Trocken-/Hybridkühler zur Vermeidung von Legionellenrisiko bevorzugen",
+        "EC-Ventilatoren mit Drehzahlregelung (Schall/Energie)",
+        "Glykolgemisch passend zur Frostzone",
+        "Schwingungsdämpfer und Schallhauben"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "Elektroanschluss für Wärmepumpe herstellen",
+    "inhalt": "Diese Regel greift, wenn der Elektroanschluss für eine neue Wärmepumpe vorbereitet wird (Schnittstelle Heizung/Elektro). Pflichtfragen:\n\n1. Welche elektrische Leistung/Stromaufnahme hat die Wärmepumpe (Anlaufstrom, Verdichter, ein-/dreiphasig)?\n2. Ist die Hausanschluss-/Zählerleistung ausreichend oder muss erhöht werden?\n3. Eigener Stromkreis mit passender Absicherung und Leitungsquerschnitt bis zur Außen-/Inneneinheit?\n4. Welcher Fehlerstromschutz ist nötig (RCD-Typ je nach Frequenzumrichter, oft Typ A EV/B)?\n5. §14a EnWG: steuerbare Verbrauchseinrichtung (Steuerbox/Smart-Meter-Gateway, reduzierte Leistung) umsetzen?\n6. Soll ein separater Wärmepumpentarif/Zähler eingerichtet werden?\n7. Leitungsweg ins Freie zur Außeneinheit (Querschnitt, Spannungsfall, Schutz)?\n8. Anmeldung beim Netzbetreiber erforderlich?",
+    "tags": [
+      "wärmepumpe",
+      "elektroanschluss",
+      "stromkreis",
+      "rcd",
+      "14a enwg",
+      "wp-tarif",
+      "netzbetreiber",
+      "vde 0100"
+    ],
+    "metadata": {
+      "trigger": "Elektroanschluss für eine Wärmepumpe ist herzustellen",
+      "pflichtfragen": [
+        "Elektrische Leistung/Stromaufnahme der WP (Anlauf, ein-/dreiphasig)?",
+        "Hausanschluss-/Zählerleistung ausreichend oder Erhöhung nötig?",
+        "Eigener Stromkreis mit passender Absicherung/Querschnitt bis zur Einheit?",
+        "Fehlerstromschutz (RCD-Typ je Frequenzumrichter)?",
+        "§14a EnWG Steuerbarkeit (Steuerbox/SMGW, Leistungsreduzierung)?",
+        "Separater Wärmepumpentarif/Zähler?",
+        "Leitungsweg ins Freie (Querschnitt, Spannungsfall, Schutz)?",
+        "Anmeldung beim Netzbetreiber?"
+      ],
+      "sonderfaelle": [
+        "§14a EnWG ist für neue steuerbare Wärmepumpen umzusetzen (vergünstigtes Netzentgelt, Dimmung)",
+        "Frequenzumrichter erfordern passenden RCD-Typ (allstromsensitiv)",
+        "Anlaufstrom/Sanftanlauf beim Absichern berücksichtigen",
+        "WP-Tarif braucht ggf. separaten Zähler/Steuereinrichtung",
+        "Spannungsfall bei langem Weg zur Außeneinheit kompensieren"
+      ],
+      "normen": [
+        "DIN VDE 0100-410 (Schutz gegen elektrischen Schlag)",
+        "VDE-AR-N 4100 (TAR Niederspannung)",
+        "§14a EnWG (steuerbare Verbrauchseinrichtungen)",
+        "VDE 0100-530 (Schalt- und Schutzgeräte)"
+      ],
+      "material_hinweise": [
+        "Allstromsensitiver RCD passend zum Frequenzumrichter",
+        "Eigener LS und ausreichender Leitungsquerschnitt",
+        "Steuerbox/SMGW-Schnittstelle für §14a",
+        "Witterungsfeste Leitungsführung zur Außeneinheit"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "Beleuchtungsanlage / LED-Umrüstung planen",
+    "inhalt": "Diese Regel greift bei Planung oder Umrüstung einer Beleuchtungsanlage (Wohnen oder Gewerbe). Pflichtfragen:\n\n1. Welche Räume/Bereiche und welche Nutzung (Büro, Werkstatt, Verkauf, Wohnen, Außen)?\n2. Welche Beleuchtungsstärke (Lux) und Lichtqualität (Farbtemperatur, Farbwiedergabe) ist gefordert? (Arbeitsstätten nach DIN EN 12464-1).\n3. Neuinstallation oder Umrüstung vorhandener Leuchten auf LED (Leuchtentausch vs. Leuchtmittel)?\n4. Welche Steuerung (Schalten, Dimmen, Präsenz-/Tageslichtsteuerung, DALI/KNX)?\n5. Notbeleuchtung/Sicherheitsbeleuchtung gefordert (Flucht- und Rettungswege)?\n6. Sind Decken-/Wandöffnungen oder neue Auslässe nötig (Nebengewerk)?\n7. Außenbeleuchtung: Schutzart, Bewegungsmelder, Lichtimmissionen?\n8. Energieeffizienz/Förderung (Sanierung gewerblicher Beleuchtung) berücksichtigen?",
+    "tags": [
+      "beleuchtung",
+      "led",
+      "umrüstung",
+      "din en 12464",
+      "dali",
+      "präsenzmelder",
+      "notbeleuchtung",
+      "lichtplanung"
+    ],
+    "metadata": {
+      "trigger": "Beleuchtungsanlage wird geplant oder auf LED umgerüstet",
+      "pflichtfragen": [
+        "Räume/Bereiche und Nutzung?",
+        "Geforderte Beleuchtungsstärke (Lux) und Lichtqualität (Farbtemperatur/CRI)?",
+        "Neuinstallation oder LED-Umrüstung (Leuchte vs. Leuchtmittel)?",
+        "Steuerung (Schalten, Dimmen, Präsenz/Tageslicht, DALI/KNX)?",
+        "Not-/Sicherheitsbeleuchtung gefordert?",
+        "Decken-/Wandöffnungen oder neue Auslässe (Nebengewerk)?",
+        "Außenbeleuchtung (Schutzart, Bewegungsmelder, Lichtimmissionen)?",
+        "Energieeffizienz/Förderung berücksichtigen?"
+      ],
+      "sonderfaelle": [
+        "Arbeitsstätten: Beleuchtungsstärken nach DIN EN 12464-1 einhalten",
+        "Sicherheitsbeleuchtung mit Notstromversorgung in Flucht-/Rettungswegen",
+        "Präsenz-/Tageslichtsteuerung spart erheblich Energie",
+        "Außen: Schutzart und Vermeidung von Lichtverschmutzung",
+        "Umrüstung: Eignung von Trafos/Dimmern für LED prüfen"
+      ],
+      "normen": [
+        "DIN EN 12464-1 (Beleuchtung von Arbeitsstätten innen)",
+        "DIN EN 1838 / DIN VDE 0108-100 (Sicherheitsbeleuchtung)",
+        "DIN VDE 0100 (Elektroinstallation)",
+        "ASR A3.4 (Arbeitsstätten Beleuchtung)"
+      ],
+      "material_hinweise": [
+        "Hochwertige LED mit guter Farbwiedergabe (CRI) und Lebensdauer",
+        "DALI-/KNX-fähige Leuchten für flexible Steuerung",
+        "Notleuchten mit Einzelbatterie oder Zentralbatterie",
+        "Außenleuchten mit passender Schutzart (IP) und Blendungsbegrenzung"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "wenn_dann",
+    "titel": "Heizungsregelung/Wetterführung optimieren oder erneuern",
+    "inhalt": "Diese Regel greift, wenn die Heizungsregelung (Witterungsführung, Heizkurve, Zeitprogramme) optimiert oder erneuert wird - oft zur Effizienzsteigerung. Pflichtfragen:\n\n1. Welcher Wärmeerzeuger und welche vorhandene Regelung (Hersteller, Alter, Schnittstellen)?\n2. Welche Heizflächen/Kreise und welche Vorlauftemperaturen werden gefahren?\n3. Ist ein Außentemperaturfühler vorhanden und richtig platziert (witterungsgeführt)?\n4. Sollen Zeitprogramme/Absenkung (Nacht, Wochenende) und Einzelraumregelung eingebunden werden?\n5. Soll die Regelung mit Smart-Home/GLT kommunizieren (Fernzugriff, Visualisierung, Schnittstellen)?\n6. Werden weitere Quellen eingebunden (Solar, Puffer, Wärmepumpe-Hybrid)?\n7. Sind Sensoren/Aktoren zu ergänzen (Fühler, Mischer, Pumpenansteuerung)?\n8. Optimierungsziel (Komfort, Energieeinsparung, Brennstoff/Strom)?",
+    "tags": [
+      "heizungsregelung",
+      "witterungsführung",
+      "heizkurve",
+      "optimierung",
+      "absenkung",
+      "smart home",
+      "glt",
+      "effizienz"
+    ],
+    "metadata": {
+      "trigger": "Heizungsregelung/Witterungsführung wird optimiert oder erneuert",
+      "pflichtfragen": [
+        "Wärmeerzeuger und vorhandene Regelung (Hersteller, Alter, Schnittstellen)?",
+        "Heizflächen/Kreise und gefahrene Vorlauftemperaturen?",
+        "Außentemperaturfühler vorhanden und richtig platziert?",
+        "Zeitprogramme/Absenkung und Einzelraumregelung einbinden?",
+        "Kommunikation mit Smart-Home/GLT (Fernzugriff, Visualisierung)?",
+        "Weitere Quellen einbinden (Solar, Puffer, Hybrid)?",
+        "Sensoren/Aktoren ergänzen (Fühler, Mischer, Pumpe)?",
+        "Optimierungsziel (Komfort, Energie, Brennstoff/Strom)?"
+      ],
+      "sonderfaelle": [
+        "Heizkurve korrekt einstellen senkt Vorlauftemperatur und spart Energie",
+        "Außenfühler an Nordfassade, nicht in der Sonne/über Fenster platzieren",
+        "Nacht-/Wochenendabsenkung an Gebäude und Nutzer anpassen (nicht bei trägen Flächenheizungen übertreiben)",
+        "Schnittstellenkompatibilität der Bestandsregelung prüfen",
+        "Einbindung Wärmepumpe-Hybrid braucht abgestimmte Betriebslogik"
+      ],
+      "normen": [
+        "GEG (Effizienz, Einzelraumregelung)",
+        "DIN EN 12831 / DIN EN 14336 (Auslegung/Inbetriebnahme)",
+        "DIN EN ISO 16484 (Automation)"
+      ],
+      "material_hinweise": [
+        "Witterungsgeführter Regler mit passenden Schnittstellen (Modbus/KNX)",
+        "Korrekt platzierter Außenfühler",
+        "Mischer-/Pumpenansteuerung für mehrere Kreise",
+        "Optional Smart-Home-/GLT-Anbindung"
+      ]
+    }
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "wenn_dann",
+    "titel": "Vorwandinstallation / Trockenbau für Sanitär erstellen",
+    "inhalt": "Diese Regel greift, wenn eine Vorwand-/Trockenbauinstallation für Sanitärobjekte erstellt wird (statt Massivwand schlitzen). Pflichtfragen:\n\n1. Welche Objekte werden in die Vorwand integriert (WC-Element mit Spülkasten, Waschtisch, Dusche, Urinal)?\n2. Wie hoch/breit soll die Vorwand werden (raumhoch, halbhoch) und wie ist der Wandanschluss?\n3. Welches Ständersystem und welche Beplankung (Anzahl Lagen, im Nassbereich imprägnierte Platten)?\n4. Wie werden Zu- und Abwasser sowie ggf. Elektro in der Vorwand geführt?\n5. Tragfähigkeit/Befestigung der Montageelemente (Wand-WC trägt hohe Last) und Untergrund?\n6. Schallschutz (Körperschallentkopplung der Elemente)?\n7. Abdichtung im Nassbereich (Verbundabdichtung) und Fliesenbelag/Oberfläche?\n8. Revisionsöffnungen für Spülkasten/Armaturen vorsehen?",
+    "tags": [
+      "vorwand",
+      "trockenbau",
+      "installationswand",
+      "wc-element",
+      "spülkasten",
+      "schallschutz",
+      "abdichtung",
+      "revisionsöffnung"
+    ],
+    "metadata": {
+      "trigger": "Vorwand-/Trockenbauinstallation für Sanitärobjekte wird erstellt",
+      "pflichtfragen": [
+        "Welche Objekte in die Vorwand (WC-Element, Waschtisch, Dusche, Urinal)?",
+        "Höhe/Breite der Vorwand und Wandanschluss?",
+        "Ständersystem und Beplankung (Lagen, imprägniert im Nassbereich)?",
+        "Führung Zu-/Abwasser und Elektro in der Vorwand?",
+        "Tragfähigkeit/Befestigung der Montageelemente und Untergrund?",
+        "Schallschutz (Körperschallentkopplung)?",
+        "Abdichtung im Nassbereich und Oberfläche/Fliesen?",
+        "Revisionsöffnungen vorsehen?"
+      ],
+      "sonderfaelle": [
+        "Wandhängendes WC braucht stabiles Montageelement und tragfähigen Untergrund/Verankerung",
+        "Im Nassbereich imprägnierte Platten und Verbundabdichtung (DIN 18534)",
+        "Körperschallentkopplung der Elemente gegen Geräuschübertragung",
+        "Revisionszugang zum Spülkasten nicht vergessen",
+        "Leitungen vor dem Schließen auf Dichtheit prüfen"
+      ],
+      "normen": [
+        "DIN 18534 (Abdichtung Innenräume)",
+        "DIN 4109 (Schallschutz)",
+        "DIN 18180/18181 (Gipsplatten/Trockenbau)"
+      ],
+      "material_hinweise": [
+        "Stabiles Installationssystem mit geprüften Montageelementen",
+        "Imprägnierte Bauplatten im Nassbereich",
+        "Schallentkopplungsset für WC-/Wannenelemente",
+        "Verbundabdichtung markenkonform"
+      ]
+    }
+  },
+  {
+    "gewerk": "heizung",
+    "typ": "norm",
+    "titel": "VDI 2035 - Wasserqualität in Heizungsanlagen",
+    "inhalt": "Die Richtlinie VDI 2035 behandelt die Vermeidung von Schäden in Warmwasser-Heizungsanlagen durch Steinbildung (Kalk) und wasserseitige Korrosion. Sie gibt Anforderungen an die Beschaffenheit des Füll- und Ergänzungswassers vor (u.a. Gesamthärte abhängig von Anlagenleistung und spezifischem Anlagenvolumen, pH-Wert-Bereich, Salzgehalt/Leitfähigkeit, Sauerstoffarmut).\n\nKernpunkte: Bei größeren Anlagen oder hartem Wasser muss das Füllwasser enthärtet oder entsalzt werden, um Kalkablagerungen an Wärmetauschern (Schadensbild: Geräusche, Leistungsverlust, Defekte) zu verhindern. Sauerstoffeintrag ist zu vermeiden (diffusionsdichte Rohre, geschlossene Systeme), um Korrosion und Schlammbildung zu unterbinden. Das Anlagenwasser sollte dokumentiert und bei Bedarf nachbehandelt werden.\n\nGreift bei Neubefüllung, Erweiterung und Instandsetzung von Heizungsanlagen - viele Gerätehersteller machen die Einhaltung zur Gewährleistungsbedingung. Für den Bot: Bei Erzeugertausch oder Netzerweiterung ist die Wasseraufbereitung (Enthärtung/Entsalzung) ein zu berücksichtigender Posten.",
+    "tags": [
+      "norm",
+      "vdi 2035",
+      "heizwasser",
+      "wasserqualität",
+      "kalk",
+      "korrosion",
+      "entsalzung",
+      "gewährleistung"
+    ],
+    "metadata": {
+      "geltungsbereich": "Wasserbeschaffenheit in Warmwasser-Heizungsanlagen",
+      "kernpunkte": [
+        "Härte je Anlagenleistung/Volumen begrenzen",
+        "pH-Wert-Bereich einhalten",
+        "Sauerstoffeintrag vermeiden",
+        "Füllwasser dokumentieren"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "howto",
+    "titel": "Trinkwasserhygiene sicherstellen - Stagnation und Totleitungen vermeiden",
+    "inhalt": "Vorgehen zur Sicherung der Trinkwasserhygiene bei Planung und Ausführung:\n\n1. Durchfluss sichern: Leitungen so planen, dass alle Stränge regelmäßig durchströmt werden (Reihen-/Ringinstallation, am häufigsten genutzte Entnahmestelle ans Ende). Stagnation ist der Hauptrisikofaktor für Verkeimung (u.a. Legionellen).\n\n2. Totleitungen vermeiden: Keine ungenutzten Stichleitungen/Blindleitungen. Bei Rückbau alte, nicht mehr genutzte Leitungen vollständig entfernen, nicht nur abklemmen.\n\n3. Temperaturen halten: Kaltwasser kühl halten (Dämmung gegen Erwärmung, Abstand zu Warmleitungen, nicht in warmen Schächten ohne Dämmung), Warmwasser ausreichend warm (Speicher >= 60 °C, Zirkulation >= 55 °C nach DVGW W 551).\n\n4. Materialien und Zulassung: Nur DVGW-zertifizierte, für Trinkwasser geeignete Werkstoffe; unzulässige Werkstoffkombinationen vermeiden.\n\n5. Inbetriebnahme: Vor Übergabe spülen; bei längeren Stillständen vor Erstnutzung erneut spülen. Bei größeren Anlagen Probenahmestellen und Hygieneplan vorsehen.\n\n6. Betrieb: Bestimmungsgemäßen Betrieb sicherstellen oder bei Leerstand regelmäßige Spülung organisieren.\n\nFür den Bot: Das Hygienekonzept (Durchströmung, Dämmung, Temperaturen) ist bei jeder Trinkwasserarbeit eine Pflichtdimension und sollte aktiv erfragt werden.",
+    "tags": [
+      "howto",
+      "trinkwasserhygiene",
+      "stagnation",
+      "totleitung",
+      "legionellen",
+      "spülung",
+      "dvgw",
+      "dämmung"
+    ],
+    "metadata": {
+      "normen": [
+        "DIN 1988-200",
+        "DVGW W 551",
+        "VDI 6023",
+        "DIN EN 806"
+      ],
+      "tipps": [
+        "Reiheninstallation gegen Stagnation",
+        "Totleitungen ganz entfernen",
+        "Kalt kühl, Warm warm halten"
+      ]
+    }
+  },
+  {
+    "gewerk": "klima",
+    "typ": "howto",
+    "titel": "Außengerät schallarm und genehmigungskonform aufstellen",
+    "inhalt": "Vorgehen bei der Aufstellung von Klima-/Wärmepumpen-Außengeräten:\n\n1. Schallquelle verstehen: Das Außengerät ist die maßgebliche Geräuschquelle (Ventilator, Verdichter). Maßgeblich sind die Immissionsrichtwerte der TA Lärm an der nächstgelegenen schutzbedürftigen Nachbarbebauung - besonders die niedrigeren Nachtwerte.\n\n2. Standort wählen: Möglichst weit weg von Nachbar-Schlafräumen und Reflexionsflächen (Ecken, enge Innenhöfe verstärken Schall). Aufstellung auf schwingungsentkoppeltem Fundament/Konsolen, nicht direkt an schallübertragende Wände.\n\n3. Schallminderung: Geräte mit niedrigem Schallleistungspegel wählen, Nachtabsenkung/Silent-Mode nutzen, ggf. Schallschutzhaube oder -wand einsetzen, Luftführung nicht auf den Nachbarn richten.\n\n4. Abstände und Recht: Bauordnungsrechtliche Grenzabstände und ggf. Zustimmungspflichten (WEG, Vermieter, Denkmalschutz) prüfen. Bei R290 zusätzlich Sicherheitsabstände zu Öffnungen/Lichtschächten.\n\n5. Prognose/Nachweis: Bei kritischer Nachbarschaftslage eine Schallprognose erstellen (Herstellerdaten, Abstand, Korrekturen) und dokumentieren.\n\nFür den Bot: Aufstellort und Abstand zur Nachbarbebauung sind kalkulations- und genehmigungsrelevant und sollten früh erfragt werden.",
+    "tags": [
+      "howto",
+      "außengerät",
+      "schallschutz",
+      "ta laerm",
+      "aufstellung",
+      "schwingungsentkopplung",
+      "r290",
+      "nachbarschaft"
+    ],
+    "metadata": {
+      "normen": [
+        "TA Lärm",
+        "DIN EN 378 (R290-Abstände)",
+        "Landesbauordnung (Grenzabstände)"
+      ],
+      "tipps": [
+        "Nachtwerte sind oft maßgeblich",
+        "nicht in schallverstärkende Ecken",
+        "Silent-Mode und Schallhaube nutzen"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "wenn_dann",
+    "titel": "Klimagerät/Klimagerät-Splitanlage warten (Kälte-Wartungsvertrag)",
+    "inhalt": "Diese Regel greift bei der Wartung von Kälte-/Klimaanlagen (regelmäßige Instandhaltung, oft als Wartungsvertrag). Pflichtfragen:\n\n1. Welche Anlagen sind zu warten (Anzahl, Typ, Standorte, Kälteleistung)?\n2. Welches Kältemittel und welche Füllmenge je Anlage? (bestimmt die gesetzliche Dichtheitsprüf-Häufigkeit nach F-Gase-Verordnung).\n3. Ist ein Anlagenbuch/eine F-Gase-Dokumentation vorhanden und aktuell?\n4. Welcher Wartungsumfang (Filter, Wärmetauscher reinigen, Kondensatablauf, Drücke/Funktionen prüfen, Dichtheit, elektrische Prüfung)?\n5. Welche Intervalle/Verfügbarkeit (Notdienst, Reaktionszeit) sind gefordert?\n6. Hygieneanforderungen (VDI 6022 bei Lüftung, Verdunstungskühler 42. BImSchV)?\n7. Zugänglichkeit der Geräte (Dach, Höhe, Hubsteiger nötig)?\n8. Soll eine Leistungsoptimierung/Effizienzbewertung Teil der Wartung sein?",
+    "tags": [
+      "wartung",
+      "kälte",
+      "klima",
+      "wartungsvertrag",
+      "dichtheitsprüfung",
+      "f-gase",
+      "anlagenbuch",
+      "vdi 6022"
+    ],
+    "metadata": {
+      "trigger": "Kälte-/Klimaanlagen sollen gewartet werden (Instandhaltung/Wartungsvertrag)",
+      "pflichtfragen": [
+        "Welche Anlagen (Anzahl, Typ, Standorte, Leistung)?",
+        "Kältemittel und Füllmenge je Anlage (Dichtheitsprüf-Häufigkeit)?",
+        "Anlagenbuch/F-Gase-Dokumentation vorhanden und aktuell?",
+        "Wartungsumfang (Filter, Wärmetauscher, Kondensat, Drücke, Dichtheit, Elektrik)?",
+        "Intervalle und Verfügbarkeit (Notdienst, Reaktionszeit)?",
+        "Hygieneanforderungen (VDI 6022, 42. BImSchV)?",
+        "Zugänglichkeit (Dach, Höhe, Hubsteiger)?",
+        "Leistungsoptimierung/Effizienzbewertung enthalten?"
+      ],
+      "sonderfaelle": [
+        "Dichtheitsprüfungs-Häufigkeit richtet sich nach CO2-Äquivalent der Füllmenge (F-Gase)",
+        "Anlagen ab bestimmter Füllmenge brauchen Anlagenbuch und periodische Prüfung",
+        "Verdunstungskühler/Rückkühlwerke unter 42. BImSchV (Hygiene/Legionellen)",
+        "Lüftungsanteile nach VDI 6022 hygienisch warten",
+        "Arbeiten am Kältekreis nur durch zertifiziertes Personal"
+      ],
+      "normen": [
+        "F-Gase-Verordnung (EU) 517/2014 (Dichtheitsprüfung, Anlagenbuch)",
+        "DIN EN 378 (Wartung/Instandhaltung)",
+        "VDI 6022 (Hygiene Lüftung)",
+        "42. BImSchV (Verdunstungskühlanlagen)"
+      ],
+      "material_hinweise": [
+        "Ersatzfilter und Reinigungsmittel passend zum Gerät",
+        "Lecksuchgerät und kalibrierte Messtechnik",
+        "Dokumentationssystem/Anlagenbuch (digital)"
+      ]
+    }
+  },
+  {
+    "gewerk": "kaelte",
+    "typ": "wenn_dann",
+    "titel": "Klimakammer / Prozessklima mit Temperatur- und Feuchteregelung",
+    "inhalt": "Diese Regel greift bei Klimakammern oder Prozessräumen mit präziser Temperatur- und Feuchteregelung (Labor, Produktion, Lager mit definierten Bedingungen). Pflichtfragen:\n\n1. Welche Soll-Bedingungen (Temperaturbereich, relative Feuchte) und welche Toleranzen sind gefordert?\n2. Wie hoch sind die internen Lasten (Prozesswärme, Personen, Geräte) und der Außenlufteintrag?\n3. Wird befeuchtet und/oder entfeuchtet (Dampf-/Verdunstungsbefeuchtung, Kondensations-/Adsorptionstrocknung)?\n4. Welche Luftführung/Luftwechsel und welche Gleichmäßigkeit im Raum (Temperatur-/Feuchtegradient)?\n5. Reinraum-/Hygieneanforderungen (Filterklassen, Überdruck)?\n6. Überwachung, Datenaufzeichnung und Alarmierung (Validierung/GMP)?\n7. Redundanz und Verfügbarkeit gefordert?\n8. Aufstellort der Technik, Trassen, Statik, Stromversorgung und GLT-Einbindung?",
+    "tags": [
+      "klimakammer",
+      "prozessklima",
+      "feuchteregelung",
+      "befeuchtung",
+      "entfeuchtung",
+      "reinraum",
+      "validierung",
+      "din en 378"
+    ],
+    "metadata": {
+      "trigger": "Klimakammer/Prozessraum mit präziser Temperatur- und Feuchteregelung",
+      "pflichtfragen": [
+        "Soll-Bedingungen (Temperatur, rel. Feuchte) und Toleranzen?",
+        "Interne Lasten (Prozess, Personen, Geräte) und Außenlufteintrag?",
+        "Befeuchtung/Entfeuchtung (Verfahren)?",
+        "Luftführung/Luftwechsel und Gleichmäßigkeit (Gradienten)?",
+        "Reinraum-/Hygieneanforderungen (Filter, Überdruck)?",
+        "Überwachung, Datenaufzeichnung, Alarmierung (Validierung/GMP)?",
+        "Redundanz/Verfügbarkeit gefordert?",
+        "Aufstellort Technik, Trassen, Statik, Strom, GLT?"
+      ],
+      "sonderfaelle": [
+        "Enge Toleranzen erfordern präzise Regelung und gute Luftverteilung",
+        "Dampfbefeuchtung hygienisch vorteilhaft, höherer Energiebedarf",
+        "Adsorptionstrocknung für sehr niedrige Feuchte",
+        "GMP/Validierung erfordert dokumentierte, kalibrierte Messung und Alarmkette",
+        "Reinraum: Filterstufen und Druckkaskade"
+      ],
+      "normen": [
+        "DIN EN 378 (Kälteanlagen)",
+        "VDI 2083 (Reinraumtechnik, falls relevant)",
+        "VDI 6022 (Hygiene)",
+        "EU-GMP-Leitfaden (bei Pharma/Validierung)"
+      ],
+      "material_hinweise": [
+        "Präzisionsklimatechnik mit eng regelnder Be-/Entfeuchtung",
+        "Hygienische Dampfbefeuchter",
+        "Kalibrierte Sensorik und Datenlogger",
+        "Filterstufen nach ISO 16890/Reinraumklasse"
+      ]
+    }
+  },
+  {
+    "gewerk": "gebaeudeautomation",
+    "typ": "wenn_dann",
+    "titel": "Beschattungs-/Jalousiesteuerung automatisieren",
+    "inhalt": "Diese Regel greift bei der Automatisierung von Beschattung (Jalousien, Rollläden, Raffstores, Markisen). Pflichtfragen:\n\n1. Welche und wie viele Behänge sind anzusteuern (Rollladen, Raffstore, Markise, innenliegend) und je Antrieb?\n2. Welche Antriebe sind vorhanden/gewünscht (230 V Rohrmotor, Bus/SMI, KNX)? Neu oder Bestand?\n3. Welche Steuerlogik (Zeit, Sonnenstand, Helligkeit, Wind/Regen, Präsenz, Szenen, Verschattung gegen Überhitzung)?\n4. Wo sitzt die Wetterstation/Sensorik (Wind-, Regen-, Helligkeitssensor) und ist Verkabelung möglich?\n5. Integration in Smart-Home/KNX/GLT und Bedienung (Taster, App)?\n6. Sicherheitsfunktionen (Windalarm fährt Markise/Raffstore ein) mit Vorrang?\n7. Müssen Leitungen/Antriebe nachgerüstet werden (Nebengewerk, Stemmen)?\n8. Verschattung als sommerlicher Wärmeschutz (GEG-Aspekt) berücksichtigt?",
+    "tags": [
+      "beschattung",
+      "jalousie",
+      "raffstore",
+      "rollladen",
+      "windalarm",
+      "knx",
+      "wetterstation",
+      "sommerlicher wärmeschutz"
+    ],
+    "metadata": {
+      "trigger": "Beschattung/Jalousien sollen automatisiert gesteuert werden",
+      "pflichtfragen": [
+        "Anzahl/Art der Behänge je Antrieb (Rollladen, Raffstore, Markise, innen)?",
+        "Antriebe vorhanden/gewünscht (230 V, SMI, KNX), neu oder Bestand?",
+        "Steuerlogik (Zeit, Sonnenstand, Helligkeit, Wind/Regen, Präsenz, Szenen)?",
+        "Standort Wetterstation/Sensorik und Verkabelung möglich?",
+        "Integration in Smart-Home/KNX/GLT und Bedienung?",
+        "Sicherheitsfunktionen (Windalarm) mit Vorrang?",
+        "Leitungen/Antriebe nachrüsten (Nebengewerk)?",
+        "Verschattung als sommerlicher Wärmeschutz (GEG)?"
+      ],
+      "sonderfaelle": [
+        "Windalarm muss empfindliche Behänge (Markise, Raffstore) sicher einfahren - Vorrang vor Komfort",
+        "Raffstore-Lamellennachführung nach Sonnenstand für Blendschutz/Tageslicht",
+        "SMI/KNX-Antriebe ermöglichen Positions- und Lamellenrückmeldung",
+        "Verschattung reduziert Kühllast (sommerlicher Wärmeschutz nach GEG/DIN 4108-2)",
+        "Bestandsmotoren auf Bus-Eignung prüfen, sonst Aktor je Gruppe"
+      ],
+      "normen": [
+        "DIN EN ISO 16484 (Gebäudeautomation)",
+        "DIN 4108-2 (sommerlicher Wärmeschutz)",
+        "DIN VDE 0100 (Antriebe/Installation)"
+      ],
+      "material_hinweise": [
+        "Bus-/SMI-fähige Antriebe für Rückmeldung",
+        "Wetterstation mit Wind-, Regen-, Helligkeitssensor",
+        "Jalousieaktoren mit Lamellenpositionierung",
+        "Sichere Windwächterlogik"
+      ]
+    }
+  },
+  {
+    "gewerk": "nebengewerk",
+    "typ": "norm",
+    "titel": "MLAR und Brandschutz bei Leitungsdurchführungen",
+    "inhalt": "Die Muster-Leitungsanlagen-Richtlinie (MLAR), bauaufsichtlich eingeführt als Landesfassung (LAR), regelt den Brandschutz bei der Führung von Leitungen (Rohre, Kabel, Lüftungsleitungen) durch raumabschließende Bauteile mit Feuerwiderstand (Wände, Decken, Brandwände).\n\nKernforderungen: Führt eine Leitung durch ein feuerwiderstandsfähiges Bauteil, darf der Feuerwiderstand des Bauteils nicht beeinträchtigt werden. Durchführungen sind mit geprüften Abschottungen (Verwendbarkeitsnachweis: allgemeine bauaufsichtliche Zulassung abZ/abP bzw. ETA) entsprechend der geforderten Feuerwiderstandsklasse (z.B. R30, R60, R90) zu verschließen. Es gibt definierte Erleichterungen für kleine Einzeldurchführungen unter bestimmten Bedingungen. Für Lüftungsleitungen sind Brandschutzklappen an Brandabschnittsgrenzen vorzusehen. Funktionserhalt von Leitungsanlagen (z.B. für sicherheitsrelevante Anlagen) ist gesondert geregelt.\n\nGreift bei allen leitungsführenden Gewerken (Sanitär, Heizung, Lüftung, Elektro, Kälte), sobald brandschutzrelevante Bauteile durchdrungen werden. Für den Bot: Wand-/Decken-/Geschossdurchbrüche sind auf Brandschutzrelevanz zu prüfen; die Abschottung ist eine eigene, zu kalkulierende und zu dokumentierende Leistung.",
+    "tags": [
+      "norm",
+      "mlar",
+      "brandschutz",
+      "abschottung",
+      "durchführung",
+      "brandschutzklappe",
+      "din 4102",
+      "din en 13501"
+    ],
+    "metadata": {
+      "geltungsbereich": "Brandschutz bei Leitungsdurchführungen durch feuerwiderstandsfähige Bauteile",
+      "kernpunkte": [
+        "Feuerwiderstand des Bauteils erhalten",
+        "geprüfte Abschottung (abZ/abP/ETA) je R-Klasse",
+        "Brandschutzklappen in Lüftungsleitungen",
+        "Erleichterungen für kleine Einzeldurchführungen",
+        "Dokumentation/Schottplan"
+      ]
+    }
+  },
+  {
+    "gewerk": "sanitaer",
+    "typ": "wenn_dann",
+    "titel": "Regenwassernutzung / Zisterne einbinden",
+    "inhalt": "Diese Regel greift beim Einbau einer Regenwassernutzungsanlage (Zisterne) für Gartenbewässerung, WC-Spülung und/oder Waschmaschine. Pflichtfragen:\n\n1. Wofür wird das Regenwasser genutzt (nur Garten oder auch WC/Waschmaschine im Haus)?\n2. Wie groß soll die Zisterne sein (Dachfläche, Niederschlag, Bedarf, Speichervolumen)?\n3. Erd- oder Kellertank, Aufstellort, Zugänglichkeit für Einbringung/Erdarbeiten?\n4. Wie erfolgt die Trinkwasser-Nachspeisung bei Trockenheit und ist der Rückflussschutz/freie Auslauf nach DIN EN 1717 sichergestellt?\n5. Strikte Trennung der Regenwasserleitungen vom Trinkwassernetz und eindeutige Kennzeichnung (kein Querverbund, Schutz vor Verwechslung)?\n6. Filterung, Beruhigter Zulauf, Überlauf mit Rückstausicherung/Versickerung?\n7. Pumpe/Hauswasserwerk und Steuerung?\n8. Genehmigung/Anzeige beim Versorger/Gesundheitsamt (Betrieb anzeigepflichtig)?",
+    "tags": [
+      "regenwassernutzung",
+      "zisterne",
+      "betriebswasser",
+      "nachspeisung",
+      "din en 1717",
+      "rückflussschutz",
+      "kennzeichnung",
+      "din 1989"
+    ],
+    "metadata": {
+      "trigger": "Regenwassernutzungsanlage/Zisterne soll eingebunden werden",
+      "pflichtfragen": [
+        "Nutzung (nur Garten oder auch WC/Waschmaschine)?",
+        "Zisternengröße (Dachfläche, Niederschlag, Bedarf, Volumen)?",
+        "Erd-/Kellertank, Aufstellort, Einbringung/Erdarbeiten?",
+        "Trinkwasser-Nachspeisung mit freiem Auslauf/Rückflussschutz (DIN EN 1717)?",
+        "Strikte Trennung vom Trinkwassernetz und Kennzeichnung?",
+        "Filter, beruhigter Zulauf, Überlauf mit Rückstausicherung/Versickerung?",
+        "Pumpe/Hauswasserwerk und Steuerung?",
+        "Genehmigung/Anzeige beim Versorger/Gesundheitsamt?"
+      ],
+      "sonderfaelle": [
+        "Trinkwasser-Nachspeisung nur über freien Auslauf (AB nach DIN EN 1717) - kein direkter Anschluss",
+        "Regenwasser-/Betriebswasserleitungen klar kennzeichnen und nie mit Trinkwasser verbinden",
+        "Betrieb einer Betriebswasseranlage ist beim Versorger/Gesundheitsamt anzuzeigen",
+        "Überlauf an Kanal mit Rückstausicherung oder an Versickerung",
+        "Erdtank: Statik, Auftrieb (Grundwasser), Befahrbarkeit beachten"
+      ],
+      "normen": [
+        "DIN 1989 (Regenwassernutzungsanlagen)",
+        "DIN EN 1717 (Schutz des Trinkwassers, freier Auslauf)",
+        "DIN 1988-100 (Schutz des Trinkwassers)",
+        "DIN 1986-100 (Entwässerung/Überlauf)"
+      ],
+      "material_hinweise": [
+        "Nachspeisung mit normgerechtem freiem Auslauf (Trennstation)",
+        "Klar gekennzeichnete Betriebswasser-Entnahmestellen",
+        "Filter und beruhigter Zulauf für Wasserqualität",
+        "Auftriebssichere Erdtanks bei hohem Grundwasser"
+      ]
+    }
+  },
+  {
+    "gewerk": "lueftung",
+    "typ": "wenn_dann",
+    "titel": "Küchenabluft / Gewerbeküche Lüftung einbauen",
+    "inhalt": "Diese Regel greift bei der Lüftung einer Gewerbeküche (Lüftungsdecke/Hauben mit Fettabscheidung). Pflichtfragen:\n\n1. Welche Küchengeräte und welche Leistung/Wärmelast (Herd, Fritteuse, Kombidämpfer, Grill) - daraus Abluftvolumenstrom?\n2. Hauben oder Lüftungsdecke, mit Fettfilter (Aerosolabscheider) und ggf. UV/Ozon zur Geruchsminderung?\n3. Wie wird Zuluft nachgeführt (Zuluftvolumen, Zugfreiheit, Temperierung)?\n4. Brandschutz: Fettbrandgefahr, reinigbare Kanäle, Brandschutzklappen, ggf. Löschanlage?\n5. Fortluftführung (Dach), Geruch/Schall zur Nachbarschaft?\n6. Wärmerückgewinnung trotz Fettfracht (Bypass/Reinigbarkeit)?\n7. Reinigungs- und Wartungskonzept (Fettfilter, Kanäle, VDI 2052)?\n8. Stromanschluss, Steuerung (bedarfsgeführt nach Kochbetrieb), GLT-Einbindung?",
+    "tags": [
+      "küchenabluft",
+      "gewerbeküche",
+      "lüftungsdecke",
+      "fettfilter",
+      "vdi 2052",
+      "brandschutz",
+      "geruchsminderung",
+      "wärmerückgewinnung"
+    ],
+    "metadata": {
+      "trigger": "Lüftung für eine Gewerbeküche soll eingebaut werden",
+      "pflichtfragen": [
+        "Küchengeräte und Wärmelast (Herd, Fritteuse, Kombidämpfer, Grill)?",
+        "Hauben oder Lüftungsdecke, Fettabscheider, UV/Ozon?",
+        "Zuluftnachführung (Volumen, Zugfreiheit, Temperierung)?",
+        "Brandschutz (Fettbrand, reinigbare Kanäle, Klappen, Löschanlage)?",
+        "Fortluftführung und Geruch/Schall zur Nachbarschaft?",
+        "Wärmerückgewinnung trotz Fettfracht?",
+        "Reinigungs-/Wartungskonzept (VDI 2052)?",
+        "Stromanschluss, bedarfsgeführte Steuerung, GLT?"
+      ],
+      "sonderfaelle": [
+        "Auslegung der Hauben/Decke nach VDI 2052 (Erfassung der Wrasen)",
+        "Fettbrandgefahr: leicht reinigbare Kanäle, Brandschutzklappen, ggf. Löschanlage über Fritteuse",
+        "Zuluft muss Abluft nachführen (sonst Unterdruck, Zugerscheinungen, Geruch)",
+        "Geruchsminderung (UV/Ozon/Aktivkohle) bei kritischer Nachbarschaft",
+        "Wärmerückgewinnung nur mit fettunempfindlichem/reinigbarem System"
+      ],
+      "normen": [
+        "VDI 2052 (Raumlufttechnische Anlagen für Küchen)",
+        "DIN EN 16282 (Küchenlüftung)",
+        "VDI 6022 (Hygiene)",
+        "MLAR (Brandschutz Durchführungen)"
+      ],
+      "material_hinweise": [
+        "Aerosol-/Fettabscheider mit hohem Abscheidegrad",
+        "Reinigbare Edelstahlkanäle mit Reinigungsöffnungen",
+        "Bedarfsgeführte Steuerung nach Kochbetrieb",
+        "Geruchsminderungsstufe bei Bedarf"
+      ]
+    }
+  },
+  {
+    "gewerk": "elektro",
+    "typ": "wenn_dann",
+    "titel": "Potenzialausgleich / Erdung erneuern oder herstellen",
+    "inhalt": "Diese Regel greift, wenn Haupt-/Zusatzpotenzialausgleich oder die Erdung hergestellt oder erneuert wird (z.B. bei Sanierung, neuer Heizung, PV, Bad). Pflichtfragen:\n\n1. Ist ein Fundamenterder/Erder vorhanden (Neubau Fundamenterder, Bestand Ringerder/Staberder) und messtechnisch geprüft?\n2. Ist eine Haupterdungsschiene (Potenzialausgleichsschiene) vorhanden und zugänglich?\n3. Welche leitfähigen Teile sind anzubinden (Wasser, Gas, Heizung, metallene Abwasserleitungen, Lüftungskanäle, Antennen, Blitzschutz, PV-Gestell)?\n4. Ist im Bad ein zusätzlicher Potenzialausgleich erforderlich/vorhanden?\n5. Wird ein äußerer Blitzschutz vorhanden/gefordert und ist er einzubinden?\n6. Anlass: PV/Wärmepumpe/Sanierung - bestehende Anlage normgerecht nachrüsten?\n7. Müssen Wände geöffnet werden, um Schienen/Leiter zu verlegen (Nebengewerk)?\n8. Mess- und Prüfprotokoll der Erdungs-/Potenzialausgleichsanlage gefordert?",
+    "tags": [
+      "potenzialausgleich",
+      "erdung",
+      "fundamenterder",
+      "haupterdungsschiene",
+      "blitzschutz",
+      "bad",
+      "vde 0100-540",
+      "messprotokoll"
+    ],
+    "metadata": {
+      "trigger": "Potenzialausgleich/Erdung wird hergestellt oder erneuert",
+      "pflichtfragen": [
+        "Erder vorhanden (Fundament-/Ring-/Staberder) und geprüft?",
+        "Haupterdungsschiene vorhanden und zugänglich?",
+        "Anzubindende leitfähige Teile (Wasser, Gas, Heizung, Abwasser, Lüftung, Antenne, PV)?",
+        "Zusätzlicher Potenzialausgleich im Bad nötig/vorhanden?",
+        "Äußerer Blitzschutz vorhanden/gefordert und einzubinden?",
+        "Anlass (PV, Wärmepumpe, Sanierung) und Nachrüstbedarf?",
+        "Wände öffnen für Schienen/Leiter (Nebengewerk)?",
+        "Mess-/Prüfprotokoll gefordert?"
+      ],
+      "sonderfaelle": [
+        "Bei PV/äußerem Blitzschutz Anbindung an die Erdungsanlage normgerecht ausführen",
+        "Zusätzlicher Potenzialausgleich in Räumen mit Badewanne/Dusche (VDE 0100-701)",
+        "Kunststoffwasserleitungen leiten nicht - Anbindung nur an leitfähige Teile",
+        "Erdungswiderstand messen und dokumentieren",
+        "Bei Sanierung Bestand auf fehlenden Potenzialausgleich prüfen und nachrüsten"
+      ],
+      "normen": [
+        "DIN VDE 0100-540 (Erdungsanlagen und Schutzleiter)",
+        "DIN VDE 0100-410 / -701 (Schutzmaßnahmen, Bad)",
+        "DIN VDE 0185-305 (Blitzschutz)",
+        "DIN 18014 (Fundamenterder)"
+      ],
+      "material_hinweise": [
+        "Haupterdungsschiene mit ausreichend Anschlussklemmen",
+        "Korrosionsbeständige Erder/Verbinder (NIRO im Erdreich)",
+        "Potenzialausgleichsleiter mit normgerechtem Querschnitt",
+        "Anschlussschellen für Rohrleitungen"
+      ]
+    }
+  }
+]
